@@ -1,0 +1,13 @@
+{
+	"n_targets": 406,
+	"n_bootstraps": 0,
+	"n_processed": 444,
+	"n_pseudoaligned": 343,
+	"n_unique": 47,
+	"p_pseudoaligned": 77.3,
+	"p_unique": 10.6,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Wed Jul 26 14:56:22 2023",
+	"call": "kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/07-12-23-V2A/NFWA --single -l 568 -s 30 -t 24 /projects/enviro_lab/WW-UNCC/MixedControl-07-12-23-V2A-fastqs/output/porechop_kraken_trimmed/NFWA_barcode92.fastq.gz"
+}

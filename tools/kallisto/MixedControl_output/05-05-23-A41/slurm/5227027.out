@@ -1,0 +1,15 @@
+CMD: aggregate_predictions.py -f ${outdir}/*/predictions.tsv -o kallisto/kallisto_aggregated_abundance.tsv
+Traceback (most recent call last):
+  File "/projects/enviro_lab/decon_compare/kallisto/build_reference_set/scripts/aggregate_predictions.py", line 89, in <module>
+    sys.exit(main())
+  File "/projects/enviro_lab/decon_compare/kallisto/build_reference_set/scripts/aggregate_predictions.py", line 83, in main
+    writeLineageAbundanceFile(args.outfile, args.prediction_files)
+  File "/projects/enviro_lab/decon_compare/kallisto/build_reference_set/scripts/aggregate_predictions.py", line 47, in writeLineageAbundanceFile
+    with outfile.open('w') as out:
+  File "/projects/enviro_lab/software/conda/env-kallisto-variants/lib/python3.6/pathlib.py", line 1183, in open
+    opener=self._opener)
+  File "/projects/enviro_lab/software/conda/env-kallisto-variants/lib/python3.6/pathlib.py", line 1037, in _opener
+    return self._accessor.open(self, flags, mode)
+  File "/projects/enviro_lab/software/conda/env-kallisto-variants/lib/python3.6/pathlib.py", line 387, in wrapped
+    return strfunc(str(pathobj), *args)
+FileNotFoundError: [Errno 2] No such file or directory: 'kallisto/kallisto_aggregated_abundance.tsv'

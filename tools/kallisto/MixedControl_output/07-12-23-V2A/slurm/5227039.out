@@ -1,0 +1,1 @@
+CMD: aggregate_predictions.py -f ${outdir}/*/predictions.tsv -o ${outdir}/aggregated_kallisto_abundance.tsv

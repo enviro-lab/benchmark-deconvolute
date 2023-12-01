@@ -1,0 +1,169 @@
+Mix #,Twist control,Amount
+Mixture 1,Control 2,0.5
+,Control 6,0.5
+,Control 15,0.5
+,Control 17,0.5
+,Control 19,0.5
+,Control 23,0.5
+,Control 48,0.5
+,Control 51,0.5
+,Control 50,0.5
+,Control 62,0.5
+,Control 63,0.5
+,Control 64,0.5
+,Control 65,0.5
+,Control 66,0.5
+,Control 67,0.5
+,,
+Mixture 2,Control 2,1.5
+,Control 6,0.5
+,Control 15,2
+,Control 17,0.5
+,Control 19,1
+,Control 23,1.5
+,Control 48,1
+,,
+Mixture 3,Control 50,1
+,Control 62,0.5
+,Control 63,1.5
+,Control 64,0.5
+,Control 65,2
+,Control 66,0.5
+,Control 51,1
+,Control 67,1
+,,
+Mixture 4,Control 2,0.5
+,Control 6,0.5
+,Control 15,0.5
+,Control 17,1.5
+,Control 50,1
+,Control 48,1.5
+,Control 51,1.5
+,Control 19,1
+,,
+Mixture 5,Control 2,2
+,Control 6,1
+,Control 62,1
+,Control 63,0.5
+,Control 64,1
+,Control 65,1
+,Control 66,0.5
+,Control 67,1
+,,
+Mixture 6,Control 17,0.5
+,Control 15,0.5
+,Control 19,0.5
+,Control 50,0.5
+,Control 23,1.5
+,Control 48,1.5
+,Control 51,1
+,Control 62,2
+,,
+Mixture 7,Control 63,1
+,Control 64,1
+,Control 15,1.5
+,Control 17,1
+,Control 19,1.5
+,Control 65,0.5
+,Control 66,0.5
+,Control 67,1
+,,
+Mixture 8,Control 48,2
+,Control 50,1
+,Control 51,1
+,Control 62,1
+,Control 65,2
+,Control 67,1
+,,
+Mixture 9,Control 2,3
+,Control 6,5
+,,
+Mixture 10,Control 48,3
+,Control 51,4
+,Control 50,1
+,,
+Mixture 11,Control 62,4
+,Control 63,4
+,,
+Mixture 12,Control 64,6
+,Control 65,2
+,,
+Mixture 13,Control 66,5
+,Control 67,3
+,,
+Mixture 14,Control 6,8
+,,
+Mixture 15,Control 15,8
+,,
+Mixture 16,Control 17,8
+,,
+Mixture 17,Control 19,8
+,,
+Mixture 18,Control 23,8
+,,
+Mixture 19,Control 48,8
+,,
+Mixture 20,Control 51,8
+,,
+Mixture 21,Control 2,8
+,,
+Mixture 22,Control 62,8
+,,
+Mixture 23,Control 63,8
+,,
+Mixture 24,Control 64,8
+,,
+Mixture 25,Control 65,8
+,,
+Mixture 26,Control 66,8
+,,
+Mixture 27,Control 67,8
+,,
+Mixture 28,Control 50,8
+,,
+Mixture 29,Control 67,2
+,Control 65,2
+,Control 63,2
+,Control 51,2
+,,
+Mixture 30,Control 66,2
+,Control 64,2
+,Control 62,2
+,Control 50,2
+,,
+Mixture 31,Control 2,1.14
+,Control 6,1.14
+,Control 15,1.14
+,Control 17,1.14
+,Control 19,1.14
+,Control 23,1.14
+,Control 48,1.14
+,,
+Mixture 32,Control 67,1
+,Control 64,1
+,Control 63,1
+,Control 50,1
+,Control 2,1
+,Control 15,1
+,Control 19,1
+,Control 48,1
+,,
+Mixture 33,Control 2,6
+,,
+Mixture 34,Control 15,6
+,,
+Mixture 35,Control 17,6
+,,
+Mixture 36,Control 19,6
+,,
+Mixture 37,Control 23,6
+,,
+Mixture 38,Control 48,6
+,,
+Mixture 39,Control 51,6
+,,
+Mixture 40,Control 63,6
+,,
+Mixture 41,Control 65,6
+,,
+Mixture 42,Control 67,6

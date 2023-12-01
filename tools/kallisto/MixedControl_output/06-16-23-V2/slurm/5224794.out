@@ -1,0 +1,750 @@
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture01 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture01_barcode01.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture01_barcode01.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 975,894 reads, 697,154 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 836 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture01/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture01/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture02 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture02_barcode02.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture02_barcode02.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,134,518 reads, 822,963 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 705 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture02/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture02/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture03 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture03_barcode03.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture03_barcode03.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 537,061 reads, 393,097 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,139 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture03/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture03/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture04 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture04_barcode04.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture04_barcode04.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,179,831 reads, 839,150 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 676 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture04/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture04/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture05 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture05_barcode05.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture05_barcode05.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,262,974 reads, 908,182 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 801 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture05/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture05/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture06 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture06_barcode06.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture06_barcode06.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,244,813 reads, 882,976 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 926 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture06/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture06/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture07 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture07_barcode07.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture07_barcode07.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,134,018 reads, 808,515 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 764 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture07/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture07/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture08 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture08_barcode08.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture08_barcode08.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,108,349 reads, 821,493 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 968 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture08/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture08/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture09 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture09_barcode09.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture09_barcode09.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 956,896 reads, 720,520 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 324 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture09/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture09/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture10 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture10_barcode10.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture10_barcode10.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 952,782 reads, 697,603 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 845 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture10/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture10/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture11 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture11_barcode11.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture11_barcode11.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,074,059 reads, 800,775 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 972 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture11/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture11/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture12 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture12_barcode12.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture12_barcode12.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,043,385 reads, 786,244 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 716 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture12/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture12/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture13 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture13_barcode13.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture13_barcode13.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,213,126 reads, 903,798 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 908 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture13/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture13/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture14 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture14_barcode14.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture14_barcode14.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,164,601 reads, 873,279 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 218 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture14/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture14/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture15 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture15_barcode15.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture15_barcode15.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 837,947 reads, 623,261 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 879 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture15/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture15/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture16 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture16_barcode16.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture16_barcode16.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 840,462 reads, 631,459 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 917 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture16/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture16/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture17 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture17_barcode17.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture17_barcode17.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 867,063 reads, 649,738 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 669 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture17/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture17/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture18 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture18_barcode18.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture18_barcode18.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 941,367 reads, 685,405 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 841 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture18/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture18/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture19 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture19_barcode19.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture19_barcode19.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 947,329 reads, 718,297 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 669 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture19/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture19/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture20 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture20_barcode20.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture20_barcode20.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,045,381 reads, 774,126 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 702 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture20/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture20/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture21 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture21_barcode21.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture21_barcode21.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,030,408 reads, 775,252 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 251 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture21/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture21/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture22 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture22_barcode22.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture22_barcode22.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,150,583 reads, 852,406 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 785 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture22/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture22/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture23 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture23_barcode23.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture23_barcode23.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,028,661 reads, 769,643 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 583 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture23/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture23/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture24 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture24_barcode24.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture24_barcode24.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 876,218 reads, 661,852 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 770 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture24/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture24/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture25 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture25_barcode25.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture25_barcode25.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 948,196 reads, 718,756 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 939 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture25/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture25/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture26 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture26_barcode26.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture26_barcode26.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 983,293 reads, 733,778 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 851 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture26/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture26/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture27 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture27_barcode27.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture27_barcode27.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,001,657 reads, 752,708 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 711 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture27/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture27/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture28 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture28_barcode28.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture28_barcode28.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 977,472 reads, 739,436 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 471 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture28/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture28/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture29 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture29_barcode29.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture29_barcode29.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 994,362 reads, 739,659 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 885 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture29/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture29/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture30 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture30_barcode30.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture30_barcode30.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,002,400 reads, 744,768 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 964 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture30/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture30/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture31 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture31_barcode31.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture31_barcode31.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 922,858 reads, 676,238 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 869 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture31/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture31/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture32 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture32_barcode32.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture32_barcode32.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 944,335 reads, 675,267 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 859 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture32/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture32/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture33 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture33_barcode33.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture33_barcode33.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 996,112 reads, 748,365 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 590 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture33/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture33/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture34 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture34_barcode34.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture34_barcode34.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 868,479 reads, 645,039 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 421 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture34/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture34/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture35 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture35_barcode35.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture35_barcode35.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 908,146 reads, 680,494 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 607 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture35/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture35/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture36 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture36_barcode36.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture36_barcode36.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 964,066 reads, 722,837 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 537 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture36/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture36/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture37 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture37_barcode37.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture37_barcode37.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,057,352 reads, 770,088 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 317 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture37/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture37/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture38 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture38_barcode38.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture38_barcode38.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,099,756 reads, 824,143 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 746 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture38/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture38/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture39 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture39_barcode39.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture39_barcode39.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 826,653 reads, 612,293 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 520 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture39/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture39/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture40 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture40_barcode40.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture40_barcode40.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 809,024 reads, 608,003 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 678 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture40/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture40/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture41 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture41_barcode41.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture41_barcode41.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 954,393 reads, 726,359 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,182 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture41/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture41/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture42 --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture42_barcode42.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/Mixture42_barcode42.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 977,274 reads, 732,949 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 592 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture42/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/Mixture42/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/NFWA --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/NFWA_barcode44.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/NFWA_barcode44.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 167 reads, 116 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 448 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/NFWA/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/NFWA/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/NFWC --single -l 568 -s 30 /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/NFWC_barcode43.fastq.gz -t 24
+
+[quant] fragment length distribution is truncated gaussian with mean = 568, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 406
+[index] number of k-mers: 105,706
+[index] number of equivalence classes: 4,989
+[quant] running in single-end mode
+[quant] will process file 1: /projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/porechop_kraken_trimmed/NFWC_barcode43.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,062 reads, 822 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 744 rounds
+
+CMD: output_abundances.py -m 0.1 -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/NFWC/predictions.tsv --metadata /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/metadata.tsv /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/06-16-23-V2/NFWC/abundance.tsv
+No VOC list (--voc) or VOC file (--voc_file) specified
+Outputting abundance for ALL reference sequences
+CMD: aggregate_predictions.py -f ${outdir}/*/predictions.tsv -o kallisto/kallisto_aggregated_abundance.tsv
+/var/spool/slurm/slurmd/job5224794/slurm_script: line 43: /projects/enviro_lab/decon_compare/kallisto/build_reference_set/scripts/aggregate_predictions.py: Permission denied

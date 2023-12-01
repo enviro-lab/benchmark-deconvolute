@@ -1,0 +1,13 @@
+{
+	"n_targets": 406,
+	"n_bootstraps": 0,
+	"n_processed": 1459417,
+	"n_pseudoaligned": 1089216,
+	"n_unique": 124395,
+	"p_pseudoaligned": 74.6,
+	"p_unique": 8.5,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Wed Jul 26 13:24:23 2023",
+	"call": "kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/build_reference_set/reference_set/sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/MixedControl_output/07-12-23-V2A/Mixture13 --single -l 568 -s 30 -t 24 /projects/enviro_lab/WW-UNCC/MixedControl-07-12-23-V2A-fastqs/output/porechop_kraken_trimmed/Mixture13_barcode61.fastq.gz"
+}

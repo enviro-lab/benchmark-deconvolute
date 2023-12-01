@@ -1,0 +1,13 @@
+{
+	"n_targets": 406,
+	"n_bootstraps": 0,
+	"n_processed": 1750754,
+	"n_pseudoaligned": 1448300,
+	"n_unique": 133167,
+	"p_pseudoaligned": 82.7,
+	"p_unique": 7.6,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Mon Oct 30 14:40:46 2023",
+	"call": "kallisto quant -i /projects/enviro_lab/decon_compare/kallisto/analyses/usa/reference_set//sequences.kallisto_idx -o /projects/enviro_lab/decon_compare/kallisto/analyses/usa/MixedControl_output/06-26-23-A41/Mixture19 --single -l 568 -s 30 -t 24 /projects/enviro_lab/WW-UNCC/MixedControl-06-26-23-A41-fastqs/output/porechop_kraken_trimmed/Mixture19_barcode67.fastq.gz"
+}
