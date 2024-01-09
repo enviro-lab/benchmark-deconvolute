@@ -10,6 +10,8 @@ These scripts make the following assumptions:
 3. Any software downloaded for a tool to run exists in [./software](./software)
 4. Your current working directory is this repo: `/path/to/benchmark-deconvolute`, since all shell scripts use relative paths
 
+NOTE: Everything in here has been adapted and edited from scripts in a slightly different directory structure. Paths have been adjusted in scripts so that they should work, but, because nothing was specifically run from this directory structure, issues with paths may arise.
+
 ## Tools compared
 * [Alcov](https://github.com/Ellmen/alcov)
 * [Freyja](https://github.com/andersen-lab/Freyja)
