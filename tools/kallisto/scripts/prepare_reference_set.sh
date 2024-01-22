@@ -29,7 +29,7 @@ echo "CMD: python tools/kallisto/scripts/step1_determine_reference_set.py -m ${m
 python tools/kallisto/scripts/step1_determine_reference_set.py -m ${meta} --min_seqs_per_lin 500 -k 100 --seed 0 --country USA -o ${reference_set}
 
 # Step 2 (manual):
-# 1. split resulting csv (${reference_set}/gisaid_accessions.csv) into <=10000 samples per file:
+# 1. split resulting csv (${reference_set}/gisaid_accessions.csv) into <=10000 samples per file (since you can only download data for 10000 max, at once):
 #    $ split -l 10000 ${reference_set}/gisaid_accessions.csv gisaid_accessions
 # 2. download fasta for all samples from epicov
 # 3. combine output fastas into one fasta file (for use in next step):

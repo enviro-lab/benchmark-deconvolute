@@ -4,7 +4,7 @@ set -eu
 
 conda activate ./conda/env-plot
 
-plates="05-05-23-A41 05-16-23-A41 06-26-23-A41"
+plates="05-05-23-A41 05-05-23-V2 05-16-23-A41 06-16-23-V2 06-26-23-A41 07-12-23-V2A"
 
 for plate in $plates; do
 

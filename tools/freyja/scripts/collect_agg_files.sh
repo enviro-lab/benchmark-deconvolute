@@ -5,7 +5,7 @@ conda activate conda/env-plot
 
 outdir='tools/freyja/MixedControl_output'
 
-plates="05-05-23-A41 05-16-23-A41 06-26-23-A41 " # artic
+plates="05-05-23-A41 05-05-23-V2 05-16-23-A41 06-16-23-V2 06-26-23-A41 07-12-23-V2A"
 
 for plate in $plates; do
 

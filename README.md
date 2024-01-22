@@ -38,3 +38,22 @@ LolliPop differs from most of the other tools in that it considers time series. 
 Like LolliPop, VaQuERo, by default, considers location and date in lineage assignment. To avoid this behavior, the parameter --smoothingsamples was set to 0, and the dates for each mixture in the metadata provided to VaQuERo were all set three days apart, since all locations were set equivalent. VaQuERo relies on allele frequency details from the input .vcf file. Since the ARTIC pipeline does not include this in the output .vcf, each mixture’s .bam output from ARTIC was run through LoFreq (Wilm et al, 2012), a variant caller mentioned in the VaQuERo documentation, which outputs allele frequencies in the output .vcf, and this file was used for analysis.
 
 Each tool compared in this analysis had its own output format. To make our outputs comparable, they have been converted to the same output format used by Freyja. Pangolin lineages provided by each tool were summarized in the same manner derived from the way Freyja summarized lineages, but with a few categories adjusted to best illustrate the proportions of relevant lineages and sublineages; most notably, BA.1, BA.2, BA.4, and BA.5 and their sublineages were grouped separately rather than remaining a single large Omicron category.
+
+## Description of each of our plates
+Our control mixtures were spiked into three different background types as decribed below:
+Background | Description
+--- | ---
+WB | water background
+NWRB | SARS-CoV-2 negative wastewater RNA extract background
+PWRB | SARS-CoV-2 positive wastewater RNA extract background
+
+The below table shows which background and primer scheme was used for each plate.
+
+Plate | Background | Primer scheme
+--- | --- | ---
+05-05-23-A41 | WB | Artic
+05-05-23-V2 | WB | Varskip
+05-16-23-A41 | NWRB | Artic
+06-16-23-V2 | NWRB | Varskip
+06-26-23-A41 | PWRB | Artic
+07-12-23-V2A | PWRB | Varskip
