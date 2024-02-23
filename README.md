@@ -68,3 +68,8 @@ LolliPop differs from most of the other tools in that it considers time series. 
 Like LolliPop, VaQuERo, by default, considers location and date in lineage assignment. To avoid this behavior, the parameter --smoothingsamples was set to 0, and the dates for each mixture in the metadata provided to VaQuERo were all set three days apart, since all locations were set equivalent. VaQuERo relies on allele frequency details from the input .vcf file. Since the ARTIC pipeline does not include this in the output .vcf, each mixture’s .bam output from ARTIC was run through LoFreq (Wilm et al, 2012), a variant caller mentioned in the VaQuERo documentation, which outputs allele frequencies in the output .vcf, and this file was used for analysis.
 
 Each tool compared in this analysis had its own output format. To make our outputs comparable, they were converted to the same output format used by Freyja. Pangolin lineages provided by each tool were summarized in the same manner derived from the way Freyja summarized lineages, but with a few categories adjusted to better illustrate the proportions of relevant lineages and sublineages; most notably, BA.1, BA.2, BA.4, and BA.5 and their sublineages were grouped separately rather than remaining a single large Omicron category.
+
+## Citation
+If you use this dataset in your research, please reference our manuscript:
+
+Jannatul Ferdous Moon, Samuel Kunkleman, William Taylor, April Harris, Cynthia Gibas, Jessica Schlueter. "A Gold Standard Dataset for Lineage Abundance Estimation from Wastewater". *medRxiv* (2024). doi: https://doi.org/10.1101/2024.02.15.24302811
