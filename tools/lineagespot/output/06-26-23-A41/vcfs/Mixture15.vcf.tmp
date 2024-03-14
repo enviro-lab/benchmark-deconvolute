@@ -1,0 +1,41 @@
+##fileformat=VCFv4.1
+##medaka_version=1.6.1
+##medaka_version=1.6.1
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Depth of reads at pos">
+##INFO=<ID=DPS,Number=2,Type=Integer,Description="Depth of reads at pos by strand (fwd, rev)">
+##INFO=<ID=DPSP,Number=1,Type=Integer,Description="Depth of reads spanning pos +-25">
+##INFO=<ID=SR,Number=.,Type=Integer,Description="Depth of spanning reads by strand which best align to each allele (ref fwd, ref rev, alt1 fwd, alt1 rev, etc.)">
+##INFO=<ID=AR,Number=2,Type=Integer,Description="Depth of ambiguous spanning reads by strand which align equally well to all alleles (fwd, rev)">
+##INFO=<ID=SC,Number=.,Type=Integer,Description="Total alignment score to each allele of spanning reads by strand (ref fwd, ref rev, alt1 fwd, alt1 rev, etc.) aligned with parasail: match 5, mismatch -4, open 5, extend 3">
+##INFO=<ID=Pool,Number=1,Type=String,Description="The pool name">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Medaka genotype.">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Medaka genotype quality score">
+##contig=<ID=MN908947.3,length=29903>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE
+NC_045512.2	913	.	C	T	57.476	PASS	DP=800.0;DPS=400.0,400.0;Pool=1	GT:GQ:AD	1:57:0.0,800.0
+NC_045512.2	3037	.	C	T	50.206	PASS	DP=800.0;DPS=400.0,400.0;Pool=2	GT:GQ:AD	1:50:0.0,800.0
+NC_045512.2	3267	.	C	T	44.495	PASS	DP=800.0;DPS=400.0,400.0;Pool=1	GT:GQ:AD	1:44:0.0,800.0
+NC_045512.2	5388	.	C	A	42.488	PASS	DP=800.0;DPS=400.0,400.0;Pool=2	GT:GQ:AD	1:42:0.0,800.0
+NC_045512.2	5986	.	C	T	56.227	PASS	DP=800.0;DPS=400.0,400.0;Pool=2	GT:GQ:AD	1:56:0.0,800.0
+NC_045512.2	6954	.	T	C	26.664	PASS	DP=800.0;DPS=400.0,400.0;Pool=1	GT:GQ:AD	1:27:0.0,800.0
+NC_045512.2	11287	.	GTCTGGTTTT	G	285.295	PASS	DP=800.0;DPS=400.0,400.0;Pool=1	GT:GQ:AD	1:285:0.0,800.0
+NC_045512.2	14408	.	C	T	57.776	PASS	DP=800.0;DPS=400.0,400.0;Pool=2	GT:GQ:AD	1:58:0.0,800.0
+NC_045512.2	14676	.	C	T	53.004	PASS	DP=794.0;DPS=395.0,399.0;Pool=2	GT:GQ:AD	1:53:0.0,794.0
+NC_045512.2	15279	.	C	T	48.303	PASS	DP=752.0;DPS=352.0,400.0;Pool=1	GT:GQ:AD	1:48:0.0,752.0
+NC_045512.2	16176	.	T	C	50.261	PASS	DP=797.0;DPS=399.0,398.0;Pool=1	GT:GQ:AD	1:50:0.0,797.0
+NC_045512.2	21764	.	ATACATG	A	204.809	PASS	DP=800.0;DPS=400.0,400.0;Pool=2	GT:GQ:AD	1:205:0.0,800.0
+NC_045512.2	21990	.	TTTA	T	129.733	PASS	DP=800.0;DPS=400.0,400.0;Pool=1	GT:GQ:AD	1:130:0.0,800.0
+NC_045512.2	23063	.	A	T	51.913	PASS	DP=800.0;DPS=400.0,400.0;Pool=1	GT:GQ:AD	1:52:0.0,800.0
+NC_045512.2	23271	.	C	A	56.449	PASS	DP=800.0;DPS=400.0,400.0;Pool=2	GT:GQ:AD	1:56:0.0,800.0
+NC_045512.2	23403	.	A	G	58.823	PASS	DP=800.0;DPS=400.0,400.0;Pool=2	GT:GQ:AD	1:59:0.0,800.0
+NC_045512.2	23604	.	C	A	54.466	PASS	DP=800.0;DPS=400.0,400.0;Pool=1	GT:GQ:AD	1:54:0.0,800.0
+NC_045512.2	23709	.	C	T	40.792	PASS	DP=800.0;DPS=400.0,400.0;Pool=1	GT:GQ:AD	1:41:0.0,800.0
+NC_045512.2	24506	.	T	G	59.237	PASS	DP=800.0;DPS=400.0,400.0;Pool=2	GT:GQ:AD	1:59:0.0,800.0
+NC_045512.2	27972	.	C	T	52.902	PASS	DP=800.0;DPS=400.0,400.0;Pool=1	GT:GQ:AD	1:53:0.0,800.0
+NC_045512.2	28048	.	G	T	50.848	PASS	DP=800.0;DPS=400.0,400.0;Pool=2	GT:GQ:AD	1:51:0.0,800.0
+NC_045512.2	28111	.	A	G	63.216	PASS	DP=800.0;DPS=400.0,400.0;Pool=2	GT:GQ:AD	1:63:0.0,800.0
+NC_045512.2	28270	.	TA	T	40.664	PASS	DP=800.0;DPS=400.0,400.0;Pool=2	GT:GQ:AD	1:41:0.0,800.0
+NC_045512.2	28280	.	GAT	CTA	168.578	PASS	DP=800.0;DPS=400.0,400.0;Pool=2	GT:GQ:AD	1:169:0.0,800.0
+NC_045512.2	28881	.	GGG	AAC	173.239	PASS	DP=780.0;DPS=387.0,393.0;Pool=2	GT:GQ:AD	1:173:0.0,780.0
+NC_045512.2	28977	.	C	T	45.953	PASS	DP=800.0;DPS=400.0,400.0;Pool=1	GT:GQ:AD	1:46:0.0,800.0

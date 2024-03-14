@@ -1,0 +1,44 @@
+##fileformat=VCFv4.1
+##medaka_version=1.6.1
+##medaka_version=1.6.1
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Depth of reads at pos">
+##INFO=<ID=DPS,Number=2,Type=Integer,Description="Depth of reads at pos by strand (fwd, rev)">
+##INFO=<ID=DPSP,Number=1,Type=Integer,Description="Depth of reads spanning pos +-25">
+##INFO=<ID=SR,Number=.,Type=Integer,Description="Depth of spanning reads by strand which best align to each allele (ref fwd, ref rev, alt1 fwd, alt1 rev, etc.)">
+##INFO=<ID=AR,Number=2,Type=Integer,Description="Depth of ambiguous spanning reads by strand which align equally well to all alleles (fwd, rev)">
+##INFO=<ID=SC,Number=.,Type=Integer,Description="Total alignment score to each allele of spanning reads by strand (ref fwd, ref rev, alt1 fwd, alt1 rev, etc.) aligned with parasail: match 5, mismatch -4, open 5, extend 3">
+##INFO=<ID=Pool,Number=1,Type=String,Description="The pool name">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Medaka genotype.">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Medaka genotype quality score">
+##contig=<ID=MN908947.3,length=29903>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE
+NC_045512.2	241	.	C	T	57.776	PASS	DP=677.0;DPS=344.0,333.0;Pool=nCoV-2019_1	GT:GQ:AD	1:58:0.0,677.0
+NC_045512.2	733	.	T	C	56.015	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:56:0.0,800.0
+NC_045512.2	2749	.	C	T	50.604	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_1	GT:GQ:AD	1:51:0.0,800.0
+NC_045512.2	3037	.	C	T	41.121	PASS	DP=758.0;DPS=376.0,382.0;Pool=nCoV-2019_1	GT:GQ:AD	1:41:0.0,758.0
+NC_045512.2	3828	.	C	T	52.802	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:53:0.0,800.0
+NC_045512.2	5648	.	A	C	54.923	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:55:0.0,800.0
+NC_045512.2	6319	.	A	G	56.449	PASS	DP=760.0;DPS=386.0,374.0;Pool=nCoV-2019_1	GT:GQ:AD	1:56:0.0,760.0
+NC_045512.2	6613	.	A	G	56.227	PASS	DP=799.0;DPS=399.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:56:0.0,799.0
+NC_045512.2	11287	.	GTCTGGTTTT	G	293.978	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:294:0.0,800.0
+NC_045512.2	12778	.	C	T	54.923	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:55:0.0,800.0
+NC_045512.2	13860	.	C	T	59.237	PASS	DP=797.0;DPS=397.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:59:0.0,797.0
+NC_045512.2	14408	.	C	T	53.326	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:53:0.0,800.0
+NC_045512.2	17259	.	G	T	47.998	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_1	GT:GQ:AD	1:48:0.0,800.0
+NC_045512.2	21614	.	C	T	55.257	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:55:0.0,800.0
+NC_045512.2	21621	.	C	A	61.455	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:61:0.0,800.0
+NC_045512.2	21638	.	C	T	54.923	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:55:0.0,800.0
+NC_045512.2	21974	.	G	T	56.015	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_1	GT:GQ:AD	1:56:0.0,800.0
+NC_045512.2	22132	.	G	T	42.019	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_1	GT:GQ:AD	1:42:0.0,800.0
+NC_045512.2	22812	.	A	C	50.604	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_1	GT:GQ:AD	1:51:0.0,800.0
+NC_045512.2	23012	.	G	A	53.326	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_1	GT:GQ:AD	1:53:0.0,800.0
+NC_045512.2	23063	.	A	T	47.447	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_1	GT:GQ:AD	1:47:0.0,800.0
+NC_045512.2	23403	.	A	G	56.015	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:56:0.0,800.0
+NC_045512.2	23525	.	C	T	53.216	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:53:0.0,800.0
+NC_045512.2	26149	.	T	C	48.63	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_1	GT:GQ:AD	1:49:0.0,800.0
+NC_045512.2	28167	.	G	A	55.435	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:55:0.0,800.0
+NC_045512.2	28262	.	G	GAACA	230.394	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_1	GT:GQ:AD	1:230:0.0,800.0
+NC_045512.2	28512	.	C	G	49.792	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_1	GT:GQ:AD	1:50:0.0,800.0
+NC_045512.2	28877	.	AG	TC	105.498	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:105:0.0,800.0
+NC_045512.2	28881	.	GGG	AAC	172.235	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:172:0.0,800.0

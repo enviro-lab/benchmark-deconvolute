@@ -1,0 +1,22 @@
+##fileformat=VCFv4.1
+##medaka_version=1.6.1
+##medaka_version=1.6.1
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Depth of reads at pos">
+##INFO=<ID=DPS,Number=2,Type=Integer,Description="Depth of reads at pos by strand (fwd, rev)">
+##INFO=<ID=DPSP,Number=1,Type=Integer,Description="Depth of reads spanning pos +-25">
+##INFO=<ID=SR,Number=.,Type=Integer,Description="Depth of spanning reads by strand which best align to each allele (ref fwd, ref rev, alt1 fwd, alt1 rev, etc.)">
+##INFO=<ID=AR,Number=2,Type=Integer,Description="Depth of ambiguous spanning reads by strand which align equally well to all alleles (fwd, rev)">
+##INFO=<ID=SC,Number=.,Type=Integer,Description="Total alignment score to each allele of spanning reads by strand (ref fwd, ref rev, alt1 fwd, alt1 rev, etc.) aligned with parasail: match 5, mismatch -4, open 5, extend 3">
+##INFO=<ID=Pool,Number=1,Type=String,Description="The pool name">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Medaka genotype.">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Medaka genotype quality score">
+##contig=<ID=MN908947.3,length=29903>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE
+NC_045512.2	3037	.	C	T	29.596	PASS	DP=761.0;DPS=380.0,381.0;Pool=nCoV-2019_1	GT:GQ:AD	1:30:380.5,380.5
+NC_045512.2	11287	.	GTCTGGTTTT	G	136.541	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:137:0.0,800.0
+NC_045512.2	14408	.	C	T	46.757	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:47:0.0,800.0
+NC_045512.2	19955	.	C	T	40.004	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:40:0.0,800.0
+NC_045512.2	20055	.	A	G	56.227	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:56:0.0,800.0
+NC_045512.2	23403	.	A	G	51.384	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:51:0.0,800.0
+NC_045512.2	28881	.	GGG	AAC	87.843	PASS	DP=800.0;DPS=400.0,400.0;Pool=nCoV-2019_2	GT:GQ:AD	1:88:399.9936,400.0064

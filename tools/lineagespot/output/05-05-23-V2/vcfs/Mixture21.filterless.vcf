@@ -1,0 +1,2 @@
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	/projects/enviro_lab/WW-UNCC/MixedControl-05-05-23-V2-fastqs/output/samples/Mixture21.primertrimmed.rg.sorted.bam
+MN908947.3	19887	.	AAGAGA	AAGA	40.224	.	INDEL;IDV=2;IMF=1;DP=2;VDB=0.02;SGB=-0.453602;BQBZ=1;FS=0;MQ0F=0;AF1=1;AC1=2;DP4=0,0,2,0;MQ=60;FQ=-40.5254	GT:PL	1/1:79,6,0

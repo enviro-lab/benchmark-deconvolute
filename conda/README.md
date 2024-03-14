@@ -16,6 +16,7 @@ conda deactivate
 ```bash
 mamba create -p ./conda/env-kallisto-variants -c bioconda -c defaults pyvcf vcftools bcftools minimap2 kallisto py-bgzip
 ```
+
 ### env-preprocess
 ```bash
 mamba create -p ./conda/env-preprocess -c bioconda pyvcf
@@ -38,4 +39,12 @@ pip install grpcio==1.57.0
 # pip install aiohttp
 # pip install aiohttp_cors
 # pip install pydantic
+cd -
+```
+
+### env-alcov
+```bash
+conda create -p ./conda/env-alcov
+pip install alcov
+pip install ortools
 ```

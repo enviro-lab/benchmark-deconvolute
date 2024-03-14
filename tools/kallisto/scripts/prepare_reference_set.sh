@@ -27,8 +27,10 @@ conda activate conda/env-preprocess
 # Step 1:
 echo "CMD: python tools/kallisto/scripts/step1_determine_reference_set.py -m ${meta} --min_seqs_per_lin 500 -k 100 --seed 0 --country USA -o ${reference_set}"
 python tools/kallisto/scripts/step1_determine_reference_set.py -m ${meta} --min_seqs_per_lin 500 -k 100 --seed 0 --country USA -o ${reference_set}
+# careful: this may have a couple samples from non-human hosts, too. Filter that out manually.
 
 # Step 2 (manual):
+# we stored these intermediate outputs in tools/kallisto/gisaid_data
 # 1. split resulting csv (${reference_set}/gisaid_accessions.csv) into <=10000 samples per file (since you can only download data for 10000 max, at once):
 #    $ split -l 10000 ${reference_set}/gisaid_accessions.csv gisaid_accessions
 # 2. download fasta for all samples from epicov
