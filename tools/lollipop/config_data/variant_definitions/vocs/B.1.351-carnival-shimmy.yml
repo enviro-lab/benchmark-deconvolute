@@ -1,0 +1,32 @@
+variant:
+  voc: V-20DEC-02
+  pheuid: carnival-shimmy
+  short: cash
+  pangolin: B.1.351
+  nextstrain: N501Y.V2
+source:
+- ''
+threshold: 4
+mut:
+  # ORF1ab
+  1059: 'C>T' # nsp2:T85I
+  5230: 'G>T' # nsp3:K837N
+  10323: 'A>G' # nsp5:K90R
+  # S
+  21801: 'A>C' # surface glycoprotein:D80A
+  22206: 'A>G' # surface glycoprotein:D215G
+  23012: 'G>A' # surface glycoprotein:E484K
+  23063: 'A>T' # surface glycoprotein:N501Y
+  23664: 'C>T' # surface glycoprotein:A701V
+  # ORF3a
+  25563: 'G>T' # ORF3a protein:Q57H
+  25904: 'C>T' # ORF3a protein:S171L
+  # E
+  26456: 'C>T' # envelope protein:P71L
+  # N
+  28887: 'C>T' # nucleocapsid phosphoprotein:T205I
+extra:
+  # S
+  22281: '---------'
+  # ORF1ab
+  11288: '---------'

@@ -1,0 +1,19 @@
+variant:
+  voc: V-23APR-01
+  pheuid: handler-hypnosis
+  short: hahy
+  pangolin: XBB.1.16
+source:
+- https://github.com/cov-lineages/pango-designation/issues/1723
+threshold: 4
+mut:
+  # ORF1ab
+  11750: 'C>T' # nsp6:L260F
+  12730: 'T>A' # syn nsp9
+  18703: 'G>T' # nsp14:D222Y
+  # S
+  22101: 'A>T' # surface glycoprotein:E180V
+  22995: 'C>G' # surface glycoprotein:T478R
+  # N
+  28447: 'A>G' # syn nucleocapsid phosphoprotein
+  29386: 'C>T' # syn nucleocapsid phosphoprotein

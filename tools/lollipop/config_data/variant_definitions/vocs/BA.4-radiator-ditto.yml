@@ -1,0 +1,17 @@
+variant:
+  voc: V-22APR-03
+  pheuid: radiator-ditto
+  short: radi
+  pangolin: BA.4
+source:
+- https://github.com/cov-lineages/pango-designation/issues/517
+threshold: 3
+mut:
+  # ORF1ab
+  12160: 'G>A' # syn nsp8
+  # S
+  23018: 'T>G' # surface glycoprotein:F486V
+  # ORF7b
+  27788: 'G>T' # ORF7b:L11F
+  # N
+  28724: 'C>T' # nucleocapsid phosphoprotein:P151S

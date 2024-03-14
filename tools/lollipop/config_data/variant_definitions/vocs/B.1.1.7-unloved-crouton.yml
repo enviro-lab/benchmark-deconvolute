@@ -1,0 +1,18 @@
+variant:
+  voc: V-21FEB-02
+  pheuid: unloved-crouton
+  short: uncr
+  pangolin: B.1.1.7
+source:
+- ''
+threshold: 5
+mut:
+  # ORF1ab
+  7843: 'C>T' # syn nsp3
+  # S
+  23012: 'G>A' # surface glycoprotein:E484K
+  # M
+  27092: 'C>T' # syn membrane glycoprotein
+  # N
+  28791: 'C>T' # nucleocapsid phosphoprotein:A173V
+  29465: 'G>A' # nucleocapsid phosphoprotein:A398T

@@ -1,0 +1,45 @@
+variant:
+  voc: V-21MAY-01
+  pheuid: dandelion-marshy
+  short: dama
+  pangolin: AV.1
+source:
+- https://github.com/cov-lineages/pango-designation/issues/73
+threshold: 7
+mut:
+  # ORF1ab
+  772: 'T>C' # syn nsp1
+  1820: 'G>A' # nsp2:G339S
+  2037: 'C>T' # nsp2:A411V
+  3743: 'C>T' # nsp3:H342Y
+  5184: 'C>T' # nsp3:P822L
+  7479: 'A>G' # nsp3:N1587S
+  9891: 'C>T' # nsp4:A446V
+  11503: 'T>C' # syn nsp6
+  14740: 'T>G' # nsp12:S434A
+  18395: 'C>T' # nsp14:A119V
+  # S
+  21801: 'A>G' # surface glycoprotein:D80G
+  21846: 'C>T' # surface glycoprotein:T95I
+  21987: 'G>A' # surface glycoprotein:G142D
+  22687: 'C>T' # syn surface glycoprotein
+  22879: 'C>G' # surface glycoprotein:N439K
+  23012: 'G>A' # surface glycoprotein:E484K
+  23604: 'C>A' # surface glycoprotein:P681H
+  24950: 'A>G' # surface glycoprotein:I1130V
+  24977: 'G>C' # surface glycoprotein:D1139H
+  # M
+  26709: 'G>A' # membrane glycoprotein:A63T
+  # ORF6
+  27297: 'C>T' # syn ORF6 protein
+  # N
+  28742: 'ATC>GNT' # nucleocapsid phosphoprotein:I157V
+extra:
+  # ORF1ab
+  11288: '---------'
+  # S
+  21991: '---'
+  # ORF3a
+  26158: '----'
+  # .
+  28271: '--'

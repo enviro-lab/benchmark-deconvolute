@@ -1,0 +1,17 @@
+variant:
+  voc: V-22SEP-01
+  pheuid: legroom-finished
+  short: lefi
+  pangolin: BA.4.6
+source:
+- ''
+threshold: 2
+mut:
+  # ORF1ab
+  8140: 'C>T' # syn nsp3
+  # S
+  22599: 'G>C' # surface glycoprotein:R346T
+  # ORF1ab
+  14599: 'C>T' # syn nsp12
+  # S
+  23535: 'A>G' # surface glycoprotein:N658S

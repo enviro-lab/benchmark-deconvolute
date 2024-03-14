@@ -1,0 +1,22 @@
+variant:
+  voc: V-21APR-02
+  pheuid: empathy-serve
+  short: emse
+  pangolin: B.1.617.2
+source:
+- https://github.com/cov-lineages/pango-designation/issues/49
+threshold: 4
+mut:
+  # S
+  21618: 'C>G' # surface glycoprotein:T19R
+  22995: 'C>A' # surface glycoprotein:T478K
+  23604: 'C>G' # surface glycoprotein:P681R
+  # ORF3a
+  25469: 'C>T' # ORF3a protein:S26L
+  # M
+  26767: 'T>C' # membrane glycoprotein:I82T
+  # ORF7a
+  27752: 'C>T' # ORF7a protein:T120I
+  # N
+  28461: 'A>G' # nucleocapsid phosphoprotein:D63G
+  28881: 'G>T' # nucleocapsid phosphoprotein:R203M

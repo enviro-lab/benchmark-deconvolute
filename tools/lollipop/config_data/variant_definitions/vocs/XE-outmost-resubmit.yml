@@ -1,0 +1,20 @@
+variant:
+  voc: V-22APR-02
+  pheuid: outmost-resubmit
+  short: oure
+  pangolin: XE
+source:
+- https://github.com/cov-lineages/pango-designation/issues/454
+threshold: 5
+mut:
+  # ORF1ab
+  2832: 'A>G' # nsp3:K38R
+  3241: 'C>T' # syn nsp3
+  5924: 'G>A' # nsp3:V1069I
+  8393: 'G>A' # nsp3:A1892T
+  14599: 'C>T' # syn nsp12
+  # S
+  22200: 'T>G' # surface glycoprotein:V213G
+  22775: 'G>A' # surface glycoprotein:D405N
+  # ORF6
+  27382: 'GAT>CTC' # ORF6 protein:D61L

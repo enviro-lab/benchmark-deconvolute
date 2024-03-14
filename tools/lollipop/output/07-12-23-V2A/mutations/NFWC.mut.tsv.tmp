@@ -1,0 +1,382 @@
+location	date	pos	gene	base	cov	var	frac	dama	deda	lefi	hahy	uncr	kele	dibu	gata	pere	hapa	imvi	moun	mado	edta	cuoa	paim	coha	pode	oure	pafo	chst	radi	glsa	sptr	umem	anth	cash	emse	stca	pesp	wisu	slan	vesw	muan
+NFWC	2023-07-12	405	ORF1ab	G	5	0	0.0														mut																				
+NFWC	2023-07-12	733	ORF1ab	C	5	0	0.0																																mut		
+NFWC	2023-07-12	772	ORF1ab	C	5	0	0.0	mut																																	
+NFWC	2023-07-12	832	ORF1ab	T	5	0	0.0																													mut					
+NFWC	2023-07-12	835	ORF1ab	T	5	0	0.0																								mut										
+NFWC	2023-07-12	897	ORF1ab	A	16	0	0.0																		mut																
+NFWC	2023-07-12	1059	ORF1ab	T	12	1	0.08333333333333333																											mut							
+NFWC	2023-07-12	1321	ORF1ab	C	14	0	0.0																									mut									
+NFWC	2023-07-12	1498	ORF1ab	T	5	0	0.0																							mut											
+NFWC	2023-07-12	1807	ORF1ab	G	6	0	0.0																							mut											
+NFWC	2023-07-12	1820	ORF1ab	A	5	0	0.0	mut																																	
+NFWC	2023-07-12	2037	ORF1ab	T	1	0	0.0	mut																																	
+NFWC	2023-07-12	2334	ORF1ab	T	6	0	0.0																															mut			
+NFWC	2023-07-12	2749	ORF1ab	T	5	0	0.0																																mut		
+NFWC	2023-07-12	2790	ORF1ab	T	5	2	0.4											mut																							
+NFWC	2023-07-12	2832	ORF1ab	G	5	1	0.2									mut										mut															
+NFWC	2023-07-12	2945	ORF1ab	A	5	0	0.0																	mut																	
+NFWC	2023-07-12	3241	ORF1ab	T	9	0	0.0																			mut															
+NFWC	2023-07-12	3267	ORF1ab	T	9	1	0.1111111111111111		mut																																
+NFWC	2023-07-12	3428	ORF1ab	G	9	1	0.1111111111111111						mut																												
+NFWC	2023-07-12	3457	ORF1ab	T	8	0	0.0										mut																								
+NFWC	2023-07-12	3743	ORF1ab	T	0	0		mut																																	
+NFWC	2023-07-12	3796	ORF1ab	T	3	0	0.0																mut																		
+NFWC	2023-07-12	3828	ORF1ab	T	4	0	0.0																																mut		
+NFWC	2023-07-12	3857	ORF1ab	A	4	0	0.0								mut																										
+NFWC	2023-07-12	3927	ORF1ab	T	5	0	0.0																mut																		
+NFWC	2023-07-12	3961	ORF1ab	T	5	0	0.0																										mut								
+NFWC	2023-07-12	4586	ORF1ab	T	2	0	0.0																mut																		
+NFWC	2023-07-12	4878	ORF1ab	T	0	0							mut																												
+NFWC	2023-07-12	4926	ORF1ab	G	0	0																																			mut
+NFWC	2023-07-12	4940	ORF1ab	T	0	0																						mut													
+NFWC	2023-07-12	4965	ORF1ab	T	0	0											mut																								
+NFWC	2023-07-12	5183	ORF1ab	T	10	0	0.0																mut																		
+NFWC	2023-07-12	5184	ORF1ab	T	10	1	0.1	mut																																	
+NFWC	2023-07-12	5230	ORF1ab	T	10	0	0.0																											mut							
+NFWC	2023-07-12	5388	ORF1ab	A	16	0	0.0		mut																																
+NFWC	2023-07-12	5648	ORF1ab	C	8	0	0.0																																mut		
+NFWC	2023-07-12	5924	ORF1ab	A	21	1	0.047619047619047616																			mut															
+NFWC	2023-07-12	6037	ORF1ab	T	14	0	0.0						mut																												
+NFWC	2023-07-12	6954	ORF1ab	C	10	0	0.0		mut																																
+NFWC	2023-07-12	7296	ORF1ab	T	12	1	0.08333333333333333																								mut										
+NFWC	2023-07-12	7424	ORF1ab	G	12	0	0.0																														mut				
+NFWC	2023-07-12	7479	ORF1ab	G	24	1	0.041666666666666664	mut																																	
+NFWC	2023-07-12	7564	ORF1ab	A	12	0	0.0																																		mut
+NFWC	2023-07-12	7798	ORF1ab	T	13	0	0.0																										mut								
+NFWC	2023-07-12	7842	ORF1ab	G	13	0	0.0																		mut																
+NFWC	2023-07-12	7843	ORF1ab	T	13	0	0.0					mut																													
+NFWC	2023-07-12	7851	ORF1ab	T	13	0	0.0															mut																			
+NFWC	2023-07-12	8140	ORF1ab	T	5	0	0.0			mut																															
+NFWC	2023-07-12	8208	ORF1ab	T	5	1	0.2																								mut										
+NFWC	2023-07-12	8393	ORF1ab	A	11	1	0.09090909090909091									mut										mut															
+NFWC	2023-07-12	8593	ORF1ab	C	11	0	0.0																							mut											
+NFWC	2023-07-12	8704	ORF1ab	C	10	0	0.0																	mut																	
+NFWC	2023-07-12	8723	ORF1ab	G	16	0	0.0																									mut									
+NFWC	2023-07-12	8986	ORF1ab	T	7	0	0.0																	mut																	
+NFWC	2023-07-12	9072	ORF1ab	T	7	0	0.0																										mut								
+NFWC	2023-07-12	9203	ORF1ab	A	12	0	0.0																				mut														
+NFWC	2023-07-12	9565	ORF1ab	T	5	0	0.0																							mut											
+NFWC	2023-07-12	9857	ORF1ab	T	0	0																															mut				
+NFWC	2023-07-12	9866	ORF1ab	T	0	0												mut																							
+NFWC	2023-07-12	9867	ORF1ab	C	0	0																															mut				mut
+NFWC	2023-07-12	9891	ORF1ab	T	0	0		mut																									mut								
+NFWC	2023-07-12	10029	ORF1ab	T	0	0																															mut				
+NFWC	2023-07-12	10323	ORF1ab	G	1	0	0.0																											mut							
+NFWC	2023-07-12	10634	ORF1ab	T	2	0	0.0																								mut										
+NFWC	2023-07-12	10667	ORF1ab	G	2	0	0.0													mut																					
+NFWC	2023-07-12	11201	ORF1ab	G	26	0	0.0										mut																								
+NFWC	2023-07-12	11230	ORF1ab	T	26	1	0.038461538461538464																					mut													
+NFWC	2023-07-12	11235	ORF1ab	T	26	0	0.0																													mut					
+NFWC	2023-07-12	11266	ORF1ab	T	5	0	0.0																					mut													
+NFWC	2023-07-12	11288	ORF1ab	-	5	5	1.0	extra																									extra	extra			extra		extra		
+NFWC	2023-07-12	11289	ORF1ab	-	5	5	1.0	extra																									extra	extra			extra		extra		
+NFWC	2023-07-12	11290	ORF1ab	-	5	4	0.8	extra																									extra	extra			extra		extra		
+NFWC	2023-07-12	11291	ORF1ab	-	5	4	0.8	extra																									extra	extra			extra		extra		
+NFWC	2023-07-12	11292	ORF1ab	-	5	2	0.4	extra																									extra	extra			extra		extra		
+NFWC	2023-07-12	11293	ORF1ab	-	5	2	0.4	extra																									extra	extra			extra		extra		
+NFWC	2023-07-12	11294	ORF1ab	-	5	2	0.4	extra																									extra	extra			extra		extra		
+NFWC	2023-07-12	11295	ORF1ab	-	5	2	0.4	extra																									extra	extra			extra		extra		
+NFWC	2023-07-12	11296	ORF1ab	-	5	2	0.4	extra																									extra	extra			extra		extra		
+NFWC	2023-07-12	11308	ORF1ab	A	5	0	0.0																																		mut
+NFWC	2023-07-12	11322	ORF1ab	T	5	0	0.0																								mut										
+NFWC	2023-07-12	11325	ORF1ab	T	5	0	0.0																				mut														
+NFWC	2023-07-12	11451	ORF1ab	G	5	0	0.0						mut																												
+NFWC	2023-07-12	11503	ORF1ab	C	5	0	0.0	mut																																	
+NFWC	2023-07-12	11521	ORF1ab	T	5	0	0.0																					mut													
+NFWC	2023-07-12	11537	ORF1ab	G	5	1	0.2									mut																									
+NFWC	2023-07-12	11750	ORF1ab	T	0	0					mut																														
+NFWC	2023-07-12	11824	ORF1ab	T	0	0														mut																					
+NFWC	2023-07-12	12049	ORF1ab	T	15	0	0.0																																		mut
+NFWC	2023-07-12	12053	ORF1ab	T	15	0	0.0																																		mut
+NFWC	2023-07-12	12160	ORF1ab	A	15	6	0.4							mut															mut												
+NFWC	2023-07-12	12444	ORF1ab	G	5	0	0.0																mut																		
+NFWC	2023-07-12	12730	ORF1ab	A	8	0	0.0				mut																														
+NFWC	2023-07-12	12778	ORF1ab	T	4	0	0.0																																mut		
+NFWC	2023-07-12	12964	ORF1ab	G	4	1	0.25													mut																					
+NFWC	2023-07-12	13057	ORF1ab	T	4	0	0.0						mut																												
+NFWC	2023-07-12	13195	ORF1ab	C	8	1	0.125									mut																									
+NFWC	2023-07-12	13617	ORF1ab	A	14	0	0.0																	mut																	
+NFWC	2023-07-12	13860	ORF1ab	T	14	0	0.0																																mut		
+NFWC	2023-07-12	14257	ORF1ab	C	3	0	0.0												mut																						
+NFWC	2023-07-12	14407	ORF1ab	T	4	0	0.0																									mut									
+NFWC	2023-07-12	14408	ORF1ab	T	4	4	1.0																									mut									
+NFWC	2023-07-12	14409	ORF1ab	T	4	4	1.0																									mut									
+NFWC	2023-07-12	14599	ORF1ab	T	1	0	0.0			mut																mut															
+NFWC	2023-07-12	14740	ORF1ab	G	1	0	0.0	mut																																	
+NFWC	2023-07-12	15240	ORF1ab	T	3	2	0.6666666666666666									mut																									
+NFWC	2023-07-12	15756	ORF1ab	A	16	0	0.0																		mut																
+NFWC	2023-07-12	16293	ORF1ab	T	9	0	0.0																								mut										
+NFWC	2023-07-12	16549	ORF1ab	T	11	0	0.0																				mut														
+NFWC	2023-07-12	16852	ORF1ab	T	6	0	0.0																	mut																	
+NFWC	2023-07-12	17124	ORF1ab	C	12	0	0.0																																	mut	
+NFWC	2023-07-12	17339	ORF1ab	T	7	0	0.0																																		mut
+NFWC	2023-07-12	17523	ORF1ab	T	8	0	0.0										mut																								
+NFWC	2023-07-12	17859	ORF1ab	C	1	0	0.0														mut																				
+NFWC	2023-07-12	18171	ORF1ab	T	3	0	0.0																							mut											
+NFWC	2023-07-12	18395	ORF1ab	T	13	0	0.0	mut																																	
+NFWC	2023-07-12	18492	ORF1ab	G	10	0	0.0																															mut			
+NFWC	2023-07-12	18583	ORF1ab	A	10	0	0.0								mut																										
+NFWC	2023-07-12	18703	ORF1ab	T	10	0	0.0				mut																														
+NFWC	2023-07-12	19326	ORF1ab	G	3	0	0.0														mut																				
+NFWC	2023-07-12	20148	ORF1ab	T	2	0	0.0						mut																												
+NFWC	2023-07-12	20396	ORF1ab	G	10	1	0.1										mut																								
+NFWC	2023-07-12	20578	ORF1ab	A	8	0	0.0																										mut								
+NFWC	2023-07-12	20724	ORF1ab	G	8	0	0.0																							mut											
+NFWC	2023-07-12	20741	ORF1ab	G	8	0	0.0								mut																										
+NFWC	2023-07-12	21597	S	T	804	3	0.0037313432835820895																				mut														
+NFWC	2023-07-12	21618	S	G	804	2	0.0024875621890547263																								mut				mut						
+NFWC	2023-07-12	21621	S	A	804	752	0.9353233830845771																																mut		
+NFWC	2023-07-12	21638	S	T	804	734	0.9129353233830846																																mut		
+NFWC	2023-07-12	21641	S	T	804	1	0.0012437810945273632																									mut									
+NFWC	2023-07-12	21717	S	G	800	15	0.01875																							mut											
+NFWC	2023-07-12	21718	S	T	800	3	0.00375																															mut			
+NFWC	2023-07-12	21762	S	T	7	1	0.14285714285714285																													mut					
+NFWC	2023-07-12	21765	S	-	7	3	0.42857142857142855		extra																		extra														
+NFWC	2023-07-12	21766	S	-	7	3	0.42857142857142855		extra																		extra														
+NFWC	2023-07-12	21767	S	-	7	3	0.42857142857142855		extra																		extra														
+NFWC	2023-07-12	21768	S	-	7	3	0.42857142857142855		extra																		extra														
+NFWC	2023-07-12	21769	S	-	7	3	0.42857142857142855		extra																		extra														
+NFWC	2023-07-12	21770	S	-	7	3	0.42857142857142855		extra																		extra														
+NFWC	2023-07-12	21801	S	C	7	0	0.0																											mut							
+NFWC	2023-07-12	21801	S	G	7	0	0.0	mut																																	
+NFWC	2023-07-12	21810	S	C	7	0	0.0														mut																				
+NFWC	2023-07-12	21846	S	T	7	1	0.14285714285714285	mut					mut																				mut								
+NFWC	2023-07-12	21867	S	T	7	0	0.0																					mut													
+NFWC	2023-07-12	21981	S	-	19	0	0.0																																		extra
+NFWC	2023-07-12	21982	S	-	19	0	0.0																																		extra
+NFWC	2023-07-12	21983	S	-	19	0	0.0																																		extra
+NFWC	2023-07-12	21984	S	-	19	1	0.05263157894736842																																		extra
+NFWC	2023-07-12	21985	S	-	19	2	0.10526315789473684																																		extra
+NFWC	2023-07-12	21986	S	-	19	0	0.0																																		extra
+NFWC	2023-07-12	21987	S	A	19	8	0.42105263157894735	mut																																	
+NFWC	2023-07-12	21987	S	-	19	1	0.05263157894736842																																		extra
+NFWC	2023-07-12	21988	S	-	19	2	0.10526315789473684																																		extra
+NFWC	2023-07-12	21989	S	-	19	2	0.10526315789473684																																		extra
+NFWC	2023-07-12	21991	S	-	19	2	0.10526315789473684	extra	extra																								extra								
+NFWC	2023-07-12	21992	S	-	19	2	0.10526315789473684	extra	extra																								extra								
+NFWC	2023-07-12	21993	S	-	19	3	0.15789473684210525	extra	extra																								extra								
+NFWC	2023-07-12	21995	S	C	19	1	0.05263157894736842															mut																			
+NFWC	2023-07-12	22016	S	A	19	0	0.0																				mut														
+NFWC	2023-07-12	22033	S	A	18	0	0.0																					mut													
+NFWC	2023-07-12	22101	S	T	12	0	0.0				mut																														
+NFWC	2023-07-12	22190	S	G	12	0	0.0																mut																		
+NFWC	2023-07-12	22200	S	A	12	0	0.0														mut																				
+NFWC	2023-07-12	22200	S	G	12	6	0.5																			mut															
+NFWC	2023-07-12	22206	S	G	12	0	0.0																											mut							
+NFWC	2023-07-12	22227	S	T	12	0	0.0															mut																			
+NFWC	2023-07-12	22281	S	-	12	0	0.0																											extra							
+NFWC	2023-07-12	22282	S	-	12	0	0.0																											extra							
+NFWC	2023-07-12	22283	S	-	12	0	0.0																											extra							
+NFWC	2023-07-12	22284	S	-	12	0	0.0																											extra							
+NFWC	2023-07-12	22285	S	-	12	0	0.0																											extra							
+NFWC	2023-07-12	22286	S	-	12	0	0.0																											extra							
+NFWC	2023-07-12	22287	S	-	12	0	0.0																											extra							
+NFWC	2023-07-12	22288	S	-	12	0	0.0																											extra							
+NFWC	2023-07-12	22289	S	-	12	0	0.0																											extra							
+NFWC	2023-07-12	22299	S	-	12	1	0.08333333333333333																														extra				
+NFWC	2023-07-12	22300	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22301	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22302	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22303	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22304	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22305	S	-	12	1	0.08333333333333333																														extra				
+NFWC	2023-07-12	22306	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22307	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22308	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22309	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22310	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22311	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22312	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22313	S	-	12	1	0.08333333333333333																														extra				
+NFWC	2023-07-12	22314	S	-	12	1	0.08333333333333333																														extra				
+NFWC	2023-07-12	22315	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22316	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22317	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22318	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22319	S	-	12	0	0.0																														extra				
+NFWC	2023-07-12	22331	S	A	12	0	0.0																mut																		
+NFWC	2023-07-12	22388	S	T	27	0	0.0																	mut																	
+NFWC	2023-07-12	22556	S	G	17	1	0.058823529411764705																		mut																
+NFWC	2023-07-12	22577	S	C	17	0	0.0																mut																		
+NFWC	2023-07-12	22578	S	A	17	10	0.5882352941176471																mut																		
+NFWC	2023-07-12	22579	S	T	17	16	0.9411764705882353																mut																		
+NFWC	2023-07-12	22599	S	A	17	0	0.0						mut																												
+NFWC	2023-07-12	22599	S	C	17	0	0.0			mut																															
+NFWC	2023-07-12	22600	S	C	17	0	0.0																				mut														
+NFWC	2023-07-12	22661	S	T	17	0	0.0																					mut													
+NFWC	2023-07-12	22687	S	T	17	1	0.058823529411764705	mut																																	
+NFWC	2023-07-12	22775	S	A	17	7	0.4117647058823529																			mut										mut					
+NFWC	2023-07-12	22812	S	C	19	0	0.0																																mut		
+NFWC	2023-07-12	22879	S	G	3	0	0.0	mut																																	
+NFWC	2023-07-12	22893	S	C	3	0	0.0								mut				mut																						
+NFWC	2023-07-12	22895	S	C	3	0	0.0																		mut																
+NFWC	2023-07-12	22896	S	A	3	0	0.0																		mut																
+NFWC	2023-07-12	22897	S	T	3	3	1.0																		mut																
+NFWC	2023-07-12	22917	S	A	3	0	0.0																														mut				
+NFWC	2023-07-12	22917	S	G	3	0	0.0								mut		mut										mut				mut										
+NFWC	2023-07-12	22930	S	A	3	0	0.0																															mut			
+NFWC	2023-07-12	22942	S	A	3	0	0.0												mut																						
+NFWC	2023-07-12	22942	S	G	3	0	0.0														mut		mut																		
+NFWC	2023-07-12	22995	S	A	3	1	0.3333333333333333																												mut						
+NFWC	2023-07-12	22995	S	G	3	0	0.0				mut																														
+NFWC	2023-07-12	23012	S	A	3	0	0.0	mut				mut	mut							mut				mut				mut		mut			mut	mut					mut		mut
+NFWC	2023-07-12	23012	S	C	3	0	0.0										mut														mut										
+NFWC	2023-07-12	23018	S	G	3	0	0.0							mut															mut												
+NFWC	2023-07-12	23019	S	C	3	0	0.0														mut																				
+NFWC	2023-07-12	23031	S	C	3	0	0.0														mut																mut				
+NFWC	2023-07-12	23040	S	G	3	1	0.3333333333333333											mut																							
+NFWC	2023-07-12	23048	S	A	3	1	0.3333333333333333																									mut									
+NFWC	2023-07-12	23063	S	T	3	1	0.3333333333333333		mut																									mut					mut		mut
+NFWC	2023-07-12	23202	S	A	7	1	0.14285714285714285									mut																									
+NFWC	2023-07-12	23271	S	A	7	1	0.14285714285714285		mut																																
+NFWC	2023-07-12	23287	S	C	7	0	0.0																										mut								
+NFWC	2023-07-12	23341	S	C	4	0	0.0																																		mut
+NFWC	2023-07-12	23401	S	T	4	0	0.0																					mut													
+NFWC	2023-07-12	23535	S	G	4	0	0.0			mut																															
+NFWC	2023-07-12	23593	S	C	12	0	0.0																							mut											
+NFWC	2023-07-12	23593	S	T	12	0	0.0																				mut														
+NFWC	2023-07-12	23604	S	A	12	10	0.8333333333333334	mut	mut				mut																				mut								mut
+NFWC	2023-07-12	23604	S	G	12	0	0.0										mut											mut			mut				mut						
+NFWC	2023-07-12	23664	S	T	12	1	0.08333333333333333																											mut							
+NFWC	2023-07-12	23709	S	T	10	2	0.2		mut																																
+NFWC	2023-07-12	23854	S	A	10	7	0.7																									mut									
+NFWC	2023-07-12	23948	S	C	10	1	0.1																										mut								
+NFWC	2023-07-12	24130	S	A	6	1	0.16666666666666666									mut																									
+NFWC	2023-07-12	24138	S	A	6	0	0.0																														mut				
+NFWC	2023-07-12	24187	S	A	6	0	0.0																																		mut
+NFWC	2023-07-12	24224	S	C	6	0	0.0																							mut											
+NFWC	2023-07-12	24257	S	T	6	0	0.0																				mut														
+NFWC	2023-07-12	24410	S	A	7	0	0.0																								mut										
+NFWC	2023-07-12	24503	S	T	7	1	0.14285714285714285									mut																mut									
+NFWC	2023-07-12	24506	S	G	7	0	0.0		mut																																
+NFWC	2023-07-12	24642	S	T	1	0	0.0																																mut		
+NFWC	2023-07-12	24748	S	T	1	0	0.0																							mut											
+NFWC	2023-07-12	24836	S	A	1	0	0.0																																		mut
+NFWC	2023-07-12	24863	S	T	1	0	0.0																																		mut
+NFWC	2023-07-12	24914	S	C	1	0	0.0		mut																																
+NFWC	2023-07-12	24950	S	G	0	0		mut																																	
+NFWC	2023-07-12	24977	S	C	0	0		mut																																	
+NFWC	2023-07-12	25088	S	T	0	0																																			mut
+NFWC	2023-07-12	25276	S	A	9	0	0.0																										mut								
+NFWC	2023-07-12	25469	ORF3a	T	9	0	0.0										mut																		mut						
+NFWC	2023-07-12	25563	ORF3a	T	12	0	0.0																											mut							
+NFWC	2023-07-12	25667	ORF3a	T	12	0	0.0																									mut									
+NFWC	2023-07-12	25855	ORF3a	T	3	0	0.0																									mut									
+NFWC	2023-07-12	25904	ORF3a	T	3	0	0.0																											mut							
+NFWC	2023-07-12	26158	ORF3a	-	4	0	0.0	extra					extra																												
+NFWC	2023-07-12	26159	ORF3a	-	4	0	0.0	extra					extra																												
+NFWC	2023-07-12	26160	ORF3a	-	4	0	0.0	extra					extra																												
+NFWC	2023-07-12	26161	ORF3a	-	4	0	0.0	extra					extra																												
+NFWC	2023-07-12	26275	E	G	4	0	0.0														mut		mut																		
+NFWC	2023-07-12	26305	E	T	4	0	0.0																							mut											
+NFWC	2023-07-12	26456	E	T	15	1	0.06666666666666667																											mut							
+NFWC	2023-07-12	26492		T	15	0	0.0						mut																												
+NFWC	2023-07-12	26529	M	A	11	0	0.0							mut																											
+NFWC	2023-07-12	26529	M	C	11	0	0.0																		mut																
+NFWC	2023-07-12	26530	M	G	11	2	0.18181818181818182									mut																									
+NFWC	2023-07-12	26709	M	A	20	13	0.65	mut																																	
+NFWC	2023-07-12	26767	M	C	21	1	0.047619047619047616																				mut			mut			mut		mut						
+NFWC	2023-07-12	27038	M	G	10	0	0.0							mut																											
+NFWC	2023-07-12	27092	M	T	10	0	0.0					mut																													
+NFWC	2023-07-12	27297	ORF6	T	7	0	0.0	mut																																	
+NFWC	2023-07-12	27382	ORF6	C	7	2	0.2857142857142857											mut								mut															
+NFWC	2023-07-12	27383	ORF6	T	7	2	0.2857142857142857											mut								mut															
+NFWC	2023-07-12	27384	ORF6	C	7	2	0.2857142857142857											mut								mut					mut										
+NFWC	2023-07-12	27638	ORF7a	C	14	1	0.07142857142857142										mut														mut										
+NFWC	2023-07-12	27752	ORF7a	T	8	0	0.0																												mut						
+NFWC	2023-07-12	27788	ORF7b	T	8	0	0.0																						mut												
+NFWC	2023-07-12	27888		-	16	0	0.0																										extra								
+NFWC	2023-07-12	27889		T	16	0	0.0							mut																											
+NFWC	2023-07-12	27889		-	16	0	0.0																										extra								
+NFWC	2023-07-12	27890		-	16	0	0.0																										extra								
+NFWC	2023-07-12	27891		-	16	0	0.0																										extra								
+NFWC	2023-07-12	27892		-	16	0	0.0																										extra								
+NFWC	2023-07-12	27893	ORF8	-	16	0	0.0																										extra								
+NFWC	2023-07-12	27894	ORF8	-	16	1	0.0625																										extra								
+NFWC	2023-07-12	27895	ORF8	-	16	0	0.0																										extra								
+NFWC	2023-07-12	27896	ORF8	-	16	0	0.0																										extra								
+NFWC	2023-07-12	27897	ORF8	C	16	0	0.0																																		mut
+NFWC	2023-07-12	27897	ORF8	-	16	1	0.0625																										extra								
+NFWC	2023-07-12	27898	ORF8	-	16	1	0.0625																										extra								
+NFWC	2023-07-12	27899	ORF8	-	16	1	0.0625																										extra								
+NFWC	2023-07-12	27900	ORF8	-	16	1	0.0625																										extra								
+NFWC	2023-07-12	27901	ORF8	-	16	1	0.0625																										extra								
+NFWC	2023-07-12	27902	ORF8	-	16	1	0.0625																										extra								
+NFWC	2023-07-12	27915	ORF8	T	16	1	0.0625																																	mut	
+NFWC	2023-07-12	27923	ORF8	-	16	1	0.0625																	extra																	
+NFWC	2023-07-12	27924	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27925	ORF8	A	16	1	0.0625						mut																												
+NFWC	2023-07-12	27925	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27926	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27927	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27928	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27929	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27930	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27931	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27932	ORF8	-	16	1	0.0625																	extra																	
+NFWC	2023-07-12	27933	ORF8	-	16	2	0.125																	extra																	
+NFWC	2023-07-12	27934	ORF8	-	16	1	0.0625																	extra																	
+NFWC	2023-07-12	27935	ORF8	-	16	2	0.125																	extra																	
+NFWC	2023-07-12	27936	ORF8	-	16	1	0.0625																	extra																	
+NFWC	2023-07-12	27937	ORF8	-	16	1	0.0625																	extra																	
+NFWC	2023-07-12	27938	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27939	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27940	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27941	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27942	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27943	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27944	ORF8	-	16	1	0.0625																	extra																	
+NFWC	2023-07-12	27945	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27946	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27947	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27948	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27949	ORF8	-	16	2	0.125																	extra																	
+NFWC	2023-07-12	27950	ORF8	-	16	1	0.0625																	extra																	
+NFWC	2023-07-12	27951	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27952	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27953	ORF8	-	16	1	0.0625																	extra																	
+NFWC	2023-07-12	27954	ORF8	-	16	1	0.0625																	extra																	
+NFWC	2023-07-12	27955	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27956	ORF8	-	16	0	0.0																	extra																	
+NFWC	2023-07-12	27970	ORF8	T	16	0	0.0																								mut										
+NFWC	2023-07-12	27972	ORF8	T	16	2	0.125		mut																																
+NFWC	2023-07-12	28005	ORF8	T	17	0	0.0						mut																												
+NFWC	2023-07-12	28048	ORF8	T	17	2	0.11764705882352941		mut																																
+NFWC	2023-07-12	28111	ORF8	G	9	2	0.2222222222222222		mut																																
+NFWC	2023-07-12	28144	ORF8	C	9	0	0.0																					mut													
+NFWC	2023-07-12	28167	ORF8	A	9	0	0.0																					mut											mut		
+NFWC	2023-07-12	28209	ORF8	T	9	0	0.0																										mut								
+NFWC	2023-07-12	28253	ORF8	T	11	0	0.0													mut																					
+NFWC	2023-07-12	28271		G	11	0	0.0																										mut								
+NFWC	2023-07-12	28271		-	11	2	0.18181818181818182	extra																																	
+NFWC	2023-07-12	28272		T	11	0	0.0																	mut																	
+NFWC	2023-07-12	28272		-	11	0	0.0	extra																																	
+NFWC	2023-07-12	28280	N	C	11	2	0.18181818181818182		mut																																
+NFWC	2023-07-12	28281	N	T	11	2	0.18181818181818182		mut																																
+NFWC	2023-07-12	28282	N	A	11	2	0.18181818181818182		mut																																
+NFWC	2023-07-12	28447	N	G	4	0	0.0				mut																														
+NFWC	2023-07-12	28461	N	G	4	0	0.0																												mut						
+NFWC	2023-07-12	28472	N	T	4	0	0.0																								mut										
+NFWC	2023-07-12	28512	N	G	4	1	0.25																																mut		
+NFWC	2023-07-12	28628	N	T	4	0	0.0													mut																					
+NFWC	2023-07-12	28699	N	G	19	0	0.0																							mut											
+NFWC	2023-07-12	28724	N	T	19	5	0.2631578947368421																						mut												
+NFWC	2023-07-12	28791	N	T	15	0	0.0					mut																													
+NFWC	2023-07-12	28878	N	A	15	0	0.0																					mut													
+NFWC	2023-07-12	28881	N	T	15	0	0.0										mut														mut				mut						
+NFWC	2023-07-12	28887	N	T	15	0	0.0						mut																					mut							
+NFWC	2023-07-12	28896	N	-	15	0	0.0																										extra								
+NFWC	2023-07-12	28897	N	-	15	0	0.0																										extra								
+NFWC	2023-07-12	28898	N	-	15	0	0.0																										extra								
+NFWC	2023-07-12	28913	N	T	15	0	0.0																														mut				
+NFWC	2023-07-12	28958	N	A	15	0	0.0																		mut																
+NFWC	2023-07-12	28975	N	T	15	0	0.0													mut																					
+NFWC	2023-07-12	29311	N	T	20	0	0.0																													mut	mut				
+NFWC	2023-07-12	29386	N	T	20	1	0.05				mut																														
+NFWC	2023-07-12	29402	N	T	20	2	0.1																								mut										
+NFWC	2023-07-12	29465	N	A	20	0	0.0					mut																													
+NFWC	2023-07-12	29540		A	20	0	0.0																									mut									
+NFWC	2023-07-12	29543		T	20	0	0.0																							mut											
+NFWC	2023-07-12	29625	ORF10	T	4	0	0.0																															mut			
+NFWC	2023-07-12	29645	ORF10	T	4	0	0.0																									mut									

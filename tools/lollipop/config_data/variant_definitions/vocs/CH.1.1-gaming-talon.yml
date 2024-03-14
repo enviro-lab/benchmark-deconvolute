@@ -1,0 +1,16 @@
+variant:
+  voc: V-22DEC-01
+  pheuid: gaming-talon
+  short: gata
+  pangolin: CH.1.1
+source:
+- https://github.com/cov-lineages/pango-designation/issues/1113
+threshold: 3
+mut:
+  # ORF1ab
+  3857: 'C>A' # nsp3:Q380K
+  18583: 'G>A' # nsp14:V182I
+  20741: 'A>G' # nsp16:Q28R
+  # S
+  22893: 'A>C' # surface glycoprotein:K444T
+  22917: 'T>G' # surface glycoprotein:L452R

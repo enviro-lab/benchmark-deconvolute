@@ -1,0 +1,31 @@
+variant:
+  voc: V-21FEB-03
+  pheuid: glorious-saucy
+  short: glsa
+  pangolin: B.1.525
+source:
+- ''
+threshold: 5
+mut:
+  # ORF1ab
+  1498: 'C>T' # syn nsp2
+  1807: 'A>G' # syn nsp2
+  8593: 'T>C' # syn nsp4
+  9565: 'C>T' # syn nsp4
+  14407: 'CCT>TTN' # nsp12:P323F
+  18171: 'C>T' # syn nsp14
+  20724: 'A>G' # syn nsp16
+  # S
+  21717: 'A>G' # surface glycoprotein:Q52R
+  23012: 'G>A' # surface glycoprotein:E484K
+  23593: 'G>C' # surface glycoprotein:Q677H
+  24224: 'T>C' # surface glycoprotein:F888L
+  24748: 'C>T' # syn surface glycoprotein
+  # E
+  26305: 'C>T' # envelope protein:L21F
+  # M
+  26767: 'T>C' # membrane glycoprotein:I82T
+  # N
+  28699: 'A>G' # syn nucleocapsid phosphoprotein
+  # .
+  29543: 'G>T'

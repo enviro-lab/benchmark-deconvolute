@@ -1,0 +1,16 @@
+variant:
+  voc: V-22OCT-01
+  pheuid: monologue-underling
+  short: moun
+  pangolin: BQ.1
+source:
+- https://github.com/cov-lineages/pango-designation/issues/993
+threshold: 2
+mut:
+  # ORF1ab
+  14257: 'T>C' # nsp12:Y273H
+  # S
+  22893: 'A>C' # surface glycoprotein:K444T
+  22942: 'T>A' # surface glycoprotein:N460K
+  # N
+  28310: 'CCC>NTT' # nucleocapsid phosphoprotein:P13L

@@ -1,0 +1,32 @@
+variant:
+  voc: V-20DEC-01
+  pheuid: denture-daughter
+  short: deda
+  pangolin: B.1.1.7
+  nextstrain: N501Y.V1
+source:
+- https://www.gov.uk/government/publications/investigation-of-novel-sars-cov-2-variant-variant-of-concern-20201201
+- https://virological.org/t/preliminary-genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-the-uk-defined-by-a-novel-set-of-spike-mutations/563
+threshold: 5
+mut:
+  # S
+  23063: 'A>T' # surface glycoprotein:N501Y
+  23271: 'C>A' # surface glycoprotein:A570D
+  23604: 'C>A' # surface glycoprotein:P681H
+  23709: 'C>T' # surface glycoprotein:T716I
+  24506: 'T>G' # surface glycoprotein:S982A
+  24914: 'G>C' # surface glycoprotein:D1118H
+  # ORF1ab
+  3267: 'C>T' # nsp3:T183I
+  5388: 'C>A' # nsp3:A890D
+  6954: 'T>C' # nsp3:I1412T
+  # ORF8
+  27972: 'C>T' # ORF8 protein:Q27*
+  28048: 'G>T' # ORF8 protein:R52I
+  28111: 'A>G' # ORF8 protein:Y73C
+  # N
+  28280: 'GAT>CTA' # nucleocapsid phosphoprotein:D3L
+extra:
+  # S
+  21765: '------'
+  21991: '---'

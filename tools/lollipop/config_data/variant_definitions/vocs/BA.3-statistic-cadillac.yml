@@ -1,0 +1,17 @@
+variant:
+  voc: SIM-BA3
+  pheuid: statistic-cadillac
+  short: stca
+  pangolin: BA.3
+source:
+- https://github.com/cov-lineages/pango-designation/issues/367
+threshold: 3
+mut:
+  # ORF1ab
+  832: 'C>T' # syn nsp2
+  11235: 'C>T' # nsp6:A88V
+  # S
+  21762: 'C>T' # surface glycoprotein:A67V
+  22775: 'G>A' # surface glycoprotein:D405N
+  # N
+  29311: 'C>T' # syn nucleocapsid phosphoprotein

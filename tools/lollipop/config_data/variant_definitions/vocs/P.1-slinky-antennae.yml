@@ -1,0 +1,33 @@
+variant:
+  voc: V-21JAN-02
+  pheuid: slinky-antennae
+  short: slan
+  pangolin: P.1
+source:
+- https://virological.org/t/genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-manaus-preliminary-findings/586
+- https://cov-lineages.org/global_report_P.1.html
+threshold: 5
+mut:
+  # ORF1ab
+  733: 'T>C' # syn nsp1
+  2749: 'C>T' # syn nsp3
+  3828: 'C>T' # nsp3:S370L
+  5648: 'A>C' # nsp3:K977Q
+  12778: 'C>T' # syn nsp9
+  13860: 'C>T' # syn nsp12
+  # S
+  21621: 'C>A' # surface glycoprotein:T20N
+  21638: 'C>T' # surface glycoprotein:P26S
+  22812: 'A>C' # surface glycoprotein:K417T
+  23012: 'G>A' # surface glycoprotein:E484K
+  23063: 'A>T' # surface glycoprotein:N501Y
+  24642: 'C>T' # surface glycoprotein:T1027I
+  # ORF8
+  28167: 'G>A' # ORF8 protein:E92K
+  # N
+  28512: 'C>G' # nucleocapsid phosphoprotein:P80R
+extra:
+  # ORF1ab
+  11288: '---------'
+  # .
+  28263: '+AACA'

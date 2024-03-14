@@ -1,0 +1,37 @@
+variant:
+  voc: V-21FEB-04
+  pheuid: animating-thermos
+  short: anth
+  pangolin: B.1.1.318
+source:
+- ''
+threshold: 5
+mut:
+  # ORF1ab
+  3961: 'C>T' # syn nsp3
+  7798: 'G>T' # nsp3:K1693N
+  9072: 'C>T' # nsp4:T173I
+  9891: 'C>T' # nsp4:A446V
+  20578: 'G>A' # nsp15:V320M
+  # S
+  21846: 'C>T' # surface glycoprotein:T95I
+  23012: 'G>A' # surface glycoprotein:E484K
+  23287: 'T>C' # syn surface glycoprotein
+  23604: 'C>A' # surface glycoprotein:P681H
+  23948: 'G>C' # surface glycoprotein:D796H
+  25276: 'C>A' # syn surface glycoprotein
+  # M
+  26767: 'T>C' # membrane glycoprotein:I82T
+  # ORF8
+  28209: 'G>T' # ORF8 protein:E106*
+  # .
+  28271: 'A>G'
+extra:
+  # ORF1ab
+  11288: '---------'
+  # S
+  21991: '---'
+  # ORF7b
+  27888: '---------------'
+  # N
+  28896: '---'

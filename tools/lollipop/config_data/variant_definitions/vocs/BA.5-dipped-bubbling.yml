@@ -1,0 +1,18 @@
+variant:
+  voc: V-22APR-04
+  pheuid: dipped-bubbling
+  short: dibu
+  pangolin: BA.5
+source:
+- https://github.com/cov-lineages/pango-designation/issues/517
+threshold: 3
+mut:
+  # ORF1ab
+  12160: 'G>A' # syn nsp8
+  # S
+  23018: 'T>G' # surface glycoprotein:F486V
+  # M
+  26529: 'G>A' # membrane glycoprotein:D3N
+  27038: 'A>G' # syn membrane glycoprotein
+  # .
+  27889: 'C>T'

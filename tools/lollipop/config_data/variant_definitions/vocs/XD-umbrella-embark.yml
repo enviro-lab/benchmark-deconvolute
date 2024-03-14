@@ -1,0 +1,25 @@
+variant:
+  voc: V-22APR-01
+  pheuid: umbrella-embark
+  short: umem
+  pangolin: XD
+source:
+- https://github.com/cov-lineages/pango-designation/issues/444
+threshold: 6
+mut:
+  # ORF1ab
+  1321: 'A>C' # nsp2:E172D
+  8723: 'A>G' # nsp4:I57V
+  14407: 'CCT>TTT' # nsp12:P323F
+  # S
+  21641: 'G>T' # surface glycoprotein:A27S
+  23048: 'G>A' # surface glycoprotein:G496S
+  23854: 'C>A' # surface glycoprotein:N764K
+  24503: 'C>T' # surface glycoprotein:L981F
+  # ORF3a
+  25667: 'C>T' # ORF3a protein:S92L
+  25855: 'G>T' # ORF3a protein:D155Y
+  # .
+  29540: 'G>A'
+  # ORF10
+  29645: 'G>T' # ORF10 protein:V30L

@@ -1,0 +1,21 @@
+variant:
+  voc: V-21JAN-01
+  pheuid: marbling-doodle
+  short: mado
+  pangolin: P.2
+source:
+- ''
+threshold: 6
+mut:
+  # ORF1ab
+  10667: 'T>G' # nsp5:L205V
+  11824: 'C>T' # syn nsp6
+  # S
+  23012: 'G>A' # surface glycoprotein:E484K
+  # ORF1ab
+  12964: 'A>G' # syn nsp9
+  # ORF8
+  28253: 'C>T' # syn ORF8 protein
+  # N
+  28628: 'G>T' # nucleocapsid phosphoprotein:A119S
+  28975: 'G>T' # nucleocapsid phosphoprotein:M234I

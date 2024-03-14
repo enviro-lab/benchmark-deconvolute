@@ -1,0 +1,382 @@
+location	date	pos	gene	base	cov	var	frac	dama	deda	lefi	hahy	uncr	kele	dibu	gata	pere	hapa	imvi	moun	mado	edta	cuoa	paim	coha	pode	oure	pafo	chst	radi	glsa	sptr	umem	anth	cash	emse	stca	pesp	wisu	slan	vesw	muan
+Mixture33	2023-05-05	405	ORF1ab	G	800	8	0.01														mut																				
+Mixture33	2023-05-05	733	ORF1ab	C	800	2	0.0025																																mut		
+Mixture33	2023-05-05	772	ORF1ab	C	800	3	0.00375	mut																																	
+Mixture33	2023-05-05	832	ORF1ab	T	800	0	0.0																													mut					
+Mixture33	2023-05-05	835	ORF1ab	T	800	4	0.005																								mut										
+Mixture33	2023-05-05	897	ORF1ab	A	1593	3	0.0018832391713747645																		mut																
+Mixture33	2023-05-05	1059	ORF1ab	T	800	5	0.00625																											mut							
+Mixture33	2023-05-05	1321	ORF1ab	C	1599	2	0.0012507817385866166																									mut									
+Mixture33	2023-05-05	1498	ORF1ab	T	800	8	0.01																							mut											
+Mixture33	2023-05-05	1807	ORF1ab	G	1592	19	0.01193467336683417																							mut											
+Mixture33	2023-05-05	1820	ORF1ab	A	1580	39	0.024683544303797468	mut																																	
+Mixture33	2023-05-05	2037	ORF1ab	T	800	13	0.01625	mut																																	
+Mixture33	2023-05-05	2334	ORF1ab	T	800	10	0.0125																															mut			
+Mixture33	2023-05-05	2749	ORF1ab	T	800	5	0.00625																																mut		
+Mixture33	2023-05-05	2790	ORF1ab	T	800	2	0.0025											mut																							
+Mixture33	2023-05-05	2832	ORF1ab	G	800	2	0.0025									mut										mut															
+Mixture33	2023-05-05	2945	ORF1ab	A	800	9	0.01125																	mut																	
+Mixture33	2023-05-05	3241	ORF1ab	T	800	9	0.01125																			mut															
+Mixture33	2023-05-05	3267	ORF1ab	T	800	13	0.01625		mut																																
+Mixture33	2023-05-05	3428	ORF1ab	G	1594	12	0.0075282308657465494						mut																												
+Mixture33	2023-05-05	3457	ORF1ab	T	1589	12	0.007551919446192574										mut																								
+Mixture33	2023-05-05	3743	ORF1ab	T	800	7	0.00875	mut																																	
+Mixture33	2023-05-05	3796	ORF1ab	T	1599	17	0.010631644777986242																mut																		
+Mixture33	2023-05-05	3828	ORF1ab	T	1580	9	0.00569620253164557																																mut		
+Mixture33	2023-05-05	3857	ORF1ab	A	1467	3	0.002044989775051125								mut																										
+Mixture33	2023-05-05	3927	ORF1ab	T	800	4	0.005																mut																		
+Mixture33	2023-05-05	3961	ORF1ab	T	800	1	0.00125																										mut								
+Mixture33	2023-05-05	4586	ORF1ab	T	800	5	0.00625																mut																		
+Mixture33	2023-05-05	4878	ORF1ab	T	0	0							mut																												
+Mixture33	2023-05-05	4926	ORF1ab	G	0	0																																			mut
+Mixture33	2023-05-05	4940	ORF1ab	T	0	0																						mut													
+Mixture33	2023-05-05	4965	ORF1ab	T	0	0											mut																								
+Mixture33	2023-05-05	5183	ORF1ab	T	800	6	0.0075																mut																		
+Mixture33	2023-05-05	5184	ORF1ab	T	800	4	0.005	mut																																	
+Mixture33	2023-05-05	5230	ORF1ab	T	800	13	0.01625																											mut							
+Mixture33	2023-05-05	5388	ORF1ab	A	1600	10	0.00625		mut																																
+Mixture33	2023-05-05	5648	ORF1ab	C	800	1	0.00125																																mut		
+Mixture33	2023-05-05	5924	ORF1ab	A	1573	6	0.003814367450731087																			mut															
+Mixture33	2023-05-05	6037	ORF1ab	T	800	13	0.01625						mut																												
+Mixture33	2023-05-05	6954	ORF1ab	C	800	1	0.00125		mut																																
+Mixture33	2023-05-05	7296	ORF1ab	T	800	17	0.02125																								mut										
+Mixture33	2023-05-05	7424	ORF1ab	G	800	1	0.00125																														mut				
+Mixture33	2023-05-05	7479	ORF1ab	G	1600	10	0.00625	mut																																	
+Mixture33	2023-05-05	7564	ORF1ab	A	800	4	0.005																																		mut
+Mixture33	2023-05-05	7798	ORF1ab	T	800	1	0.00125																										mut								
+Mixture33	2023-05-05	7842	ORF1ab	G	800	9	0.01125																		mut																
+Mixture33	2023-05-05	7843	ORF1ab	T	800	13	0.01625					mut																													
+Mixture33	2023-05-05	7851	ORF1ab	T	800	8	0.01															mut																			
+Mixture33	2023-05-05	8140	ORF1ab	T	800	1	0.00125			mut																															
+Mixture33	2023-05-05	8208	ORF1ab	T	800	5	0.00625																								mut										
+Mixture33	2023-05-05	8393	ORF1ab	A	800	14	0.0175									mut										mut															
+Mixture33	2023-05-05	8593	ORF1ab	C	800	6	0.0075																							mut											
+Mixture33	2023-05-05	8704	ORF1ab	C	800	4	0.005																	mut																	
+Mixture33	2023-05-05	8723	ORF1ab	G	1600	7	0.004375																									mut									
+Mixture33	2023-05-05	8986	ORF1ab	T	800	13	0.01625																	mut																	
+Mixture33	2023-05-05	9072	ORF1ab	T	800	5	0.00625																										mut								
+Mixture33	2023-05-05	9203	ORF1ab	A	1562	2	0.0012804097311139564																				mut														
+Mixture33	2023-05-05	9565	ORF1ab	T	800	5	0.00625																							mut											
+Mixture33	2023-05-05	9857	ORF1ab	T	0	0																															mut				
+Mixture33	2023-05-05	9866	ORF1ab	T	0	0												mut																							
+Mixture33	2023-05-05	9867	ORF1ab	C	0	0																															mut				mut
+Mixture33	2023-05-05	9891	ORF1ab	T	0	0		mut																									mut								
+Mixture33	2023-05-05	10029	ORF1ab	T	8	0	0.0																														mut				
+Mixture33	2023-05-05	10323	ORF1ab	G	808	10	0.012376237623762377																											mut							
+Mixture33	2023-05-05	10634	ORF1ab	T	800	1	0.00125																								mut										
+Mixture33	2023-05-05	10667	ORF1ab	G	799	3	0.0037546933667083854													mut																					
+Mixture33	2023-05-05	11201	ORF1ab	G	1593	5	0.003138731952291274										mut																								
+Mixture33	2023-05-05	11230	ORF1ab	T	1588	6	0.003778337531486146																					mut													
+Mixture33	2023-05-05	11235	ORF1ab	T	1586	38	0.02395964691046658																													mut					
+Mixture33	2023-05-05	11266	ORF1ab	T	800	3	0.00375																					mut													
+Mixture33	2023-05-05	11288	ORF1ab	-	800	2	0.0025	extra																									extra	extra			extra		extra		
+Mixture33	2023-05-05	11289	ORF1ab	-	800	5	0.00625	extra																									extra	extra			extra		extra		
+Mixture33	2023-05-05	11290	ORF1ab	-	800	3	0.00375	extra																									extra	extra			extra		extra		
+Mixture33	2023-05-05	11291	ORF1ab	-	800	3	0.00375	extra																									extra	extra			extra		extra		
+Mixture33	2023-05-05	11292	ORF1ab	-	800	5	0.00625	extra																									extra	extra			extra		extra		
+Mixture33	2023-05-05	11293	ORF1ab	-	800	64	0.08	extra																									extra	extra			extra		extra		
+Mixture33	2023-05-05	11294	ORF1ab	-	800	3	0.00375	extra																									extra	extra			extra		extra		
+Mixture33	2023-05-05	11295	ORF1ab	-	800	1	0.00125	extra																									extra	extra			extra		extra		
+Mixture33	2023-05-05	11296	ORF1ab	-	800	19	0.02375	extra																									extra	extra			extra		extra		
+Mixture33	2023-05-05	11308	ORF1ab	A	800	0	0.0																																		mut
+Mixture33	2023-05-05	11322	ORF1ab	T	800	15	0.01875																								mut										
+Mixture33	2023-05-05	11325	ORF1ab	T	800	7	0.00875																				mut														
+Mixture33	2023-05-05	11451	ORF1ab	G	1600	8	0.005						mut																												
+Mixture33	2023-05-05	11503	ORF1ab	C	1600	3	0.001875	mut																																	
+Mixture33	2023-05-05	11521	ORF1ab	T	1600	7	0.004375																					mut													
+Mixture33	2023-05-05	11537	ORF1ab	G	1599	10	0.006253908692933083									mut																									
+Mixture33	2023-05-05	11750	ORF1ab	T	800	7	0.00875				mut																														
+Mixture33	2023-05-05	11824	ORF1ab	T	800	4	0.005													mut																					
+Mixture33	2023-05-05	12049	ORF1ab	T	800	11	0.01375																																		mut
+Mixture33	2023-05-05	12053	ORF1ab	T	800	12	0.015																																		mut
+Mixture33	2023-05-05	12160	ORF1ab	A	800	1	0.00125							mut															mut												
+Mixture33	2023-05-05	12444	ORF1ab	G	800	5	0.00625																mut																		
+Mixture33	2023-05-05	12730	ORF1ab	A	1579	10	0.006333122229259025				mut																														
+Mixture33	2023-05-05	12778	ORF1ab	T	800	7	0.00875																																mut		
+Mixture33	2023-05-05	12964	ORF1ab	G	800	3	0.00375													mut																					
+Mixture33	2023-05-05	13057	ORF1ab	T	800	0	0.0						mut																												
+Mixture33	2023-05-05	13195	ORF1ab	C	800	4	0.005									mut																									
+Mixture33	2023-05-05	13617	ORF1ab	A	800	2	0.0025																	mut																	
+Mixture33	2023-05-05	13860	ORF1ab	T	800	9	0.01125																																mut		
+Mixture33	2023-05-05	14257	ORF1ab	C	800	7	0.00875												mut																						
+Mixture33	2023-05-05	14407	ORF1ab	T	1321	7	0.005299015897047691																									mut									
+Mixture33	2023-05-05	14408	ORF1ab	T	1321	13	0.00984102952308857																									mut									
+Mixture33	2023-05-05	14409	ORF1ab	T	1319	1254	0.9507202426080363																									mut									
+Mixture33	2023-05-05	14599	ORF1ab	T	800	13	0.01625			mut																mut															
+Mixture33	2023-05-05	14740	ORF1ab	G	800	0	0.0	mut																																	
+Mixture33	2023-05-05	15240	ORF1ab	T	800	15	0.01875									mut																									
+Mixture33	2023-05-05	15756	ORF1ab	A	800	0	0.0																		mut																
+Mixture33	2023-05-05	16293	ORF1ab	T	800	16	0.02																								mut										
+Mixture33	2023-05-05	16549	ORF1ab	T	800	1	0.00125																				mut														
+Mixture33	2023-05-05	16852	ORF1ab	T	800	0	0.0																	mut																	
+Mixture33	2023-05-05	17124	ORF1ab	C	1598	3	0.0018773466833541927																																	mut	
+Mixture33	2023-05-05	17339	ORF1ab	T	800	6	0.0075																																		mut
+Mixture33	2023-05-05	17523	ORF1ab	T	1600	3	0.001875										mut																								
+Mixture33	2023-05-05	17859	ORF1ab	C	800	8	0.01														mut																				
+Mixture33	2023-05-05	18171	ORF1ab	T	800	58	0.0725																							mut											
+Mixture33	2023-05-05	18395	ORF1ab	T	1577	25	0.01585288522511097	mut																																	
+Mixture33	2023-05-05	18492	ORF1ab	G	800	12	0.015																															mut			
+Mixture33	2023-05-05	18583	ORF1ab	A	800	10	0.0125								mut																										
+Mixture33	2023-05-05	18703	ORF1ab	T	800	3	0.00375				mut																														
+Mixture33	2023-05-05	19326	ORF1ab	G	800	3	0.00375														mut																				
+Mixture33	2023-05-05	20148	ORF1ab	T	4	0	0.0						mut																												
+Mixture33	2023-05-05	20396	ORF1ab	G	804	12	0.014925373134328358										mut																								
+Mixture33	2023-05-05	20578	ORF1ab	A	800	3	0.00375																										mut								
+Mixture33	2023-05-05	20724	ORF1ab	G	799	2	0.0025031289111389237																							mut											
+Mixture33	2023-05-05	20741	ORF1ab	G	799	5	0.006257822277847309								mut																										
+Mixture33	2023-05-05	21597	S	T	1598	10	0.006257822277847309																				mut														
+Mixture33	2023-05-05	21618	S	G	1598	3	0.0018773466833541927																								mut				mut						
+Mixture33	2023-05-05	21621	S	A	1598	8	0.0050062578222778474																																mut		
+Mixture33	2023-05-05	21638	S	T	1597	29	0.018159048215403883																																mut		
+Mixture33	2023-05-05	21641	S	T	1597	4	0.002504696305572949																									mut									
+Mixture33	2023-05-05	21717	S	G	1588	26	0.0163727959697733																							mut											
+Mixture33	2023-05-05	21718	S	T	1588	4	0.0025188916876574307																															mut			
+Mixture33	2023-05-05	21762	S	T	800	5	0.00625																													mut					
+Mixture33	2023-05-05	21765	S	-	800	18	0.0225		extra																		extra														
+Mixture33	2023-05-05	21766	S	-	800	25	0.03125		extra																		extra														
+Mixture33	2023-05-05	21767	S	-	800	22	0.0275		extra																		extra														
+Mixture33	2023-05-05	21768	S	-	800	7	0.00875		extra																		extra														
+Mixture33	2023-05-05	21769	S	-	800	11	0.01375		extra																		extra														
+Mixture33	2023-05-05	21770	S	-	800	17	0.02125		extra																		extra														
+Mixture33	2023-05-05	21801	S	C	800	1	0.00125																											mut							
+Mixture33	2023-05-05	21801	S	G	800	1	0.00125	mut																																	
+Mixture33	2023-05-05	21810	S	C	800	1	0.00125														mut																				
+Mixture33	2023-05-05	21846	S	T	800	9	0.01125	mut					mut																				mut								
+Mixture33	2023-05-05	21867	S	T	800	2	0.0025																					mut													
+Mixture33	2023-05-05	21981	S	-	1600	19	0.011875																																		extra
+Mixture33	2023-05-05	21982	S	-	1600	8	0.005																																		extra
+Mixture33	2023-05-05	21983	S	-	1600	11	0.006875																																		extra
+Mixture33	2023-05-05	21984	S	-	1600	22	0.01375																																		extra
+Mixture33	2023-05-05	21985	S	-	1600	62	0.03875																																		extra
+Mixture33	2023-05-05	21986	S	-	1600	19	0.011875																																		extra
+Mixture33	2023-05-05	21987	S	A	1600	16	0.01	mut																																	
+Mixture33	2023-05-05	21987	S	-	1600	8	0.005																																		extra
+Mixture33	2023-05-05	21988	S	-	1600	14	0.00875																																		extra
+Mixture33	2023-05-05	21989	S	-	1600	16	0.01																																		extra
+Mixture33	2023-05-05	21991	S	-	1600	13	0.008125	extra	extra																								extra								
+Mixture33	2023-05-05	21992	S	-	1600	10	0.00625	extra	extra																								extra								
+Mixture33	2023-05-05	21993	S	-	1600	16	0.01	extra	extra																								extra								
+Mixture33	2023-05-05	21995	S	C	1600	13	0.008125															mut																			
+Mixture33	2023-05-05	22016	S	A	1597	3	0.001878522229179712																				mut														
+Mixture33	2023-05-05	22033	S	A	1590	2	0.0012578616352201257																					mut													
+Mixture33	2023-05-05	22101	S	T	800	1	0.00125				mut																														
+Mixture33	2023-05-05	22190	S	G	800	11	0.01375																mut																		
+Mixture33	2023-05-05	22200	S	A	800	4	0.005														mut																				
+Mixture33	2023-05-05	22200	S	G	800	1	0.00125																			mut															
+Mixture33	2023-05-05	22206	S	G	800	6	0.0075																											mut							
+Mixture33	2023-05-05	22227	S	T	800	8	0.01															mut																			
+Mixture33	2023-05-05	22281	S	-	800	7	0.00875																											extra							
+Mixture33	2023-05-05	22282	S	-	800	38	0.0475																											extra							
+Mixture33	2023-05-05	22283	S	-	800	9	0.01125																											extra							
+Mixture33	2023-05-05	22284	S	-	800	10	0.0125																											extra							
+Mixture33	2023-05-05	22285	S	-	800	11	0.01375																											extra							
+Mixture33	2023-05-05	22286	S	-	800	11	0.01375																											extra							
+Mixture33	2023-05-05	22287	S	-	800	24	0.03																											extra							
+Mixture33	2023-05-05	22288	S	-	800	14	0.0175																											extra							
+Mixture33	2023-05-05	22289	S	-	800	12	0.015																											extra							
+Mixture33	2023-05-05	22299	S	-	800	35	0.04375																														extra				
+Mixture33	2023-05-05	22300	S	-	800	28	0.035																														extra				
+Mixture33	2023-05-05	22301	S	-	800	6	0.0075																														extra				
+Mixture33	2023-05-05	22302	S	-	800	15	0.01875																														extra				
+Mixture33	2023-05-05	22303	S	-	800	23	0.02875																														extra				
+Mixture33	2023-05-05	22304	S	-	800	6	0.0075																														extra				
+Mixture33	2023-05-05	22305	S	-	800	20	0.025																														extra				
+Mixture33	2023-05-05	22306	S	-	800	12	0.015																														extra				
+Mixture33	2023-05-05	22307	S	-	800	1	0.00125																														extra				
+Mixture33	2023-05-05	22308	S	-	800	1	0.00125																														extra				
+Mixture33	2023-05-05	22309	S	-	800	4	0.005																														extra				
+Mixture33	2023-05-05	22310	S	-	800	3	0.00375																														extra				
+Mixture33	2023-05-05	22311	S	-	800	15	0.01875																														extra				
+Mixture33	2023-05-05	22312	S	-	800	17	0.02125																														extra				
+Mixture33	2023-05-05	22313	S	-	800	66	0.0825																														extra				
+Mixture33	2023-05-05	22314	S	-	800	11	0.01375																														extra				
+Mixture33	2023-05-05	22315	S	-	800	19	0.02375																														extra				
+Mixture33	2023-05-05	22316	S	-	800	16	0.02																														extra				
+Mixture33	2023-05-05	22317	S	-	800	5	0.00625																														extra				
+Mixture33	2023-05-05	22318	S	-	800	3	0.00375																														extra				
+Mixture33	2023-05-05	22319	S	-	800	6	0.0075																														extra				
+Mixture33	2023-05-05	22331	S	A	799	24	0.030037546933667083																mut																		
+Mixture33	2023-05-05	22388	S	T	1599	13	0.008130081300813009																	mut																	
+Mixture33	2023-05-05	22556	S	G	800	10	0.0125																		mut																
+Mixture33	2023-05-05	22577	S	C	800	1	0.00125																mut																		
+Mixture33	2023-05-05	22578	S	A	800	14	0.0175																mut																		
+Mixture33	2023-05-05	22579	S	T	800	767	0.95875																mut																		
+Mixture33	2023-05-05	22599	S	A	800	3	0.00375						mut																												
+Mixture33	2023-05-05	22599	S	C	800	0	0.0			mut																															
+Mixture33	2023-05-05	22600	S	C	800	0	0.0																				mut														
+Mixture33	2023-05-05	22661	S	T	800	2	0.0025																					mut													
+Mixture33	2023-05-05	22687	S	T	800	5	0.00625	mut																																	
+Mixture33	2023-05-05	22775	S	A	800	8	0.01																			mut										mut					
+Mixture33	2023-05-05	22812	S	C	1597	1	0.0006261740763932373																																mut		
+Mixture33	2023-05-05	22879	S	G	800	0	0.0	mut																																	
+Mixture33	2023-05-05	22893	S	C	800	2	0.0025								mut				mut																						
+Mixture33	2023-05-05	22895	S	C	800	1	0.00125																		mut																
+Mixture33	2023-05-05	22896	S	A	800	1	0.00125																		mut																
+Mixture33	2023-05-05	22897	S	T	800	783	0.97875																		mut																
+Mixture33	2023-05-05	22917	S	A	800	4	0.005																														mut				
+Mixture33	2023-05-05	22917	S	G	800	0	0.0								mut		mut										mut				mut										
+Mixture33	2023-05-05	22930	S	A	800	1	0.00125																															mut			
+Mixture33	2023-05-05	22942	S	A	800	1	0.00125												mut																						
+Mixture33	2023-05-05	22942	S	G	800	1	0.00125														mut		mut																		
+Mixture33	2023-05-05	22995	S	A	800	2	0.0025																												mut						
+Mixture33	2023-05-05	22995	S	G	800	4	0.005				mut																														
+Mixture33	2023-05-05	23012	S	A	800	6	0.0075	mut				mut	mut							mut				mut				mut		mut			mut	mut					mut		mut
+Mixture33	2023-05-05	23012	S	C	800	0	0.0										mut														mut										
+Mixture33	2023-05-05	23018	S	G	800	3	0.00375							mut															mut												
+Mixture33	2023-05-05	23019	S	C	800	2	0.0025														mut																				
+Mixture33	2023-05-05	23031	S	C	800	2	0.0025														mut																mut				
+Mixture33	2023-05-05	23040	S	G	800	5	0.00625											mut																							
+Mixture33	2023-05-05	23048	S	A	800	7	0.00875																									mut									
+Mixture33	2023-05-05	23063	S	T	800	2	0.0025		mut																									mut					mut		mut
+Mixture33	2023-05-05	23202	S	A	1600	5	0.003125									mut																									
+Mixture33	2023-05-05	23271	S	A	1589	13	0.008181246066708621		mut																																
+Mixture33	2023-05-05	23287	S	C	1583	31	0.01958307012002527																										mut								
+Mixture33	2023-05-05	23341	S	C	800	8	0.01																																		mut
+Mixture33	2023-05-05	23401	S	T	800	1	0.00125																					mut													
+Mixture33	2023-05-05	23535	S	G	800	11	0.01375			mut																															
+Mixture33	2023-05-05	23593	S	C	1600	0	0.0																							mut											
+Mixture33	2023-05-05	23593	S	T	1600	5	0.003125																				mut														
+Mixture33	2023-05-05	23604	S	A	1597	6	0.003757044458359424	mut	mut				mut																				mut								mut
+Mixture33	2023-05-05	23604	S	G	1597	0	0.0										mut											mut			mut				mut						
+Mixture33	2023-05-05	23664	S	T	1544	17	0.011010362694300517																											mut							
+Mixture33	2023-05-05	23709	S	T	800	18	0.0225		mut																																
+Mixture33	2023-05-05	23854	S	A	800	4	0.005																									mut									
+Mixture33	2023-05-05	23948	S	C	800	0	0.0																										mut								
+Mixture33	2023-05-05	24130	S	A	800	0	0.0									mut																									
+Mixture33	2023-05-05	24138	S	A	800	3	0.00375																														mut				
+Mixture33	2023-05-05	24187	S	A	800	3	0.00375																																		mut
+Mixture33	2023-05-05	24224	S	C	800	6	0.0075																							mut											
+Mixture33	2023-05-05	24257	S	T	800	3	0.00375																				mut														
+Mixture33	2023-05-05	24410	S	A	1599	3	0.001876172607879925																								mut										
+Mixture33	2023-05-05	24503	S	T	1585	6	0.0037854889589905363									mut																mut									
+Mixture33	2023-05-05	24506	S	G	1585	5	0.0031545741324921135		mut																																
+Mixture33	2023-05-05	24642	S	T	800	5	0.00625																																mut		
+Mixture33	2023-05-05	24748	S	T	800	3	0.00375																							mut											
+Mixture33	2023-05-05	24836	S	A	798	5	0.006265664160401002																																		mut
+Mixture33	2023-05-05	24863	S	T	796	21	0.026381909547738693																																		mut
+Mixture33	2023-05-05	24914	S	C	793	0	0.0		mut																																
+Mixture33	2023-05-05	24950	S	G	0	0		mut																																	
+Mixture33	2023-05-05	24977	S	C	0	0		mut																																	
+Mixture33	2023-05-05	25088	S	T	0	0																																			mut
+Mixture33	2023-05-05	25276	S	A	800	1	0.00125																										mut								
+Mixture33	2023-05-05	25469	ORF3a	T	800	8	0.01										mut																		mut						
+Mixture33	2023-05-05	25563	ORF3a	T	1600	1	0.000625																											mut							
+Mixture33	2023-05-05	25667	ORF3a	T	1594	30	0.018820577164366373																									mut									
+Mixture33	2023-05-05	25855	ORF3a	T	800	0	0.0																									mut									
+Mixture33	2023-05-05	25904	ORF3a	T	800	12	0.015																											mut							
+Mixture33	2023-05-05	26158	ORF3a	-	800	3	0.00375	extra					extra																												
+Mixture33	2023-05-05	26159	ORF3a	-	800	5	0.00625	extra					extra																												
+Mixture33	2023-05-05	26160	ORF3a	-	800	2	0.0025	extra					extra																												
+Mixture33	2023-05-05	26161	ORF3a	-	800	4	0.005	extra					extra																												
+Mixture33	2023-05-05	26275	E	G	800	7	0.00875														mut		mut																		
+Mixture33	2023-05-05	26305	E	T	800	12	0.015																							mut											
+Mixture33	2023-05-05	26456	E	T	1590	26	0.016352201257861635																											mut							
+Mixture33	2023-05-05	26492		T	1578	0	0.0						mut																												
+Mixture33	2023-05-05	26529	M	A	800	39	0.04875							mut																											
+Mixture33	2023-05-05	26529	M	C	800	2	0.0025																		mut																
+Mixture33	2023-05-05	26530	M	G	800	1	0.00125									mut																									
+Mixture33	2023-05-05	26709	M	A	1600	158	0.09875	mut																																	
+Mixture33	2023-05-05	26767	M	C	1600	11	0.006875																				mut			mut			mut		mut						
+Mixture33	2023-05-05	27038	M	G	800	9	0.01125							mut																											
+Mixture33	2023-05-05	27092	M	T	800	7	0.00875					mut																													
+Mixture33	2023-05-05	27297	ORF6	T	800	6	0.0075	mut																																	
+Mixture33	2023-05-05	27382	ORF6	C	800	0	0.0											mut								mut															
+Mixture33	2023-05-05	27383	ORF6	T	800	0	0.0											mut								mut															
+Mixture33	2023-05-05	27384	ORF6	C	800	4	0.005											mut								mut					mut										
+Mixture33	2023-05-05	27638	ORF7a	C	1569	25	0.015933715742511154										mut														mut										
+Mixture33	2023-05-05	27752	ORF7a	T	800	14	0.0175																												mut						
+Mixture33	2023-05-05	27788	ORF7b	T	800	5	0.00625																						mut												
+Mixture33	2023-05-05	27888		-	1600	7	0.004375																										extra								
+Mixture33	2023-05-05	27889		T	1600	11	0.006875							mut																											
+Mixture33	2023-05-05	27889		-	1600	7	0.004375																										extra								
+Mixture33	2023-05-05	27890		-	1600	8	0.005																										extra								
+Mixture33	2023-05-05	27891		-	1600	7	0.004375																										extra								
+Mixture33	2023-05-05	27892		-	1600	8	0.005																										extra								
+Mixture33	2023-05-05	27893	ORF8	-	1600	8	0.005																										extra								
+Mixture33	2023-05-05	27894	ORF8	-	1600	12	0.0075																										extra								
+Mixture33	2023-05-05	27895	ORF8	-	1600	26	0.01625																										extra								
+Mixture33	2023-05-05	27896	ORF8	-	1600	17	0.010625																										extra								
+Mixture33	2023-05-05	27897	ORF8	C	1600	2	0.00125																																		mut
+Mixture33	2023-05-05	27897	ORF8	-	1600	29	0.018125																										extra								
+Mixture33	2023-05-05	27898	ORF8	-	1600	10	0.00625																										extra								
+Mixture33	2023-05-05	27899	ORF8	-	1600	9	0.005625																										extra								
+Mixture33	2023-05-05	27900	ORF8	-	1600	23	0.014375																										extra								
+Mixture33	2023-05-05	27901	ORF8	-	1600	6	0.00375																										extra								
+Mixture33	2023-05-05	27902	ORF8	-	1600	13	0.008125																										extra								
+Mixture33	2023-05-05	27915	ORF8	T	1600	2	0.00125																																	mut	
+Mixture33	2023-05-05	27923	ORF8	-	1600	24	0.015																	extra																	
+Mixture33	2023-05-05	27924	ORF8	-	1600	17	0.010625																	extra																	
+Mixture33	2023-05-05	27925	ORF8	A	1600	1	0.000625						mut																												
+Mixture33	2023-05-05	27925	ORF8	-	1600	5	0.003125																	extra																	
+Mixture33	2023-05-05	27926	ORF8	-	1600	8	0.005																	extra																	
+Mixture33	2023-05-05	27927	ORF8	-	1600	3	0.001875																	extra																	
+Mixture33	2023-05-05	27928	ORF8	-	1600	17	0.010625																	extra																	
+Mixture33	2023-05-05	27929	ORF8	-	1600	21	0.013125																	extra																	
+Mixture33	2023-05-05	27930	ORF8	-	1600	36	0.0225																	extra																	
+Mixture33	2023-05-05	27931	ORF8	-	1600	17	0.010625																	extra																	
+Mixture33	2023-05-05	27932	ORF8	-	1600	24	0.015																	extra																	
+Mixture33	2023-05-05	27933	ORF8	-	1600	42	0.02625																	extra																	
+Mixture33	2023-05-05	27934	ORF8	-	1600	44	0.0275																	extra																	
+Mixture33	2023-05-05	27935	ORF8	-	1599	35	0.021888680425265792																	extra																	
+Mixture33	2023-05-05	27936	ORF8	-	1599	15	0.009380863039399626																	extra																	
+Mixture33	2023-05-05	27937	ORF8	-	1599	21	0.013133208255159476																	extra																	
+Mixture33	2023-05-05	27938	ORF8	-	1599	14	0.008755472170106316																	extra																	
+Mixture33	2023-05-05	27939	ORF8	-	1599	11	0.0068792995622263915																	extra																	
+Mixture33	2023-05-05	27940	ORF8	-	1599	8	0.0050031269543464665																	extra																	
+Mixture33	2023-05-05	27941	ORF8	-	1599	9	0.005628517823639775																	extra																	
+Mixture33	2023-05-05	27942	ORF8	-	1599	28	0.017510944340212633																	extra																	
+Mixture33	2023-05-05	27943	ORF8	-	1599	24	0.0150093808630394																	extra																	
+Mixture33	2023-05-05	27944	ORF8	-	1599	41	0.02564102564102564																	extra																	
+Mixture33	2023-05-05	27945	ORF8	-	1599	11	0.0068792995622263915																	extra																	
+Mixture33	2023-05-05	27946	ORF8	-	1599	34	0.021263289555972485																	extra																	
+Mixture33	2023-05-05	27947	ORF8	-	1598	14	0.008760951188986232																	extra																	
+Mixture33	2023-05-05	27948	ORF8	-	1598	22	0.01376720901126408																	extra																	
+Mixture33	2023-05-05	27949	ORF8	-	1598	11	0.00688360450563204																	extra																	
+Mixture33	2023-05-05	27950	ORF8	-	1597	9	0.005635566687539136																	extra																	
+Mixture33	2023-05-05	27951	ORF8	-	1597	7	0.004383218534752661																	extra																	
+Mixture33	2023-05-05	27952	ORF8	-	1597	8	0.005009392611145898																	extra																	
+Mixture33	2023-05-05	27953	ORF8	-	1597	27	0.016906700062617408																	extra																	
+Mixture33	2023-05-05	27954	ORF8	-	1597	27	0.016906700062617408																	extra																	
+Mixture33	2023-05-05	27955	ORF8	-	1597	12	0.007514088916718848																	extra																	
+Mixture33	2023-05-05	27956	ORF8	-	1597	21	0.013149655604257984																	extra																	
+Mixture33	2023-05-05	27970	ORF8	T	1597	8	0.005009392611145898																								mut										
+Mixture33	2023-05-05	27972	ORF8	T	1596	30	0.018796992481203006		mut																																
+Mixture33	2023-05-05	28005	ORF8	T	1592	21	0.013190954773869347						mut																												
+Mixture33	2023-05-05	28048	ORF8	T	1585	15	0.00946372239747634		mut																																
+Mixture33	2023-05-05	28111	ORF8	G	800	7	0.00875		mut																																
+Mixture33	2023-05-05	28144	ORF8	C	800	4	0.005																					mut													
+Mixture33	2023-05-05	28167	ORF8	A	800	7	0.00875																					mut											mut		
+Mixture33	2023-05-05	28209	ORF8	T	800	0	0.0																										mut								
+Mixture33	2023-05-05	28253	ORF8	T	1599	5	0.0031269543464665416													mut																					
+Mixture33	2023-05-05	28271		G	1599	10	0.006253908692933083																										mut								
+Mixture33	2023-05-05	28271		-	1599	109	0.06816760475297061	extra																																	
+Mixture33	2023-05-05	28272		T	1599	0	0.0																	mut																	
+Mixture33	2023-05-05	28272		-	1599	7	0.004377736085053158	extra																																	
+Mixture33	2023-05-05	28280	N	C	1599	4	0.0025015634771732333		mut																																
+Mixture33	2023-05-05	28281	N	T	1599	3	0.001876172607879925		mut																																
+Mixture33	2023-05-05	28282	N	A	1599	0	0.0		mut																																
+Mixture33	2023-05-05	28447	N	G	800	4	0.005				mut																														
+Mixture33	2023-05-05	28461	N	G	800	8	0.01																												mut						
+Mixture33	2023-05-05	28472	N	T	800	10	0.0125																								mut										
+Mixture33	2023-05-05	28512	N	G	800	4	0.005																																mut		
+Mixture33	2023-05-05	28628	N	T	800	1	0.00125													mut																					
+Mixture33	2023-05-05	28699	N	G	1599	13	0.008130081300813009																							mut											
+Mixture33	2023-05-05	28724	N	T	1591	11	0.0069138906348208675																						mut												
+Mixture33	2023-05-05	28791	N	T	800	4	0.005					mut																													
+Mixture33	2023-05-05	28878	N	A	800	5	0.00625																					mut													
+Mixture33	2023-05-05	28881	N	T	800	2	0.0025										mut														mut				mut						
+Mixture33	2023-05-05	28887	N	T	800	2	0.0025						mut																					mut							
+Mixture33	2023-05-05	28896	N	-	800	7	0.00875																										extra								
+Mixture33	2023-05-05	28897	N	-	800	13	0.01625																										extra								
+Mixture33	2023-05-05	28898	N	-	800	8	0.01																										extra								
+Mixture33	2023-05-05	28913	N	T	800	4	0.005																														mut				
+Mixture33	2023-05-05	28958	N	A	800	4	0.005																		mut																
+Mixture33	2023-05-05	28975	N	T	800	0	0.0													mut																					
+Mixture33	2023-05-05	29311	N	T	1600	9	0.005625																													mut	mut				
+Mixture33	2023-05-05	29386	N	T	1600	9	0.005625				mut																														
+Mixture33	2023-05-05	29402	N	T	1600	4	0.0025																								mut										
+Mixture33	2023-05-05	29465	N	A	1600	26	0.01625					mut																													
+Mixture33	2023-05-05	29540		A	1598	39	0.024405506883604506																									mut									
+Mixture33	2023-05-05	29543		T	1598	3	0.0018773466833541927																							mut											
+Mixture33	2023-05-05	29625	ORF10	T	800	6	0.0075																															mut			
+Mixture33	2023-05-05	29645	ORF10	T	800	4	0.005																									mut									

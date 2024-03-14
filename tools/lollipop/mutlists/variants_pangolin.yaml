@@ -1,0 +1,88 @@
+variants_pangolin:
+  dama: AV.1
+  deda: B.1.1.7
+  lefi: BA.4.6
+  hahy: XBB.1.16
+  # uncr: B.1.1.7 # Found in Bristol. I think deda is the more common B.1.1.7
+  kele: B.1.621
+  dibu: BA.5
+  gata: CH.1.1
+  pere: BA.1
+  hapa: B.1.617.1
+  imvi: BA.2
+  moun: BQ.1
+  mado: P.2
+  edta: XBB
+  cuoa: AY.4.2
+  paim: BA.2.75
+  coha: B.1.623
+  pode: BA.2.86
+  oure: XE
+  pafo: C.36.3
+  chst: A.23.1
+  radi: BA.4
+  glsa: B.1.525
+  sptr: B.1.617.3
+  umem: XD
+  anth: B.1.1.318
+  cash: B.1.351
+  emse: B.1.617.2
+  stca: BA.3
+  pesp: C.37
+  wisu: EG.5.1
+  slan: P.1
+  vesw: XBB.1.5
+  muan: P.3
+
+no_date: True
+start_date: '2023-05-01'
+end_date: '2023-08-01'
+
+to_drop:
+ - subset
+ - revert
+# - shared
+
+locations_list:
+ - Mixture01
+ - Mixture02
+ - Mixture03
+ - Mixture04
+ - Mixture05
+ - Mixture06
+ - Mixture07
+ - Mixture08
+ - Mixture09
+ - Mixture10
+ - Mixture11
+ - Mixture12
+ - Mixture13
+ - Mixture14
+ - Mixture15
+ - Mixture16
+ - Mixture17
+ - Mixture18
+ - Mixture19
+ - Mixture20
+ - Mixture21
+ - Mixture22
+ - Mixture23
+ - Mixture24
+ - Mixture25
+ - Mixture26
+ - Mixture27
+ - Mixture28
+ - Mixture29
+ - Mixture30
+ - Mixture31
+ - Mixture32
+ - Mixture33
+ - Mixture34
+ - Mixture35
+ - Mixture36
+ - Mixture37
+ - Mixture38
+ - Mixture39
+ - Mixture40
+ - Mixture41
+ - Mixture42

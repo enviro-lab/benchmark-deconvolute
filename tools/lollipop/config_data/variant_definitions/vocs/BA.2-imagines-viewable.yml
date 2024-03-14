@@ -1,0 +1,17 @@
+variant:
+  voc: VOC-22JAN-01
+  pheuid: imagines-viewable
+  short: imvi
+  pangolin: BA.2
+source:
+- https://github.com/cov-lineages/pango-designation/issues/361
+- https://github.com/cov-lineages/pango-designation/issues/359
+threshold: 3
+mut:
+  # ORF1ab
+  2790: 'C>T' # nsp3:T24I
+  9866: 'C>T' # nsp4:L438F
+  # S
+  23040: 'A>G' # surface glycoprotein:Q493R
+  # ORF6
+  27382: 'GAT>CTC' # ORF6 protein:D61L

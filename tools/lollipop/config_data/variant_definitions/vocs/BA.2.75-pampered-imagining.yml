@@ -1,0 +1,22 @@
+variant:
+  voc: V-22JUL-01
+  pheuid: pampered-imagining
+  short: paim
+  pangolin: BA.2.75
+source:
+- https://github.com/cov-lineages/pango-designation/issues/773
+threshold: 4
+mut:
+  # ORF1ab
+  3796: 'C>T' # syn nsp3
+  3927: 'C>T' # nsp3:S403L
+  4586: 'C>T' # syn nsp3
+  5183: 'C>T' # nsp3:P822S
+  12444: 'A>G' # nsp8:N118S
+  # S
+  22190: 'A>G' # surface glycoprotein:I210V
+  22331: 'G>A' # surface glycoprotein:G257S
+  22577: 'GGT>CAT' # surface glycoprotein:G339H
+  22942: 'T>G' # surface glycoprotein:N460K
+  # E
+  26275: 'A>G' # envelope protein:T11A

@@ -1,0 +1,15 @@
+variant:
+  voc: V-23JAN-01
+  pheuid: vertical-sworn
+  short: vesw
+  pangolin: XBB.1.5
+source:
+- https://github.com/cov-lineages/pango-designation/issues/1459
+threshold: 2
+mut:
+  # ORF1ab
+  17124: 'T>C' # syn nsp13
+  # S
+  23018: 'TTT>CCN' # surface glycoprotein:F486P
+  # ORF8
+  27915: 'G>T' # ORF8 protein:G8*

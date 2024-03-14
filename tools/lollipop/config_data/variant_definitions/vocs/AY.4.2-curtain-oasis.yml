@@ -1,0 +1,14 @@
+variant:
+  voc: V-21OCT-01
+  pheuid: curtain-oasis
+  short: cuoa
+  pangolin: AY.4.2
+source:
+- https://github.com/cov-lineages/pango-designation/issues/223
+threshold: 2
+mut:
+  # ORF1ab
+  7851: 'C>T' # nsp3:A1711V
+  # S
+  22227: 'C>T' # surface glycoprotein:A222V
+  21995: 'T>C' # surface glycoprotein:Y145H

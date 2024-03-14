@@ -1,0 +1,24 @@
+variant:
+  voc: V-21MAR-01
+  pheuid: cornstalk-handprint
+  short: coha
+  pangolin: B.1.623
+source:
+- https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/968581/Variants_of_Concern_VOC_Technical_Briefing_7_England.pdf
+- https://github.com/cov-lineages/pango-designation/issues/25
+threshold: 8
+mut:
+  # ORF1ab
+  2945: 'G>A' # nsp3:G76S
+  8704: 'T>C' # syn nsp4
+  8986: 'C>T' # syn nsp4
+  13617: 'G>A' # syn nsp12
+  16852: 'G>T' # nsp13:G206C
+  # S
+  22388: 'C>T' # syn surface glycoprotein
+  23012: 'G>A' # surface glycoprotein:E484K
+  # .
+  28272: 'A>T' # syn .
+extra:
+  # ORF8
+  27923: '----------------------------------'

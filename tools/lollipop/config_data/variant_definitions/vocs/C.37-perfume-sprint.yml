@@ -1,0 +1,26 @@
+variant:
+  voc: V-21JUN-01
+  pheuid: perfume-sprint
+  short: pesp
+  pangolin: C.37
+source:
+- https://github.com/cov-lineages/pango-designation/issues/52
+threshold: 5
+mut:
+  # ORF1ab
+  7424: 'T>G' # nsp3:F1569V
+  9857: 'C>T' # syn nsp4
+  9867: 'T>C' # nsp4:L438P
+  10029: 'C>T' # nsp4:T492I
+  # S
+  22917: 'T>A' # surface glycoprotein:L452Q
+  23031: 'T>C' # surface glycoprotein:F490S
+  24138: 'C>A' # surface glycoprotein:T859N
+  # N
+  28913: 'G>T' # nucleocapsid phosphoprotein:G214C
+  29311: 'C>T' # syn nucleocapsid phosphoprotein
+extra:
+  # ORF1ab
+  11288: '---------'
+  # S
+  22299: '---------------------'

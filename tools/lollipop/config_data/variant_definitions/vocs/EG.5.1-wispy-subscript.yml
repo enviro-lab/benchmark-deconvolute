@@ -1,0 +1,17 @@
+variant:
+  voc: V-23JUL-01
+  pheuid: wispy-subscript
+  short: wisu
+  pangolin: EG.5.1
+source:
+- ''
+threshold: 3
+mut:
+  # ORF1ab
+  2334: 'C>T' # nsp2:A510V
+  18492: 'A>G' # syn nsp14
+  # S
+  21718: 'G>T' # surface glycoprotein:Q52H
+  22930: 'T>A' # surface glycoprotein:F456L
+  # ORF10
+  29625: 'C>T' # ORF10 protein:S23F

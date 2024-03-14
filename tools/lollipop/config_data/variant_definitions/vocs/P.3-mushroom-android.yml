@@ -1,0 +1,34 @@
+variant:
+  voc: V-21MAR-02
+  pheuid: mushroom-android
+  short: muan
+  pangolin: P.3
+source:
+- https://github.com/cov-lineages/pango-designation/issues/27
+- https://www.medrxiv.org/content/10.1101/2021.03.03.21252812v2
+threshold: 7
+mut:
+  # ORF1ab
+  4926: 'A>G' # nsp3:D736G
+  9867: 'T>C' # nsp4:L438P
+  11308: 'C>A' # nsp6:D112E
+  12053: 'C>T' # nsp7:L71F
+  17339: 'C>T' # nsp13:A368V
+  # S
+  23012: 'G>A' # surface glycoprotein:E484K
+  23063: 'A>T' # surface glycoprotein:N501Y
+  23604: 'C>A' # surface glycoprotein:P681H
+  24836: 'G>A' # surface glycoprotein:E1092K
+  24863: 'C>T' # surface glycoprotein:H1101Y
+  25088: 'G>T' # surface glycoprotein:V1176F
+  # ORF8
+  27897: 'A>C' # ORF8:K2Q
+  # ORF1ab
+  7564: 'C>A' # syn nsp3
+  12049: 'C>T' # syn nsp7
+  # S
+  23341: 'T>C' # syn surface glycoprotein
+  24187: 'T>A' # syn surface glycoprotein
+extra:
+  # S
+  21981: '---------'

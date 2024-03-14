@@ -1,0 +1,21 @@
+variant:
+  voc: V-23AUG-01
+  pheuid: poppy-deed
+  short: pode
+  pangolin: BA.2.86
+source:
+- https://github.com/cov-lineages/pango-designation/issues/2183
+- https://github.com/sars-cov-2-variants/lineage-proposals/issues/606
+threshold: 3
+mut:
+  # ORF1ab
+  897: 'C>A' # nsp2:A31D
+  7842: 'A>G' # nsp3:N1708S
+  15756: 'T>A' # syn nsp12
+  # S
+  22556: 'A>G' # surface glycoprotein:I332V
+  22895: 'GTT>CAT' # surface glycoprotein:V445H
+  # M
+  26529: 'G>C' # membrane glycoprotein:D3H
+  # N
+  28958: 'C>A' # nucleocapsid phosphoprotein:Q229K

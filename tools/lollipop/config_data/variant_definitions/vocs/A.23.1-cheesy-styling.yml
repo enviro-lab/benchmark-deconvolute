@@ -1,0 +1,26 @@
+variant:
+  voc: V-21FEB-01
+  pheuid: cheesy-styling
+  short: chst
+  pangolin: A.23.1
+source:
+- ''
+threshold: 5
+mut:
+  # ORF1ab
+  4940: 'C>T' # nsp3:L741F
+  11230: 'G>T' # nsp6:M86I
+  11266: 'G>T' # nsp6:L98F
+  11521: 'G>T' # nsp6:M183I
+  # S
+  21867: 'G>T' # surface glycoprotein:R102I
+  22033: 'C>A' # surface glycoprotein:F157L
+  22661: 'G>T' # surface glycoprotein:V367F
+  23012: 'G>A' # surface glycoprotein:E484K
+  23401: 'G>T' # surface glycoprotein:Q613H
+  23604: 'C>G' # surface glycoprotein:P681R
+  # ORF8
+  28144: 'T>C' # ORF8 protein:L84S
+  28167: 'G>A' # ORF8 protein:E92K
+  # N
+  28878: 'G>A' # nucleocapsid phosphoprotein:S202N

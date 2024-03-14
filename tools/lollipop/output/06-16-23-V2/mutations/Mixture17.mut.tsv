@@ -1,0 +1,382 @@
+sample	location	date	pos	gene	base	cov	var	frac	dama	deda	lefi	hahy	uncr	kele	dibu	gata	pere	hapa	imvi	moun	mado	edta	cuoa	paim	coha	pode	oure	pafo	chst	radi	glsa	sptr	umem	anth	cash	emse	stca	pesp	wisu	slan	vesw	muan
+Mixture17	Mixture17	2023-06-16	405	ORF1ab	G	1	0	0.0														mut																				
+Mixture17	Mixture17	2023-06-16	733	ORF1ab	C	800	4	0.005																																mut		
+Mixture17	Mixture17	2023-06-16	772	ORF1ab	C	800	6	0.0075	mut																																	
+Mixture17	Mixture17	2023-06-16	832	ORF1ab	T	800	10	0.0125																													mut					
+Mixture17	Mixture17	2023-06-16	835	ORF1ab	T	800	1	0.00125																								mut										
+Mixture17	Mixture17	2023-06-16	897	ORF1ab	A	1596	2	0.0012531328320802004																		mut																
+Mixture17	Mixture17	2023-06-16	1059	ORF1ab	T	800	770	0.9625																											mut							
+Mixture17	Mixture17	2023-06-16	1321	ORF1ab	C	1600	2	0.00125																									mut									
+Mixture17	Mixture17	2023-06-16	1498	ORF1ab	T	800	8	0.01																							mut											
+Mixture17	Mixture17	2023-06-16	1807	ORF1ab	G	1576	13	0.008248730964467006																							mut											
+Mixture17	Mixture17	2023-06-16	1820	ORF1ab	A	1550	39	0.025161290322580646	mut																																	
+Mixture17	Mixture17	2023-06-16	2037	ORF1ab	T	800	12	0.015	mut																																	
+Mixture17	Mixture17	2023-06-16	2334	ORF1ab	T	800	7	0.00875																															mut			
+Mixture17	Mixture17	2023-06-16	2749	ORF1ab	T	800	6	0.0075																																mut		
+Mixture17	Mixture17	2023-06-16	2790	ORF1ab	T	800	5	0.00625											mut																							
+Mixture17	Mixture17	2023-06-16	2832	ORF1ab	G	800	3	0.00375									mut										mut															
+Mixture17	Mixture17	2023-06-16	2945	ORF1ab	A	800	3	0.00375																	mut																	
+Mixture17	Mixture17	2023-06-16	3241	ORF1ab	T	800	6	0.0075																			mut															
+Mixture17	Mixture17	2023-06-16	3267	ORF1ab	T	800	7	0.00875		mut																																
+Mixture17	Mixture17	2023-06-16	3428	ORF1ab	G	812	14	0.017241379310344827						mut																												
+Mixture17	Mixture17	2023-06-16	3457	ORF1ab	T	807	2	0.0024783147459727386										mut																								
+Mixture17	Mixture17	2023-06-16	3743	ORF1ab	T	13	0	0.0	mut																																	
+Mixture17	Mixture17	2023-06-16	3796	ORF1ab	T	812	8	0.009852216748768473																mut																		
+Mixture17	Mixture17	2023-06-16	3828	ORF1ab	T	812	5	0.006157635467980296																																mut		
+Mixture17	Mixture17	2023-06-16	3857	ORF1ab	A	808	5	0.006188118811881188								mut																										
+Mixture17	Mixture17	2023-06-16	3927	ORF1ab	T	800	2	0.0025																mut																		
+Mixture17	Mixture17	2023-06-16	3961	ORF1ab	T	800	3	0.00375																										mut								
+Mixture17	Mixture17	2023-06-16	4586	ORF1ab	T	799	5	0.006257822277847309																mut																		
+Mixture17	Mixture17	2023-06-16	4878	ORF1ab	T	0	0							mut																												
+Mixture17	Mixture17	2023-06-16	4926	ORF1ab	G	0	0																																			mut
+Mixture17	Mixture17	2023-06-16	4940	ORF1ab	T	0	0																						mut													
+Mixture17	Mixture17	2023-06-16	4965	ORF1ab	T	0	0											mut																								
+Mixture17	Mixture17	2023-06-16	5183	ORF1ab	T	2	0	0.0																mut																		
+Mixture17	Mixture17	2023-06-16	5184	ORF1ab	T	2	0	0.0	mut																																	
+Mixture17	Mixture17	2023-06-16	5230	ORF1ab	T	2	0	0.0																											mut							
+Mixture17	Mixture17	2023-06-16	5388	ORF1ab	A	802	5	0.006234413965087282		mut																																
+Mixture17	Mixture17	2023-06-16	5648	ORF1ab	C	800	1	0.00125																																mut		
+Mixture17	Mixture17	2023-06-16	5924	ORF1ab	A	1561	8	0.005124919923126201																			mut															
+Mixture17	Mixture17	2023-06-16	6037	ORF1ab	T	800	14	0.0175						mut																												
+Mixture17	Mixture17	2023-06-16	6954	ORF1ab	C	800	4	0.005		mut																																
+Mixture17	Mixture17	2023-06-16	7296	ORF1ab	T	800	16	0.02																								mut										
+Mixture17	Mixture17	2023-06-16	7424	ORF1ab	G	800	2	0.0025																														mut				
+Mixture17	Mixture17	2023-06-16	7479	ORF1ab	G	1597	8	0.005009392611145898	mut																																	
+Mixture17	Mixture17	2023-06-16	7564	ORF1ab	A	800	4	0.005																																		mut
+Mixture17	Mixture17	2023-06-16	7798	ORF1ab	T	800	0	0.0																										mut								
+Mixture17	Mixture17	2023-06-16	7842	ORF1ab	G	800	16	0.02																		mut																
+Mixture17	Mixture17	2023-06-16	7843	ORF1ab	T	800	13	0.01625					mut																													
+Mixture17	Mixture17	2023-06-16	7851	ORF1ab	T	800	5	0.00625															mut																			
+Mixture17	Mixture17	2023-06-16	8140	ORF1ab	T	800	4	0.005			mut																															
+Mixture17	Mixture17	2023-06-16	8208	ORF1ab	T	800	3	0.00375																								mut										
+Mixture17	Mixture17	2023-06-16	8393	ORF1ab	A	800	12	0.015									mut										mut															
+Mixture17	Mixture17	2023-06-16	8593	ORF1ab	C	800	5	0.00625																							mut											
+Mixture17	Mixture17	2023-06-16	8704	ORF1ab	C	800	1	0.00125																	mut																	
+Mixture17	Mixture17	2023-06-16	8723	ORF1ab	G	1599	7	0.004377736085053158																									mut									
+Mixture17	Mixture17	2023-06-16	8986	ORF1ab	T	800	11	0.01375																	mut																	
+Mixture17	Mixture17	2023-06-16	9072	ORF1ab	T	800	5	0.00625																										mut								
+Mixture17	Mixture17	2023-06-16	9203	ORF1ab	A	1554	6	0.003861003861003861																				mut														
+Mixture17	Mixture17	2023-06-16	9565	ORF1ab	T	800	3	0.00375																							mut											
+Mixture17	Mixture17	2023-06-16	9857	ORF1ab	T	0	0																															mut				
+Mixture17	Mixture17	2023-06-16	9866	ORF1ab	T	0	0												mut																							
+Mixture17	Mixture17	2023-06-16	9867	ORF1ab	C	0	0																															mut				mut
+Mixture17	Mixture17	2023-06-16	9891	ORF1ab	T	0	0		mut																									mut								
+Mixture17	Mixture17	2023-06-16	10029	ORF1ab	T	0	0																															mut				
+Mixture17	Mixture17	2023-06-16	10323	ORF1ab	G	800	8	0.01																											mut							
+Mixture17	Mixture17	2023-06-16	10634	ORF1ab	T	800	3	0.00375																								mut										
+Mixture17	Mixture17	2023-06-16	10667	ORF1ab	G	799	1	0.0012515644555694619													mut																					
+Mixture17	Mixture17	2023-06-16	11201	ORF1ab	G	1592	9	0.005653266331658292										mut																								
+Mixture17	Mixture17	2023-06-16	11230	ORF1ab	T	1590	3	0.0018867924528301887																					mut													
+Mixture17	Mixture17	2023-06-16	11235	ORF1ab	T	1589	22	0.013845185651353053																													mut					
+Mixture17	Mixture17	2023-06-16	11266	ORF1ab	T	800	1	0.00125																					mut													
+Mixture17	Mixture17	2023-06-16	11288	ORF1ab	-	800	779	0.97375	extra																									extra	extra			extra		extra		
+Mixture17	Mixture17	2023-06-16	11289	ORF1ab	-	800	762	0.9525	extra																									extra	extra			extra		extra		
+Mixture17	Mixture17	2023-06-16	11290	ORF1ab	-	800	722	0.9025	extra																									extra	extra			extra		extra		
+Mixture17	Mixture17	2023-06-16	11291	ORF1ab	-	800	723	0.90375	extra																									extra	extra			extra		extra		
+Mixture17	Mixture17	2023-06-16	11292	ORF1ab	-	800	735	0.91875	extra																									extra	extra			extra		extra		
+Mixture17	Mixture17	2023-06-16	11293	ORF1ab	-	800	760	0.95	extra																									extra	extra			extra		extra		
+Mixture17	Mixture17	2023-06-16	11294	ORF1ab	-	800	753	0.94125	extra																									extra	extra			extra		extra		
+Mixture17	Mixture17	2023-06-16	11295	ORF1ab	-	800	754	0.9425	extra																									extra	extra			extra		extra		
+Mixture17	Mixture17	2023-06-16	11296	ORF1ab	-	800	757	0.94625	extra																									extra	extra			extra		extra		
+Mixture17	Mixture17	2023-06-16	11308	ORF1ab	A	800	0	0.0																																		mut
+Mixture17	Mixture17	2023-06-16	11322	ORF1ab	T	800	6	0.0075																								mut										
+Mixture17	Mixture17	2023-06-16	11325	ORF1ab	T	800	6	0.0075																				mut														
+Mixture17	Mixture17	2023-06-16	11451	ORF1ab	G	1600	2	0.00125						mut																												
+Mixture17	Mixture17	2023-06-16	11503	ORF1ab	C	1600	2	0.00125	mut																																	
+Mixture17	Mixture17	2023-06-16	11521	ORF1ab	T	1600	9	0.005625																					mut													
+Mixture17	Mixture17	2023-06-16	11537	ORF1ab	G	1600	10	0.00625									mut																									
+Mixture17	Mixture17	2023-06-16	11750	ORF1ab	T	800	8	0.01				mut																														
+Mixture17	Mixture17	2023-06-16	11824	ORF1ab	T	800	1	0.00125													mut																					
+Mixture17	Mixture17	2023-06-16	12049	ORF1ab	T	800	14	0.0175																																		mut
+Mixture17	Mixture17	2023-06-16	12053	ORF1ab	T	800	9	0.01125																																		mut
+Mixture17	Mixture17	2023-06-16	12160	ORF1ab	A	799	5	0.006257822277847309							mut															mut												
+Mixture17	Mixture17	2023-06-16	12444	ORF1ab	G	800	3	0.00375																mut																		
+Mixture17	Mixture17	2023-06-16	12730	ORF1ab	A	1567	17	0.010848755583918315				mut																														
+Mixture17	Mixture17	2023-06-16	12778	ORF1ab	T	800	12	0.015																																mut		
+Mixture17	Mixture17	2023-06-16	12964	ORF1ab	G	800	5	0.00625													mut																					
+Mixture17	Mixture17	2023-06-16	13057	ORF1ab	T	800	1	0.00125						mut																												
+Mixture17	Mixture17	2023-06-16	13195	ORF1ab	C	800	5	0.00625									mut																									
+Mixture17	Mixture17	2023-06-16	13617	ORF1ab	A	800	4	0.005																	mut																	
+Mixture17	Mixture17	2023-06-16	13860	ORF1ab	T	800	10	0.0125																																mut		
+Mixture17	Mixture17	2023-06-16	14257	ORF1ab	C	799	9	0.011264080100125156												mut																						
+Mixture17	Mixture17	2023-06-16	14407	ORF1ab	T	1518	20	0.013175230566534914																									mut									
+Mixture17	Mixture17	2023-06-16	14408	ORF1ab	T	1514	1369	0.9042272126816381																									mut									
+Mixture17	Mixture17	2023-06-16	14409	ORF1ab	T	1514	1477	0.97556142668428																									mut									
+Mixture17	Mixture17	2023-06-16	14599	ORF1ab	T	800	10	0.0125			mut																mut															
+Mixture17	Mixture17	2023-06-16	14740	ORF1ab	G	799	0	0.0	mut																																	
+Mixture17	Mixture17	2023-06-16	15240	ORF1ab	T	800	13	0.01625									mut																									
+Mixture17	Mixture17	2023-06-16	15756	ORF1ab	A	800	0	0.0																		mut																
+Mixture17	Mixture17	2023-06-16	16293	ORF1ab	T	800	12	0.015																								mut										
+Mixture17	Mixture17	2023-06-16	16549	ORF1ab	T	800	1	0.00125																				mut														
+Mixture17	Mixture17	2023-06-16	16852	ORF1ab	T	800	1	0.00125																	mut																	
+Mixture17	Mixture17	2023-06-16	17124	ORF1ab	C	1593	4	0.0025109855618330196																																	mut	
+Mixture17	Mixture17	2023-06-16	17339	ORF1ab	T	800	7	0.00875																																		mut
+Mixture17	Mixture17	2023-06-16	17523	ORF1ab	T	1505	1	0.000664451827242525										mut																								
+Mixture17	Mixture17	2023-06-16	17859	ORF1ab	C	800	2	0.0025														mut																				
+Mixture17	Mixture17	2023-06-16	18171	ORF1ab	T	800	27	0.03375																							mut											
+Mixture17	Mixture17	2023-06-16	18395	ORF1ab	T	1548	29	0.018733850129198967	mut																																	
+Mixture17	Mixture17	2023-06-16	18492	ORF1ab	G	800	7	0.00875																															mut			
+Mixture17	Mixture17	2023-06-16	18583	ORF1ab	A	800	12	0.015								mut																										
+Mixture17	Mixture17	2023-06-16	18703	ORF1ab	T	800	6	0.0075				mut																														
+Mixture17	Mixture17	2023-06-16	19326	ORF1ab	G	800	3	0.00375														mut																				
+Mixture17	Mixture17	2023-06-16	20148	ORF1ab	T	1	0	0.0						mut																												
+Mixture17	Mixture17	2023-06-16	20396	ORF1ab	G	801	12	0.0149812734082397										mut																								
+Mixture17	Mixture17	2023-06-16	20578	ORF1ab	A	800	6	0.0075																										mut								
+Mixture17	Mixture17	2023-06-16	20724	ORF1ab	G	800	9	0.01125																							mut											
+Mixture17	Mixture17	2023-06-16	20741	ORF1ab	G	800	2	0.0025								mut																										
+Mixture17	Mixture17	2023-06-16	21597	S	T	1596	8	0.005012531328320802																				mut														
+Mixture17	Mixture17	2023-06-16	21618	S	G	1595	2	0.0012539184952978057																								mut				mut						
+Mixture17	Mixture17	2023-06-16	21621	S	A	1594	9	0.0056461731493099125																																mut		
+Mixture17	Mixture17	2023-06-16	21638	S	T	1594	27	0.016938519447929738																																mut		
+Mixture17	Mixture17	2023-06-16	21641	S	T	1594	9	0.0056461731493099125																									mut									
+Mixture17	Mixture17	2023-06-16	21717	S	G	1583	22	0.013897662665824383																							mut											
+Mixture17	Mixture17	2023-06-16	21718	S	T	1583	7	0.004421983575489577																															mut			
+Mixture17	Mixture17	2023-06-16	21762	S	T	800	2	0.0025																													mut					
+Mixture17	Mixture17	2023-06-16	21765	S	-	800	17	0.02125		extra																		extra														
+Mixture17	Mixture17	2023-06-16	21766	S	-	800	25	0.03125		extra																		extra														
+Mixture17	Mixture17	2023-06-16	21767	S	-	800	22	0.0275		extra																		extra														
+Mixture17	Mixture17	2023-06-16	21768	S	-	800	11	0.01375		extra																		extra														
+Mixture17	Mixture17	2023-06-16	21769	S	-	800	13	0.01625		extra																		extra														
+Mixture17	Mixture17	2023-06-16	21770	S	-	800	13	0.01625		extra																		extra														
+Mixture17	Mixture17	2023-06-16	21801	S	C	800	0	0.0																											mut							
+Mixture17	Mixture17	2023-06-16	21801	S	G	800	1	0.00125	mut																																	
+Mixture17	Mixture17	2023-06-16	21810	S	C	800	1	0.00125														mut																				
+Mixture17	Mixture17	2023-06-16	21846	S	T	800	761	0.95125	mut					mut																				mut								
+Mixture17	Mixture17	2023-06-16	21867	S	T	800	1	0.00125																					mut													
+Mixture17	Mixture17	2023-06-16	21981	S	-	1599	21	0.013133208255159476																																		extra
+Mixture17	Mixture17	2023-06-16	21982	S	-	1599	8	0.0050031269543464665																																		extra
+Mixture17	Mixture17	2023-06-16	21983	S	-	1599	8	0.0050031269543464665																																		extra
+Mixture17	Mixture17	2023-06-16	21984	S	-	1599	16	0.010006253908692933																																		extra
+Mixture17	Mixture17	2023-06-16	21985	S	-	1599	65	0.04065040650406504																																		extra
+Mixture17	Mixture17	2023-06-16	21986	S	-	1599	13	0.008130081300813009																																		extra
+Mixture17	Mixture17	2023-06-16	21987	S	A	1599	22	0.013758599124452783	mut																																	
+Mixture17	Mixture17	2023-06-16	21987	S	-	1599	6	0.00375234521575985																																		extra
+Mixture17	Mixture17	2023-06-16	21988	S	-	1599	6	0.00375234521575985																																		extra
+Mixture17	Mixture17	2023-06-16	21989	S	-	1599	5	0.0031269543464665416																																		extra
+Mixture17	Mixture17	2023-06-16	21991	S	-	1599	15	0.009380863039399626	extra	extra																								extra								
+Mixture17	Mixture17	2023-06-16	21992	S	-	1599	18	0.01125703564727955	extra	extra																								extra								
+Mixture17	Mixture17	2023-06-16	21993	S	-	1599	21	0.013133208255159476	extra	extra																								extra								
+Mixture17	Mixture17	2023-06-16	21995	S	C	1599	10	0.006253908692933083															mut																			
+Mixture17	Mixture17	2023-06-16	22016	S	A	1595	0	0.0																				mut														
+Mixture17	Mixture17	2023-06-16	22033	S	A	1584	4	0.0025252525252525255																					mut													
+Mixture17	Mixture17	2023-06-16	22101	S	T	800	1	0.00125				mut																														
+Mixture17	Mixture17	2023-06-16	22190	S	G	800	9	0.01125																mut																		
+Mixture17	Mixture17	2023-06-16	22200	S	A	800	3	0.00375														mut																				
+Mixture17	Mixture17	2023-06-16	22200	S	G	800	1	0.00125																			mut															
+Mixture17	Mixture17	2023-06-16	22206	S	G	800	6	0.0075																											mut							
+Mixture17	Mixture17	2023-06-16	22227	S	T	800	11	0.01375															mut																			
+Mixture17	Mixture17	2023-06-16	22281	S	-	800	7	0.00875																											extra							
+Mixture17	Mixture17	2023-06-16	22282	S	-	800	43	0.05375																											extra							
+Mixture17	Mixture17	2023-06-16	22283	S	-	800	22	0.0275																											extra							
+Mixture17	Mixture17	2023-06-16	22284	S	-	800	19	0.02375																											extra							
+Mixture17	Mixture17	2023-06-16	22285	S	-	800	18	0.0225																											extra							
+Mixture17	Mixture17	2023-06-16	22286	S	-	800	22	0.0275																											extra							
+Mixture17	Mixture17	2023-06-16	22287	S	-	800	26	0.0325																											extra							
+Mixture17	Mixture17	2023-06-16	22288	S	-	800	14	0.0175																											extra							
+Mixture17	Mixture17	2023-06-16	22289	S	-	800	20	0.025																											extra							
+Mixture17	Mixture17	2023-06-16	22299	S	-	800	35	0.04375																														extra				
+Mixture17	Mixture17	2023-06-16	22300	S	-	800	24	0.03																														extra				
+Mixture17	Mixture17	2023-06-16	22301	S	-	800	5	0.00625																														extra				
+Mixture17	Mixture17	2023-06-16	22302	S	-	800	12	0.015																														extra				
+Mixture17	Mixture17	2023-06-16	22303	S	-	800	13	0.01625																														extra				
+Mixture17	Mixture17	2023-06-16	22304	S	-	800	10	0.0125																														extra				
+Mixture17	Mixture17	2023-06-16	22305	S	-	800	24	0.03																														extra				
+Mixture17	Mixture17	2023-06-16	22306	S	-	800	13	0.01625																														extra				
+Mixture17	Mixture17	2023-06-16	22307	S	-	800	6	0.0075																														extra				
+Mixture17	Mixture17	2023-06-16	22308	S	-	800	5	0.00625																														extra				
+Mixture17	Mixture17	2023-06-16	22309	S	-	800	6	0.0075																														extra				
+Mixture17	Mixture17	2023-06-16	22310	S	-	800	8	0.01																														extra				
+Mixture17	Mixture17	2023-06-16	22311	S	-	800	13	0.01625																														extra				
+Mixture17	Mixture17	2023-06-16	22312	S	-	800	16	0.02																														extra				
+Mixture17	Mixture17	2023-06-16	22313	S	-	800	77	0.09625																														extra				
+Mixture17	Mixture17	2023-06-16	22314	S	-	800	7	0.00875																														extra				
+Mixture17	Mixture17	2023-06-16	22315	S	-	800	7	0.00875																														extra				
+Mixture17	Mixture17	2023-06-16	22316	S	-	800	7	0.00875																														extra				
+Mixture17	Mixture17	2023-06-16	22317	S	-	800	1	0.00125																														extra				
+Mixture17	Mixture17	2023-06-16	22318	S	-	800	5	0.00625																														extra				
+Mixture17	Mixture17	2023-06-16	22319	S	-	800	4	0.005																														extra				
+Mixture17	Mixture17	2023-06-16	22331	S	A	800	11	0.01375																mut																		
+Mixture17	Mixture17	2023-06-16	22388	S	T	1600	12	0.0075																	mut																	
+Mixture17	Mixture17	2023-06-16	22556	S	G	800	6	0.0075																		mut																
+Mixture17	Mixture17	2023-06-16	22577	S	C	800	2	0.0025																mut																		
+Mixture17	Mixture17	2023-06-16	22578	S	A	800	8	0.01																mut																		
+Mixture17	Mixture17	2023-06-16	22579	S	T	800	781	0.97625																mut																		
+Mixture17	Mixture17	2023-06-16	22599	S	A	800	3	0.00375						mut																												
+Mixture17	Mixture17	2023-06-16	22599	S	C	800	1	0.00125			mut																															
+Mixture17	Mixture17	2023-06-16	22600	S	C	800	0	0.0																				mut														
+Mixture17	Mixture17	2023-06-16	22661	S	T	800	2	0.0025																					mut													
+Mixture17	Mixture17	2023-06-16	22687	S	T	800	2	0.0025	mut																																	
+Mixture17	Mixture17	2023-06-16	22775	S	A	800	7	0.00875																			mut										mut					
+Mixture17	Mixture17	2023-06-16	22812	S	C	1599	2	0.0012507817385866166																																mut		
+Mixture17	Mixture17	2023-06-16	22879	S	G	800	2	0.0025	mut																																	
+Mixture17	Mixture17	2023-06-16	22893	S	C	800	2	0.0025								mut				mut																						
+Mixture17	Mixture17	2023-06-16	22895	S	C	800	1	0.00125																		mut																
+Mixture17	Mixture17	2023-06-16	22896	S	A	800	1	0.00125																		mut																
+Mixture17	Mixture17	2023-06-16	22897	S	T	800	788	0.985																		mut																
+Mixture17	Mixture17	2023-06-16	22917	S	A	800	6	0.0075																														mut				
+Mixture17	Mixture17	2023-06-16	22917	S	G	800	1	0.00125								mut		mut										mut				mut										
+Mixture17	Mixture17	2023-06-16	22930	S	A	800	1	0.00125																															mut			
+Mixture17	Mixture17	2023-06-16	22942	S	A	800	1	0.00125												mut																						
+Mixture17	Mixture17	2023-06-16	22942	S	G	800	0	0.0														mut		mut																		
+Mixture17	Mixture17	2023-06-16	22995	S	A	800	4	0.005																												mut						
+Mixture17	Mixture17	2023-06-16	22995	S	G	800	0	0.0				mut																														
+Mixture17	Mixture17	2023-06-16	23012	S	A	800	724	0.905	mut				mut	mut							mut				mut				mut		mut			mut	mut					mut		mut
+Mixture17	Mixture17	2023-06-16	23012	S	C	800	2	0.0025										mut														mut										
+Mixture17	Mixture17	2023-06-16	23018	S	G	800	1	0.00125							mut															mut												
+Mixture17	Mixture17	2023-06-16	23019	S	C	800	6	0.0075														mut																				
+Mixture17	Mixture17	2023-06-16	23031	S	C	800	1	0.00125														mut																mut				
+Mixture17	Mixture17	2023-06-16	23040	S	G	800	5	0.00625											mut																							
+Mixture17	Mixture17	2023-06-16	23048	S	A	800	10	0.0125																									mut									
+Mixture17	Mixture17	2023-06-16	23063	S	T	800	1	0.00125		mut																									mut					mut		mut
+Mixture17	Mixture17	2023-06-16	23202	S	A	1600	1	0.000625									mut																									
+Mixture17	Mixture17	2023-06-16	23271	S	A	1576	12	0.007614213197969543		mut																																
+Mixture17	Mixture17	2023-06-16	23287	S	C	1561	20	0.012812299807815503																										mut								
+Mixture17	Mixture17	2023-06-16	23341	S	C	800	11	0.01375																																		mut
+Mixture17	Mixture17	2023-06-16	23401	S	T	800	0	0.0																					mut													
+Mixture17	Mixture17	2023-06-16	23535	S	G	800	12	0.015			mut																															
+Mixture17	Mixture17	2023-06-16	23593	S	C	1596	2	0.0012531328320802004																							mut											
+Mixture17	Mixture17	2023-06-16	23593	S	T	1596	1	0.0006265664160401002																				mut														
+Mixture17	Mixture17	2023-06-16	23604	S	A	1596	4	0.002506265664160401	mut	mut				mut																				mut								mut
+Mixture17	Mixture17	2023-06-16	23604	S	G	1596	0	0.0										mut											mut			mut				mut						
+Mixture17	Mixture17	2023-06-16	23664	S	T	1520	1296	0.8526315789473684																											mut							
+Mixture17	Mixture17	2023-06-16	23709	S	T	800	14	0.0175		mut																																
+Mixture17	Mixture17	2023-06-16	23854	S	A	800	0	0.0																									mut									
+Mixture17	Mixture17	2023-06-16	23948	S	C	800	1	0.00125																										mut								
+Mixture17	Mixture17	2023-06-16	24130	S	A	800	0	0.0									mut																									
+Mixture17	Mixture17	2023-06-16	24138	S	A	800	3	0.00375																														mut				
+Mixture17	Mixture17	2023-06-16	24187	S	A	800	0	0.0																																		mut
+Mixture17	Mixture17	2023-06-16	24224	S	C	800	5	0.00625																							mut											
+Mixture17	Mixture17	2023-06-16	24257	S	T	800	3	0.00375																				mut														
+Mixture17	Mixture17	2023-06-16	24410	S	A	797	1	0.0012547051442910915																								mut										
+Mixture17	Mixture17	2023-06-16	24503	S	T	790	1	0.0012658227848101266									mut																mut									
+Mixture17	Mixture17	2023-06-16	24506	S	G	790	1	0.0012658227848101266		mut																																
+Mixture17	Mixture17	2023-06-16	24642	S	T	0	0																																	mut		
+Mixture17	Mixture17	2023-06-16	24748	S	T	0	0																								mut											
+Mixture17	Mixture17	2023-06-16	24836	S	A	0	0																																			mut
+Mixture17	Mixture17	2023-06-16	24863	S	T	0	0																																			mut
+Mixture17	Mixture17	2023-06-16	24914	S	C	0	0			mut																																
+Mixture17	Mixture17	2023-06-16	24950	S	G	0	0		mut																																	
+Mixture17	Mixture17	2023-06-16	24977	S	C	0	0		mut																																	
+Mixture17	Mixture17	2023-06-16	25088	S	T	0	0																																			mut
+Mixture17	Mixture17	2023-06-16	25276	S	A	800	2	0.0025																										mut								
+Mixture17	Mixture17	2023-06-16	25469	ORF3a	T	800	8	0.01										mut																		mut						
+Mixture17	Mixture17	2023-06-16	25563	ORF3a	T	1600	1472	0.92																											mut							
+Mixture17	Mixture17	2023-06-16	25667	ORF3a	T	1587	23	0.014492753623188406																									mut									
+Mixture17	Mixture17	2023-06-16	25855	ORF3a	T	800	3	0.00375																									mut									
+Mixture17	Mixture17	2023-06-16	25904	ORF3a	T	800	8	0.01																											mut							
+Mixture17	Mixture17	2023-06-16	26158	ORF3a	-	800	2	0.0025	extra					extra																												
+Mixture17	Mixture17	2023-06-16	26159	ORF3a	-	800	4	0.005	extra					extra																												
+Mixture17	Mixture17	2023-06-16	26160	ORF3a	-	800	2	0.0025	extra					extra																												
+Mixture17	Mixture17	2023-06-16	26161	ORF3a	-	800	7	0.00875	extra					extra																												
+Mixture17	Mixture17	2023-06-16	26275	E	G	800	6	0.0075														mut		mut																		
+Mixture17	Mixture17	2023-06-16	26305	E	T	800	12	0.015																							mut											
+Mixture17	Mixture17	2023-06-16	26456	E	T	1569	17	0.010834926704907584																											mut							
+Mixture17	Mixture17	2023-06-16	26492		T	1515	0	0.0						mut																												
+Mixture17	Mixture17	2023-06-16	26529	M	A	800	36	0.045							mut																											
+Mixture17	Mixture17	2023-06-16	26529	M	C	800	0	0.0																		mut																
+Mixture17	Mixture17	2023-06-16	26530	M	G	800	4	0.005									mut																									
+Mixture17	Mixture17	2023-06-16	26709	M	A	1600	147	0.091875	mut																																	
+Mixture17	Mixture17	2023-06-16	26767	M	C	1600	10	0.00625																				mut			mut			mut		mut						
+Mixture17	Mixture17	2023-06-16	27038	M	G	800	7	0.00875							mut																											
+Mixture17	Mixture17	2023-06-16	27092	M	T	800	8	0.01					mut																													
+Mixture17	Mixture17	2023-06-16	27297	ORF6	T	800	5	0.00625	mut																																	
+Mixture17	Mixture17	2023-06-16	27382	ORF6	C	800	0	0.0											mut								mut															
+Mixture17	Mixture17	2023-06-16	27383	ORF6	T	800	0	0.0											mut								mut															
+Mixture17	Mixture17	2023-06-16	27384	ORF6	C	800	1	0.00125											mut								mut					mut										
+Mixture17	Mixture17	2023-06-16	27638	ORF7a	C	1522	38	0.024967148488830485										mut														mut										
+Mixture17	Mixture17	2023-06-16	27752	ORF7a	T	800	8	0.01																												mut						
+Mixture17	Mixture17	2023-06-16	27788	ORF7b	T	800	6	0.0075																						mut												
+Mixture17	Mixture17	2023-06-16	27888		-	1599	9	0.005628517823639775																										extra								
+Mixture17	Mixture17	2023-06-16	27889		T	1599	10	0.006253908692933083							mut																											
+Mixture17	Mixture17	2023-06-16	27889		-	1599	10	0.006253908692933083																										extra								
+Mixture17	Mixture17	2023-06-16	27890		-	1599	10	0.006253908692933083																										extra								
+Mixture17	Mixture17	2023-06-16	27891		-	1599	8	0.0050031269543464665																										extra								
+Mixture17	Mixture17	2023-06-16	27892		-	1599	4	0.0025015634771732333																										extra								
+Mixture17	Mixture17	2023-06-16	27893	ORF8	-	1599	10	0.006253908692933083																										extra								
+Mixture17	Mixture17	2023-06-16	27894	ORF8	-	1599	14	0.008755472170106316																										extra								
+Mixture17	Mixture17	2023-06-16	27895	ORF8	-	1599	25	0.015634771732332707																										extra								
+Mixture17	Mixture17	2023-06-16	27896	ORF8	-	1599	14	0.008755472170106316																										extra								
+Mixture17	Mixture17	2023-06-16	27897	ORF8	C	1599	3	0.001876172607879925																																		mut
+Mixture17	Mixture17	2023-06-16	27897	ORF8	-	1599	18	0.01125703564727955																										extra								
+Mixture17	Mixture17	2023-06-16	27898	ORF8	-	1599	7	0.004377736085053158																										extra								
+Mixture17	Mixture17	2023-06-16	27899	ORF8	-	1599	9	0.005628517823639775																										extra								
+Mixture17	Mixture17	2023-06-16	27900	ORF8	-	1599	31	0.01938711694809256																										extra								
+Mixture17	Mixture17	2023-06-16	27901	ORF8	-	1599	21	0.013133208255159476																										extra								
+Mixture17	Mixture17	2023-06-16	27902	ORF8	-	1599	30	0.01876172607879925																										extra								
+Mixture17	Mixture17	2023-06-16	27915	ORF8	T	1597	1	0.0006261740763932373																																	mut	
+Mixture17	Mixture17	2023-06-16	27923	ORF8	-	1595	44	0.027586206896551724																	extra																	
+Mixture17	Mixture17	2023-06-16	27924	ORF8	-	1595	46	0.02884012539184953																	extra																	
+Mixture17	Mixture17	2023-06-16	27925	ORF8	A	1595	4	0.0025078369905956114						mut																												
+Mixture17	Mixture17	2023-06-16	27925	ORF8	-	1595	38	0.023824451410658306																	extra																	
+Mixture17	Mixture17	2023-06-16	27926	ORF8	-	1595	10	0.006269592476489028																	extra																	
+Mixture17	Mixture17	2023-06-16	27927	ORF8	-	1595	8	0.005015673981191223																	extra																	
+Mixture17	Mixture17	2023-06-16	27928	ORF8	-	1595	18	0.01128526645768025																	extra																	
+Mixture17	Mixture17	2023-06-16	27929	ORF8	-	1595	23	0.014420062695924765																	extra																	
+Mixture17	Mixture17	2023-06-16	27930	ORF8	-	1595	34	0.021316614420062698																	extra																	
+Mixture17	Mixture17	2023-06-16	27931	ORF8	-	1595	16	0.010031347962382446																	extra																	
+Mixture17	Mixture17	2023-06-16	27932	ORF8	-	1595	15	0.009404388714733543																	extra																	
+Mixture17	Mixture17	2023-06-16	27933	ORF8	-	1595	45	0.02821316614420063																	extra																	
+Mixture17	Mixture17	2023-06-16	27934	ORF8	-	1595	39	0.02445141065830721																	extra																	
+Mixture17	Mixture17	2023-06-16	27935	ORF8	-	1595	28	0.01755485893416928																	extra																	
+Mixture17	Mixture17	2023-06-16	27936	ORF8	-	1594	22	0.013801756587202008																	extra																	
+Mixture17	Mixture17	2023-06-16	27937	ORF8	-	1594	21	0.013174404015056462																	extra																	
+Mixture17	Mixture17	2023-06-16	27938	ORF8	-	1594	16	0.010037641154328732																	extra																	
+Mixture17	Mixture17	2023-06-16	27939	ORF8	-	1594	17	0.01066499372647428																	extra																	
+Mixture17	Mixture17	2023-06-16	27940	ORF8	-	1594	11	0.006900878293601004																	extra																	
+Mixture17	Mixture17	2023-06-16	27941	ORF8	-	1594	8	0.005018820577164366																	extra																	
+Mixture17	Mixture17	2023-06-16	27942	ORF8	-	1594	24	0.015056461731493099																	extra																	
+Mixture17	Mixture17	2023-06-16	27943	ORF8	-	1594	22	0.013801756587202008																	extra																	
+Mixture17	Mixture17	2023-06-16	27944	ORF8	-	1594	32	0.020075282308657464																	extra																	
+Mixture17	Mixture17	2023-06-16	27945	ORF8	-	1594	15	0.009410288582183186																	extra																	
+Mixture17	Mixture17	2023-06-16	27946	ORF8	-	1594	42	0.026348808030112924																	extra																	
+Mixture17	Mixture17	2023-06-16	27947	ORF8	-	1594	7	0.00439146800501882																	extra																	
+Mixture17	Mixture17	2023-06-16	27948	ORF8	-	1594	14	0.00878293601003764																	extra																	
+Mixture17	Mixture17	2023-06-16	27949	ORF8	-	1594	18	0.011292346298619825																	extra																	
+Mixture17	Mixture17	2023-06-16	27950	ORF8	-	1593	16	0.010043942247332079																	extra																	
+Mixture17	Mixture17	2023-06-16	27951	ORF8	-	1593	16	0.010043942247332079																	extra																	
+Mixture17	Mixture17	2023-06-16	27952	ORF8	-	1593	13	0.008160703075957313																	extra																	
+Mixture17	Mixture17	2023-06-16	27953	ORF8	-	1593	26	0.016321406151914627																	extra																	
+Mixture17	Mixture17	2023-06-16	27954	ORF8	-	1593	24	0.015065913370998116																	extra																	
+Mixture17	Mixture17	2023-06-16	27955	ORF8	-	1593	15	0.009416195856873822																	extra																	
+Mixture17	Mixture17	2023-06-16	27956	ORF8	-	1593	29	0.01820464532328939																	extra																	
+Mixture17	Mixture17	2023-06-16	27970	ORF8	T	1589	11	0.006922592825676526																								mut										
+Mixture17	Mixture17	2023-06-16	27972	ORF8	T	1588	30	0.018891687657430732		mut																																
+Mixture17	Mixture17	2023-06-16	28005	ORF8	T	1583	15	0.009475679090334808						mut																												
+Mixture17	Mixture17	2023-06-16	28048	ORF8	T	1566	8	0.005108556832694764		mut																																
+Mixture17	Mixture17	2023-06-16	28111	ORF8	G	800	6	0.0075		mut																																
+Mixture17	Mixture17	2023-06-16	28144	ORF8	C	800	0	0.0																					mut													
+Mixture17	Mixture17	2023-06-16	28167	ORF8	A	800	3	0.00375																					mut											mut		
+Mixture17	Mixture17	2023-06-16	28209	ORF8	T	800	1	0.00125																										mut								
+Mixture17	Mixture17	2023-06-16	28253	ORF8	T	1599	7	0.004377736085053158													mut																					
+Mixture17	Mixture17	2023-06-16	28271		G	1598	5	0.0031289111389236545																										mut								
+Mixture17	Mixture17	2023-06-16	28271		-	1598	1464	0.9161451814768461	extra																																	
+Mixture17	Mixture17	2023-06-16	28272		T	1598	3	0.0018773466833541927																	mut																	
+Mixture17	Mixture17	2023-06-16	28272		-	1598	58	0.03629536921151439	extra																																	
+Mixture17	Mixture17	2023-06-16	28280	N	C	1598	2	0.0012515644555694619		mut																																
+Mixture17	Mixture17	2023-06-16	28281	N	T	1598	3	0.0018773466833541927		mut																																
+Mixture17	Mixture17	2023-06-16	28282	N	A	1597	2	0.0012523481527864746		mut																																
+Mixture17	Mixture17	2023-06-16	28447	N	G	800	9	0.01125				mut																														
+Mixture17	Mixture17	2023-06-16	28461	N	G	800	5	0.00625																												mut						
+Mixture17	Mixture17	2023-06-16	28472	N	T	800	14	0.0175																								mut										
+Mixture17	Mixture17	2023-06-16	28512	N	G	800	2	0.0025																																mut		
+Mixture17	Mixture17	2023-06-16	28628	N	T	800	0	0.0													mut																					
+Mixture17	Mixture17	2023-06-16	28699	N	G	1599	6	0.00375234521575985																							mut											
+Mixture17	Mixture17	2023-06-16	28724	N	T	1588	14	0.008816120906801008																						mut												
+Mixture17	Mixture17	2023-06-16	28791	N	T	800	5	0.00625					mut																													
+Mixture17	Mixture17	2023-06-16	28878	N	A	800	3	0.00375																					mut													
+Mixture17	Mixture17	2023-06-16	28881	N	T	800	2	0.0025										mut														mut				mut						
+Mixture17	Mixture17	2023-06-16	28887	N	T	800	2	0.0025						mut																					mut							
+Mixture17	Mixture17	2023-06-16	28896	N	-	800	6	0.0075																										extra								
+Mixture17	Mixture17	2023-06-16	28897	N	-	800	12	0.015																										extra								
+Mixture17	Mixture17	2023-06-16	28898	N	-	800	10	0.0125																										extra								
+Mixture17	Mixture17	2023-06-16	28913	N	T	800	1	0.00125																														mut				
+Mixture17	Mixture17	2023-06-16	28958	N	A	800	4	0.005																		mut																
+Mixture17	Mixture17	2023-06-16	28975	N	T	800	2	0.0025													mut																					
+Mixture17	Mixture17	2023-06-16	29311	N	T	802	5	0.006234413965087282																													mut	mut				
+Mixture17	Mixture17	2023-06-16	29386	N	T	802	2	0.0024937655860349127				mut																														
+Mixture17	Mixture17	2023-06-16	29402	N	T	802	1	0.0012468827930174563																								mut										
+Mixture17	Mixture17	2023-06-16	29465	N	A	802	11	0.01371571072319202					mut																													
+Mixture17	Mixture17	2023-06-16	29540		A	801	27	0.033707865168539325																									mut									
+Mixture17	Mixture17	2023-06-16	29543		T	801	3	0.003745318352059925																							mut											
+Mixture17	Mixture17	2023-06-16	29625	ORF10	T	2	0	0.0																															mut			
+Mixture17	Mixture17	2023-06-16	29645	ORF10	T	2	0	0.0																									mut									

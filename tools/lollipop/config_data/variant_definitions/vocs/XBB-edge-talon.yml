@@ -1,0 +1,21 @@
+variant:
+  voc: V-22OCT-02
+  pheuid: edge-talon
+  short: edta
+  pangolin: XBB
+source:
+- https://github.com/cov-lineages/pango-designation/issues/1058
+threshold: 5
+mut:
+  # ORF1ab
+  405: 'A>G' # nsp1:K47R
+  17859: 'T>C' # syn nsp13
+  19326: 'A>G' # syn nsp14
+  # S
+  21810: 'T>C' # surface glycoprotein:V83A
+  22200: 'T>A' # surface glycoprotein:V213E
+  22942: 'T>G' # surface glycoprotein:N460K
+  23019: 'T>C' # surface glycoprotein:F486S
+  23031: 'T>C' # surface glycoprotein:F490S
+  # E
+  26275: 'A>G' # envelope protein:T11A
