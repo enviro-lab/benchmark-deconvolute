@@ -4,7 +4,7 @@ from argparse import ArgumentParser
 from pathlib import Path
 import pandas as pd
 
-parser = ArgumentParser(description="Reads in vcf file and remove the worst of any duplicate positons.")
+parser = ArgumentParser(description="Reads in vcf file and remove the worst of any duplicate positions.")
 parser.add_argument("-f", "--vcf", type=Path, help="vcf file to convert")
 parser.add_argument("-a", "--af_file", type=Path, help="tsv file (vcf headers) containing 'AF1' in INFO")
 parser.add_argument("-o", "--out", type=Path, help="where to write output")

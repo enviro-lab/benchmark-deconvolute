@@ -158,3 +158,65 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+
+### Repo-specific things to ignore ###
+# * Some of these files/directories came from testing.
+# * Most are produced while analyzing each dataset and simply take up too much space.
+
+# generic
+slurm/
+MixedControl_output/
+*_old*
+
+# conda
+conda/env*
+
+# ont/
+ont/Mixed*
+
+## tools/
+
+# alcov
+samples_list/
+
+# freyja
+tools/freyja/agg_with_supplemental
+tools/freyja/MixedControl_output_with_supplemental
+
+# kallisto
+tools/kallisto/reference_set
+tools/kallisto/wastewater_analysis
+
+# c-wap based
+tools/kallisto-cwap/tsvs
+tools/kraken2-cwap/tsvs
+
+# lcs/
+
+# lineagespot/
+tools/lineagespot/MixedControl_output*
+tools/lineagespot/vcfs
+
+# lollipop/
+tools/lollipop/config_data/
+tools/lollipop/mutlists/
+tools/lollipop/mutations/
+tools/lollipop/deconvoluted_upload.json
+
+# vaquero/
+tools/vaquero/log
+
+# in software/
+software/jdk*
+software/snpEff*
+software/picard.jar
+software/VaQuERo/
+software/.Rhistory
+software/LCS*
+
+# Miscellaneous
+README-2.md
+plots/
+read_analyses/

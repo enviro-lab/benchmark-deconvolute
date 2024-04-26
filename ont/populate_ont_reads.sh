@@ -11,7 +11,7 @@ for plate in ${!plates[@]}; do
     esearch -db sra -query $bioproject | esummary | xtract -pattern DocumentSummary -element LIBRARY_NAME,Run@acc | grep $title | while read name srr; do
         # use sra-tools to download associated sample from SRA
         mixture=${name%%-*}
-        echo "Downloading $srr ($mixture)"
+        echo "Downloading $srr ($mixture) ($name)"
         prefetch $srr
         fasterq-dump --split-files ${srr}/${srr}.sra
         rm -rf $srr
@@ -19,11 +19,9 @@ for plate in ${!plates[@]}; do
         elif [[ -f ${srr}.fastq ]]; then "zipping up ${srr}.fastq"; gzip ${srr}.fastq
         else echo "Missing fastq for $srr ($mixture)"
         fi
-        # write fastq to fastq_pass in correctly labeled barcode directory
-        csv=MixedControl-${plate}-fastqs/MixedControl-${plate}.csv
-        barcode="`grep $mixture $csv | grep -oP 'barcode[0-9][0-9]'`"
-        echo "Detected barcode: $barcode"
-        mkdir -p "MixedControl-${plate}-fastqs/fastq_pass/$barcode"
-        mv $srr.fastq.gz MixedControl-${plate}-fastqs/fastq_pass/$barcode/$mixture.fastq.gz
+        # write fastq to porechop_kraken_trimmed
+        echo "Writing: $mixture"
+        mkdir -p "MixedControl-${plate}-fastqs/output/porechop_kraken_trimmed"
+        mv $srr.fastq.gz MixedControl-${plate}-fastqs/output/porechop_kraken_trimmed/$mixture.fastq.gz
     done
 done

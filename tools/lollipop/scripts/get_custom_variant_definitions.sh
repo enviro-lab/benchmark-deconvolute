@@ -1,4 +1,17 @@
 #!/usr/bin/env bash
+#!/usr/bin/env bash
+#SBATCH --time=04:00:00  # Maximum amount of real time for the job to run in HH:MM:SS
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8     # Number of nodes and processors per node requested by job
+#SBATCH --mem=96gb           # Maximum physical memory to use for job
+#SBATCH --job-name=lollipop-test          # User-defined name for job
+#SBATCH --partition=Draco        # Job queue to submit this script to
+#SBATCH --mail-user=$USER@uncc.edu        # Job queue to submit this script to
+#SBATCH --mail-type=END,FAIL        # Job queue to submit this script to
+#SBATCH --output=ont/slurm/lollipop_prep-%j.out
+module purge &>/dev/null
+module load anaconda3 &>/dev/null || source "$(dirname $(which conda))/../etc/profile.d/conda.sh" || (echo 'make sure you have conda installed'; exit 1)
+set -eu
 
 # update list of possible ymls
 updateList()
@@ -30,7 +43,7 @@ downloadFiles() # QUERY[ QUERY2 ...]
 {
     # start fresh
     if [[ ! -z "$(ls -A $dnld_dir)" ]]; then rm $dnld_dir/*; fi
-    # rm $dnld_dir/*
+
     for query in ${@}; do
         echo "Checking for lineages like $query"
         grep -oP 'href.*[^ |$]' $readme_out | grep "$query" | while IFS='|' read label lineage_info description; do
@@ -61,11 +74,10 @@ convertFiles()
 {
     # start fresh
     if [[ ! -z "$(ls -A $outdir)" ]]; then rm $outdir/*; fi
-    # convert
-    module load anaconda3
-    conda activate software/conda/env-cojac
-    for file in $dnld_dir/*; do
 
+    conda activate conda/env-lollipop
+    # convert
+    for file in $dnld_dir/*; do
         # check that file has yam["calling-definition"]["probable"]["mutations-required"] or else add it
         echo "Checking file: $file"
         tools/lollipop/scripts/ensure_probable.py $file
@@ -75,13 +87,11 @@ convertFiles()
     done
 }
 
-set -eu
-
 ### main()
 # set paths
 var_defs=https://raw.githubusercontent.com/ukhsa-collaboration/variant_definitions/main
 readme_url=https://raw.githubusercontent.com/ukhsa-collaboration/variant_definitions/main/README.md
-var_def_dir=tools/lollipop/config_data/variant_definitions
+var_def_dir="${1}"
 readme_out=${var_def_dir}/variant_definition_links.md
 dnld_dir=${var_def_dir}/voc_ymls
 outdir=${var_def_dir}/vocs

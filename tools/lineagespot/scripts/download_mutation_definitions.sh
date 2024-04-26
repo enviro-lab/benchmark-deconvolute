@@ -4,11 +4,14 @@ mutfile='tools/lineagespot/mutations.csv'
 
 module load R
 # this is where our install of R is # NOTE: Edit as needed
-export R_LIBS_USER=~/R/x86_64-pc-linux-gnu-library/4.1
+# source R_LIBS_USER from config file
+source tools/lineagespot/scripts/config.txt
+# export R_LIBS_USER=~/R/x86_64-pc-linux-gnu-library/4.1
 
-echo "Getting variant details..."
-# variants='B.1.1.7' # not really used, right now...
-Rscript tools/lineagespot/scripts/download_variant_info.R ${mutfile} ${variants}
+# echo "Getting variant details..."
+# # variants='B.1.1.7' # not really used, right now...
+# # Rscript tools/lineagespot/scripts/download_variant_info.R ${mutfile} ${variants}
+# Rscript tools/lineagespot/scripts/download_variant_info.R ${mutfile}
 
 module purge
 module load anaconda3

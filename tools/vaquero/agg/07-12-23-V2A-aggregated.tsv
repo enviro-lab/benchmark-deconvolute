@@ -1,0 +1,38 @@
+	summarized	lineages	abundances	resid	coverage
+Mixture01	[('Omicron', 0.7485999999999999)]	BA.1 BA.4	0.5879 0.1607		
+Mixture02	[('Omicron', 0.6839)]	BA.1	0.6839		
+Mixture03	[('Omicron', 0.9068)]	BA.4 BA.2 BA.5.2.1	0.4425 0.3514 0.1129		
+Mixture04	[('Omicron', 0.7765)]	BA.1	0.7765		
+Mixture05	[('Omicron', 0.9999999999999999)]	BA.4 BA.2 BA.5 BA.5.2.1 BA.2.12.1	0.3986 0.2112 0.2112 0.1133 0.0657		
+Mixture06	[('Omicron', 0.8054)]	BA.1	0.8054		
+Mixture07	[('Omicron', 0.3967), ('Iota', 0.2475), ('Alpha', 0.1471)]	BA.4 B.1.526 B.1.1.7 BA.5.2.1	0.3159 0.2475 0.1471 0.0808		
+Mixture08	[('Omicron', 0.9008)]	BA.1 BA.4	0.6993 0.2015		
+Mixture10	[('Omicron', 0.8755999999999999)]	BA.1 BA.2	0.5936 0.282		
+Mixture11	[('Omicron', 0.8927999999999999)]	BA.2.12.1 BA.2	0.8813 0.0115		
+Mixture12	[('Omicron', 0.8859)]	BA.5.2.1 BA.5	0.7679 0.118		
+Mixture13	[('Omicron', 0.8835)]	BA.4	0.8835		
+Mixture15	[('Alpha', 0.9084)]	B.1.1.7	0.9084		
+Mixture16	[('Gamma', 0.8964)]	P.1	0.8964		
+Mixture17	[('Iota', 0.8941)]	B.1.526	0.8941		
+Mixture18	[('Delta', 0.8891)]	B.1.617.2	0.8891		
+Mixture19	[('Omicron', 0.8557)]	BA.1	0.8557		
+Mixture20	[('Omicron', 0.889)]	BA.2	0.889		
+Mixture22	[('Omicron', 0.894)]	BA.2.12.1 BA.2	0.8841 0.0099		
+Mixture23	[('Omicron', 0.8989)]	BA.2.12.1 BA.2	0.8737 0.0252		
+Mixture24	[('Omicron', 0.8859)]	BA.5.2.1 BA.5	0.866 0.0199		
+Mixture25	[('Omicron', 0.9067)]	BA.5.2.1	0.9067		
+Mixture26	[('Omicron', 0.8884)]	BA.4	0.8884		
+Mixture27	[('Omicron', 0.8876)]	BA.4	0.8876		
+Mixture28	[('Omicron', 0.8901)]	BA.2	0.8901		
+Mixture29	[('Omicron', 0.8733)]	BA.4 BA.5.2.1 BA.5	0.6637 0.1306 0.079		
+Mixture30	[('Omicron', 0.8864)]	BA.4 BA.2 BA.5.2.1 BA.2.12.1	0.3444 0.3211 0.1224 0.0985		
+Mixture31	[('Omicron', 0.3617), ('Alpha', 0.1114), ('Delta', 0.1017)]	BA.1 B.1.1.7 B.1.617.2	0.3617 0.1114 0.1017		
+Mixture32	[('Omicron', 0.5952999999999999)]	BA.1 BA.4	0.3058 0.2895		
+Mixture34	[('Alpha', 0.908)]	B.1.1.7	0.908		
+Mixture35	[('Gamma', 0.8941)]	P.1	0.8941		
+Mixture36	[('Iota', 0.9014)]	B.1.526	0.9014		
+Mixture37	[('Delta', 0.892)]	B.1.617.2	0.892		
+Mixture38	[('Omicron', 0.8743)]	BA.1	0.8743		
+Mixture40	[('Omicron', 0.443), ('XBB.1.5* [Omicron (XBB.1.5.X)]', 0.3014), ('XBB* (XBB.X)', 0.1932)]	XBB.1.5 BA.2 BA.2.12.1 XBB.1 XBB	0.3014 0.2489 0.1941 0.1549 0.0383		
+Mixture41	[('Omicron', 0.6351), ('XBB.1.5* [Omicron (XBB.1.5.X)]', 0.2619), ('XBB* (XBB.X)', 0.0172)]	BA.5.2.1 XBB.1.5 XBB	0.6351 0.2619 0.0172		
+Mixture42	[('Omicron', 0.8874)]	BA.4	0.8874		

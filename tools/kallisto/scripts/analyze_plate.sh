@@ -4,6 +4,8 @@
 #SBATCH --ntasks-per-node=24    # Number of nodes and processors per node requested by job
 #SBATCH --mem=8gb           	# Maximum physical memory to use for job
 #SBATCH --partition=Orion       # Job queue to submit this script to
+module purge &>/dev/null
+module load anaconda3 &>/dev/null || source "$(dirname $(which conda))/../etc/profile.d/conda.sh" || (echo 'make sure you have conda installed'; exit 1)
 set -eu
 
 conda activate conda/env-kallisto-variants
@@ -14,6 +16,8 @@ reference_set=tools/kallisto/reference_set
 
 fastq_dir=$1
 outdir=$2
+agg_dir=$3
+plate=$4
 
 mkdir -p ${outdir}
 for sample_fastq in ${fastq_dir}/*.fastq*; do
@@ -24,7 +28,7 @@ for sample_fastq in ${fastq_dir}/*.fastq*; do
     echo "CMD: kallisto quant -i ${reference_set}/sequences.kallisto_idx -o ${outdir}/${sample_name} --single -l 568 -s 30 ${sample_fastq} -t 24"
     kallisto quant -i ${reference_set}/sequences.kallisto_idx -o ${outdir}/${sample_name} --single -l 568 -s 30 ${sample_fastq} -t 24
 
-    # # Step 8 (with variants specified, NOTE: not used):
+    # # Step 8 alt (with variants specified, NOTE: not used):
     # echo "CMD: python tools/kallisto/wastewater_analysis/pipeline/output_abundances.py -m 0.1 -o ${outdir}/${sample_name}/predictions.tsv --metadata ${reference_set}/metadata.tsv --voc $vocs ${outdir}/${sample_name}/abundance.tsv"
     # python tools/kallisto/wastewater_analysis/pipeline/output_abundances.py -m 0.1 -o ${outdir}/${sample_name}/predictions.tsv --metadata ${reference_set}/metadata.tsv --voc $vocs ${outdir}/${sample_name}/abundance.tsv
 
@@ -35,6 +39,6 @@ for sample_fastq in ${fastq_dir}/*.fastq*; do
 done
 
 # Step 9: Analzye predictions
-conda activate /projects/enviro_lab/software/conda/env-freyja
-echo 'CMD: tools/kallisto/scripts/aggregate_predictions.py -f ${outdir}/*/predictions.tsv -o ${outdir}/aggregated_kallisto_abundance.tsv'
-tools/kallisto/scripts/aggregate_predictions.py -f ${outdir}/*/predictions.tsv -o ${outdir}/aggregated_kallisto_abundance.tsv
+conda activate conda/env-plot
+echo "CMD: tools/kallisto/scripts/aggregate_predictions.py -f ${outdir}/*/predictions.tsv -o ${agg_dir}/kallisto-${plate}.tsv"
+tools/kallisto/scripts/aggregate_predictions.py -f ${outdir}/*/predictions.tsv -o ${agg_dir}/kallisto-${plate}.tsv

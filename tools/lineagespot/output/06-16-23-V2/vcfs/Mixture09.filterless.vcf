@@ -1,2 +1,0 @@
-#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	/projects/enviro_lab/WW-UNCC/MixedControl-06-16-23-V2-fastqs/output/samples/Mixture09.primertrimmed.rg.sorted.bam
-MN908947.3	19955	.	C	T	6.78574	.	DP=2;VDB=0.02;SGB=-0.453602;MQSBZ=0;FS=0;MQ0F=0;AF1=1;AC1=2;DP4=0,0,1,1;MQ=60;FQ=-32.9888	GT:PL	1/1:37,6,0

@@ -1,0 +1,45 @@
+	summarized	lineages	abundances	resid	coverage
+Mixture01	[('Other', 1.0)]	Other	1.0		
+Mixture02	[('Other', 1.0)]	Other	1.0		
+Mixture03	[('Other', 0.8241), ('Alpha', 0.0889), ('Gamma', 0.087)]	B.1.1.7 P.1 P.1.2 Other	0.0889 0.0435 0.0435 0.8241		
+Mixture04	[('Other', 1.0)]	Other	1.0		
+Mixture05	[('Other', 1.0)]	Other	1.0		
+Mixture06	[('Other', 1.0)]	Other	1.0		
+Mixture07	[('Other', 1.0)]	Other	1.0		
+Mixture08	[('Other', 1.0)]	Other	1.0		
+Mixture09	[('Other', 1.0)]	Other	1.0		
+Mixture10	[('Other', 0.9032), ('Delta', 0.0968)]	AY.3 AY.1 AY.3.1 Other	0.0333 0.0323 0.0312 0.9032		
+Mixture11	[('Other', 1)]	Other	1		
+Mixture12	[('Other', 1)]	Other	1		
+Mixture13	[('Other', 0.9032), ('Delta', 0.0968)]	AY.3 AY.1 AY.3.1 Other	0.0333 0.0323 0.0312 0.9032		
+Mixture14	[('Other', 1)]	Other	1		
+Mixture15	[('Other', 0.8221), ('Alpha', 0.1779)]	B.1.1.7 Other	0.1779 0.8221		
+Mixture16	[('Other', 1.0)]	Other	1.0		
+Mixture17	[('Other', 1.0)]	Other	1.0		
+Mixture18	[('Other', 0.8211), ('Delta', 0.1789)]	B.1.617.2 AY.2 AY.3 AY.1 AY.3.1 Other	0.0476 0.0345 0.0333 0.0323 0.0312 0.8211		
+Mixture19	[('Other', 0.8654), ('Gamma', 0.1346)]	P.1.1 P.1.2 P.1 Other	0.0476 0.0435 0.0435 0.8654		
+Mixture20	[('Other', 1.0)]	Other	1.0		
+Mixture21	[('Other', 1.0)]	Other	1.0		
+Mixture22	[('Other', 0.7686), ('Gamma', 0.1346), ('Delta', 0.0968)]	P.1.1 P.1.2 P.1 AY.3 AY.1 AY.3.1 Other	0.0476 0.0435 0.0435 0.0333 0.0323 0.0312 0.7686		
+Mixture23	[('Other', 1.0)]	Other	1.0		
+Mixture24	[('Other', 1)]	Other	1		
+Mixture25	[('Other', 1.0)]	Other	1.0		
+Mixture26	[('Other', 1.0)]	Other	1.0		
+Mixture27	[('Other', 0.8654), ('Gamma', 0.1346)]	P.1.1 P.1 P.1.2 Other	0.0476 0.0435 0.0435 0.8654		
+Mixture28	[('Other', 0.8241), ('Alpha', 0.0889), ('Gamma', 0.087)]	B.1.1.7 P.1.2 P.1 Other	0.0889 0.0435 0.0435 0.8241		
+Mixture29	[('Other', 0.8142), ('Delta', 0.0968), ('Alpha', 0.0889)]	B.1.1.7 AY.3 AY.1 AY.3.1 Other	0.0889 0.0333 0.0323 0.0312 0.8142		
+Mixture30	[('Other', 1)]	Other	1		
+Mixture31	[('Other', 1.0)]	Other	1.0		
+Mixture32	[('Other', 1.0)]	Other	1.0		
+Mixture33	[('Other', 1.0)]	Other	1.0		
+Mixture34	[('Other', 0.9111), ('Alpha', 0.0889)]	B.1.1.7 Other	0.0889 0.9111		
+Mixture35	[('Other', 0.8654), ('Gamma', 0.1346)]	P.1.1 P.1 P.1.2 Other	0.0476 0.0435 0.0435 0.8654		
+Mixture36	[('Other', 0.8514), ('Beta', 0.1487)]	B.1.351 B.1.351.2 B.1.351.3 Other	0.0556 0.0476 0.0455 0.8514		
+Mixture37	[('Other', 0.9655), ('Delta', 0.0345)]	AY.2 Other	0.0345 0.9655		
+Mixture38	[('Other', 0.8241), ('Alpha', 0.0889), ('Gamma', 0.087)]	B.1.1.7 P.1 P.1.2 Other	0.0889 0.0435 0.0435 0.8241		
+Mixture39	[('Other', 1.0)]	Other	1.0		
+Mixture40	[('Other', 0.8654), ('Gamma', 0.1346)]	P.1.1 P.1 P.1.2 Other	0.0476 0.0435 0.0435 0.8654		
+Mixture41	[('Other', 0.8654), ('Gamma', 0.1346)]	P.1.1 P.1 P.1.2 Other	0.0476 0.0435 0.0435 0.8654		
+Mixture42	[('Other', 1.0)]	Other	1.0		
+NFWA	[('Delta', 0.5369), ('Other', 0.4632)]	B.1.617.2 AY.2 AY.3 AY.1 AY.3.1 Other	0.1429 0.1034 0.1 0.0968 0.0938 0.4632		
+NFWC	[('Gamma', 0.368), ('Delta', 0.3579), ('Alpha', 0.2792), ('Beta', 0.1487), ('Other', -0.1537)]	B.1.1.7 P.1 P.1.2 B.1.617.2 P.1.1 AY.2 AY.3 AY.1 AY.3.1 B.1.351 B.1.351.2 B.1.351.3 Other	0.2792 0.1364 0.1364 0.0952 0.0952 0.069 0.0667 0.0645 0.0625 0.0556 0.0476 0.0455 -0.1537		

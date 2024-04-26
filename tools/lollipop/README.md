@@ -5,7 +5,8 @@
 
 ## Conda:
 ```
-conda activate software/conda/env-lollipop
+mamba create -y -p conda/env-lollipop lollipop smallgenomeutilities
+conda activate conda/env-lollipop
 ```
 
 ## Setup:
@@ -16,13 +17,14 @@ run: `tools/lollipop/scripts/get_custom_variant_definitions.sh`
 run: `tools/lollipop/scripts/run_lollipop.sh`
 
 ## Edits I had to make to rig something to work
-Script: `software/conda/env-sgu/lib/python3.10/site-packages/smallgenomeutilities/__pileup__.py`, 
-> line 29, inserted:
+Script: `conda/env-lollipop/lib/python3.10/site-packages/smallgenomeutilities/__pileup__.py`, 
+> replaced existing line 29, with:
 > ```python
->                 # deal with missing reads (added by Sam)
 >                 if not read.query_sequence:
+>                     # deal with missing reads
 >                     alignment += ''.join(np.repeat('-', length))
->                     continue
+>                 else:
+>                     alignment += read.query_sequence[idx:idx + length]
 > ```
 
 ## Config settings

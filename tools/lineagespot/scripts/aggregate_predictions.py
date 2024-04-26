@@ -23,15 +23,18 @@ def getPredictionDfs(prediction_file):
     df["variant"] = df["variant"].str.replace("B.1.1.7+S_E484K","B.1.1.7")
     df = df.groupby(["sample","variant"]).agg({"proportion":"sum"}).reset_index()
     df = df[df["variant"]!="undetermined"]
+
+    samples = [f"Mixture{x:02}" for x in range(1,43)] + ["NFWA","NFWC"]
     
-    for sample in df["sample"].unique():
+    for sample in samples:
         sdf:pd.DataFrame = df[df["sample"]==sample]
-        # csdf = pd.concat((vdf for vdf in consolidateVariantRows(sdf,sample)))
-        # print(csdf)
-        sdf = sdf.sort_values("proportion", ascending=False)
-        sdf["proportion"] = sdf["proportion"].astype(float)
-        sdf = sdf[sdf["proportion"]>0.0001]
-        other = 1 - sdf["proportion"].sum()
+        if sdf.empty:
+            other = 1
+        else:
+            sdf = sdf.sort_values("proportion", ascending=False)
+            sdf["proportion"] = sdf["proportion"].astype(float)
+            sdf = sdf[sdf["proportion"]>0.0001]
+            other = 1 - sdf["proportion"].sum()
         yield sample, sdf, other
 
 
@@ -39,9 +42,12 @@ def writeLineageAbundanceFile(outfile, prediction_file):
     """Converts `prediction_file` to freyja-style tsv `outfile`"""
 
     with outfile.open('w') as out:
+        # write header line
         out.write("\tsummarized\tlineages\tabundances\tresid\tcoverage\n")
 
+        # add details for each sample
         for sample, df, other in getPredictionDfs(prediction_file):
+            print(sample)
 
             lineage_list = list(df["variant"]) + ["Other"]
             lineages = " ".join(lineage_list)

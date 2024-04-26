@@ -1,0 +1,39 @@
+	summarized	lineages	abundances	resid	coverage
+Mixture01	[('Omicron', 0.5286), ('Delta', 0.1096)]	BA.4 BA.2 B.1.617.2 BA.2.12.1 BA.5.2.1	0.1988 0.1321 0.1096 0.1009 0.0968		
+Mixture02	[('Alpha', 0.218), ('Delta', 0.2129)]	B.1.1.7 B.1.617.2	0.218 0.2129		
+Mixture03	[('Omicron', 0.9019)]	BA.5.2.1 BA.4 BA.2 BA.2.12.1	0.2912 0.2747 0.1725 0.1635		
+Mixture04	[('Omicron', 0.4177), ('Gamma', 0.1298), ('Iota', 0.124)]	BA.2 P.1 BA.1 B.1.526	0.2928 0.1298 0.1249 0.124		
+Mixture05	[('Omicron', 0.48250000000000004)]	BA.4 BA.5.2.1 BA.2.12.1	0.2801 0.1174 0.085		
+Mixture06	[('Omicron', 0.5039), ('Delta', 0.2204)]	B.1.617.2 BA.2 BA.2.12.1 BA.1	0.2204 0.1953 0.1623 0.1463		
+Mixture07	[('Omicron', 0.48519999999999996), ('Iota', 0.1737), ('Alpha', 0.1625)]	BA.4 B.1.526 B.1.1.7 BA.5.2.1 BA.2.12.1	0.289 0.1737 0.1625 0.1046 0.0916		
+Mixture08	[('Omicron', 0.8873)]	BA.2 BA.5.2.1 BA.4 BA.1 BA.2.12.1	0.2522 0.2365 0.1848 0.1353 0.0785		
+Mixture10	[('Omicron', 0.8712)]	BA.2 BA.1	0.658 0.2132		
+Mixture11	[('Omicron', 0.8804)]	BA.2.12.1 BA.2	0.8662 0.0142		
+Mixture12	[('Omicron', 0.8555)]	BA.5.2.1 BA.5	0.6744 0.1811		
+Mixture13	[('Omicron', 0.8734)]	BA.4	0.8734		
+Mixture15	[('Alpha', 0.8974)]	B.1.1.7	0.8974		
+Mixture16	[('Gamma', 0.8919)]	P.1	0.8919		
+Mixture17	[('Iota', 0.8461)]	B.1.526	0.8461		
+Mixture18	[('Delta', 0.8793)]	B.1.617.2	0.8793		
+Mixture19	[('Omicron', 0.8024)]	BA.1	0.8024		
+Mixture20	[('Omicron', 0.8737)]	BA.2	0.8737		
+Mixture22	[('Omicron', 0.8792)]	BA.2.12.1 BA.2	0.8694 0.0098		
+Mixture23	[('Omicron', 0.8824)]	BA.2.12.1 BA.2	0.8643 0.0181		
+Mixture24	[('Omicron', 0.8642)]	BA.5.2.1 BA.5	0.8482 0.016		
+Mixture25	[('Omicron', 0.8923)]	BA.5.2.1	0.8923		
+Mixture26	[('Omicron', 0.8767)]	BA.4	0.8767		
+Mixture27	[('Omicron', 0.8734)]	BA.4	0.8734		
+Mixture28	[('Omicron', 0.8771)]	BA.2	0.8771		
+Mixture29	[('Omicron', 0.9088)]	BA.4 BA.2 BA.5.2.1 BA.2.12.1	0.3406 0.2168 0.1823 0.1691		
+Mixture30	[('Omicron', 0.9012)]	BA.4 BA.2 BA.5.2.1 BA.2.12.1	0.3619 0.2082 0.1867 0.1444		
+Mixture31	[('Iota', 0.1504), ('Delta', 0.1125), ('Alpha', 0.1112), ('Gamma', 0.0861)]	B.1.526 B.1.617.2 B.1.1.7 P.1	0.1504 0.1125 0.1112 0.0861		
+Mixture32	[('Omicron', 0.4546), ('Alpha', 0.1421)]	BA.4 B.1.1.7 BA.2.12.1 BA.5.2.1 BA.2	0.2078 0.1421 0.127 0.0787 0.0411		
+Mixture34	[('Alpha', 0.8984)]	B.1.1.7	0.8984		
+Mixture35	[('Gamma', 0.8962)]	P.1	0.8962		
+Mixture36	[('Iota', 0.843)]	B.1.526	0.843		
+Mixture37	[('Delta', 0.8757)]	B.1.617.2	0.8757		
+Mixture38	[('Omicron', 0.8269)]	BA.1	0.8269		
+Mixture39	[('Omicron', 0.8762)]	BA.2	0.8762		
+Mixture40	[('Omicron', 0.865)]	BA.2.12.1 BA.2	0.8555 0.0095		
+Mixture41	[('Omicron', 0.8901)]	BA.5.2.1	0.8901		
+Mixture42	[('Omicron', 0.8762)]	BA.4	0.8762		
