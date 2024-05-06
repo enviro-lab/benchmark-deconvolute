@@ -97,3 +97,11 @@ mamba create -p conda/env-preprocess -c bioconda pyvcf
 conda install python=3.7 # this upgrades pyvcf to python3.7 and avoids a datetime bug
 pip install pandas
 ```
+
+### env-krona
+```bash
+mamba create -y -p conda/env-krona -c bioconda krona
+conda activate conda/env-krona
+ktUpdateTaxonomy.sh
+conda deactivate
+```
