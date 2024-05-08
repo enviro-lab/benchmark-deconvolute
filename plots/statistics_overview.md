@@ -128,11 +128,10 @@ We need to decide which of the below results to use, since they vary slightly.
 
 # Section 3.4
 ## 7 ANOVA (one-per-tool) comparing variance in O/E by treatment group
-Related calculations can be found in [observed_vs_expected_stats.ipynb](percent_of_expected/observed_vs_expected_stats.ipynb)
 ### Old:
 The variances between samples from different backgrounds were insignificant (p>0.05 for all) via ANOVA performed to test the effect of sample matrix on the estimated relative abundance for all abundance-estimating tools.
 ### New:
-Same as old.
+Same as old. Related calculations can be found in [observed_vs_expected_stats.ipynb](percent_of_expected/observed_vs_expected_stats.ipynb)
 
 ## ANOVA comparing variance in O/E by tool
 ### Old: 
@@ -143,4 +142,15 @@ These results are summarized in Figure 2 (Section 3.4).
 ### old:
 See original submission, Table 2
 ### new:
-Data currently stored in [Table 2 data](percent_of_expected/observed_vs_expected/table2_data_lineage_anova_each_bg.csv). To prepare for paper, open in excel, drop index column, and save as table in ms Word.
+Data currently stored in [Table 2 data](percent_of_expected/observed_vs_expected/table2_data_lineage_anova_each_bg.csv). To prepare for paper, open in excel, drop index column, and save as table in ms Word. Calculations can be found in [observed_vs_expected_stats.ipynb](percent_of_expected/observed_vs_expected_stats.ipynb).
+
+
+# Section 3.6
+## Figure 5a
+This will be replaced by the normalized detection count box plot produced in [detection.ipynb](detection_plots/detection.ipynb).
+### Old:
+big ugly detection plot showing counts of false positives, false negatives, and true positives for each sample and tool
+### New:
+A nice box plot showing normalized count distribution of false positives, false negatives, and true positives for each tool.
+![detection_plot](detection_plots/detection_plots/detection_box_plot.jpg)
+![tukey_results](detection_plots/detection_plots/detection_tukey_results.jpg)

@@ -145,6 +145,51 @@ summary_dict = {
     "BF.*": "BA.5.X",
 }
 
+lineage_counts = {
+    '0ADGIO1O2O3O4O5': 10,
+    '0ADGIO1': 6,
+    'O2O3O4O5': 4,
+    '0AGIO1O2': 6,
+    '0O5O3O4': 4,
+    'ADGIO1O2O3': 7,
+    'AGIO3O4O5': 6,
+    'O1O2O3O4O5': 5,
+    '0': 1,
+    'O1O2': 2,
+    'O3': 1,
+    'O5': 1,
+    'O4': 1,
+    '0-2': 1,
+    'A': 1,
+    'G': 1,
+    'I': 1,
+    'D': 1,
+    'O1': 1,
+    'O2': 1,
+    '0-3': 1,
+    'O3-2': 1,
+    'O3-3': 1,
+    'O5-2': 1,
+    'O5-3': 1,
+    'O4-2': 1,
+    'O4-3': 1,
+    'O2-2': 1,
+    'O2O3O4O5-2': 4,
+    'O2O3O4O5-3': 4,
+    '0ADGIO1-2': 6,
+    '0AIO1O2O3O4O5': 8,
+    '0-4': 1,
+    'A-2': 1,
+    'G-2': 1,
+    'I-2': 1,
+    'D-2': 1,
+    'O1-2': 1,
+    'O2-3': 1,
+    'O3-4': 1,
+    'O5-4': 1,
+    'O4-4': 1,
+}
+
 mixture_renames = {
     'Mixture01': '0ADGIO1O2O3O4O5', 'Mixture02': '0ADGIO1', 'Mixture03': 'O2O3O4O5',
     'Mixture04': '0AGIO1O2', 'Mixture05': '0O5O3O4', 'Mixture06': 'ADGIO1O2O3',
@@ -343,7 +388,7 @@ def get_stats(df, scheme:str=None, value_col:str=None, p_min=0.01, replace_str=N
             output.append(None)
             return output
 
-def p_value_table(tukey_df):
+def p_value_table(tukey_df, width=1200, height=550):
     fill_color = [['white']*len(tukey_df.columns)]
     fill_color.extend([["black" if pd.isna(x) else "white" if x<=0.01 else "lightgrey" for x in tukey_df[col]] for col in tukey_df.columns])
     fig = go.Figure(
@@ -363,6 +408,6 @@ def p_value_table(tukey_df):
             )
         )
     )
-    fig.update_layout(width=1200, height=550)
+    fig.update_layout(width=width, height=height)
     fig
     return fig
