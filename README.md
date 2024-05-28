@@ -86,6 +86,9 @@ Most tools have a single script (*labeled something like run_tool_multi.sh*) tha
 ### Plotting/analyzing results
 The plots and statistical analyses from our manuscript can be produced with scripts in [./plots](./plots/) and [./analysis](./analysis/).
 
+### Final paper figures
+We compiled our final figures (the ones created from plots described in this repo) at [plots/paper_figures/](plots/paper_figures/).
+
 ## Citation
 If you use this dataset in your research, please reference our manuscript:
 
