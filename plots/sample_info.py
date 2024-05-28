@@ -9,6 +9,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import scipy.stats as stats
 from scipy.stats import tukey_hsd
+import statistics
 
 ### File paths
 plotting_dir = Path(__file__).absolute().resolve().parent
@@ -67,47 +68,47 @@ artic_runs = {
 varskip_runs = {
     "Alcov": {
         "WB":   tools_dir / "alcov/agg/alcov-05-05-23-V2.tsv",
-        "NWRB": tools_dir / "alcov/agg/alcov-05-16-23-V2.tsv",
+        "NWRB": tools_dir / "alcov/agg/alcov-06-16-23-V2.tsv",
         "PWRB": tools_dir / "alcov/agg/alcov-07-12-23-V2A.tsv",
     },
     "Freyja": {
         "WB":   tools_dir / "freyja/agg/freyja-aggregated-05-05-23-V2.tsv",
-        "NWRB": tools_dir / "freyja/agg/freyja-aggregated-05-16-23-V2.tsv",
+        "NWRB": tools_dir / "freyja/agg/freyja-aggregated-06-16-23-V2.tsv",
         "PWRB": tools_dir / "freyja/agg/freyja-aggregated-07-12-23-V2A.tsv",
     },
     "kallisto": {
         "WB":   tools_dir / "kallisto/agg/kallisto-05-05-23-V2.tsv",
-        "NWRB": tools_dir / "kallisto/agg/kallisto-05-16-23-V2.tsv",
+        "NWRB": tools_dir / "kallisto/agg/kallisto-06-16-23-V2.tsv",
         "PWRB": tools_dir / "kallisto/agg/kallisto-07-12-23-V2A.tsv",
     },
     "kallisto (C-WAP)": {
         "WB":   tools_dir / "kallisto-cwap/agg/05-05-23-V2.tsv",
-        "NWRB": tools_dir / "kallisto-cwap/agg/05-16-23-V2.tsv",
+        "NWRB": tools_dir / "kallisto-cwap/agg/06-16-23-V2.tsv",
         "PWRB": tools_dir / "kallisto-cwap/agg/07-12-23-V2A.tsv",
     },
     "Kraken 2 (C-WAP)": {
         "WB":   tools_dir / "kraken2-cwap/agg/05-05-23-V2.tsv",
-        "NWRB": tools_dir / "kraken2-cwap/agg/05-16-23-V2.tsv",
+        "NWRB": tools_dir / "kraken2-cwap/agg/06-16-23-V2.tsv",
         "PWRB": tools_dir / "kraken2-cwap/agg/07-12-23-V2A.tsv",
     },
     "LCS": {
         "WB":   tools_dir / "lcs/agg/lcs-05-05-23-V2.tsv",
-        "NWRB": tools_dir / "lcs/agg/lcs-05-16-23-V2.tsv",
+        "NWRB": tools_dir / "lcs/agg/lcs-06-16-23-V2.tsv",
         "PWRB": tools_dir / "lcs/agg/lcs-07-12-23-V2A.tsv",
     },
     "lineagespot": {
         "WB":   tools_dir / "lineagespot/agg/lineagespot-05-05-23-V2.tsv",
-        "NWRB": tools_dir / "lineagespot/agg/lineagespot-05-16-23-V2.tsv",
+        "NWRB": tools_dir / "lineagespot/agg/lineagespot-06-16-23-V2.tsv",
         "PWRB": tools_dir / "lineagespot/agg/lineagespot-07-12-23-V2A.tsv",
     },
     "LolliPop": {
         "WB":   tools_dir / "lollipop/agg/lollipop-05-05-23-V2.tsv",
-        "NWRB": tools_dir / "lollipop/agg/lollipop-05-16-23-V2.tsv",
+        "NWRB": tools_dir / "lollipop/agg/lollipop-06-16-23-V2.tsv",
         "PWRB": tools_dir / "lollipop/agg/lollipop-07-12-23-V2A.tsv",
     },
     "VaQuERo": {
         "WB":   tools_dir / "vaquero/agg/05-05-23-V2-aggregated.tsv",
-        "NWRB": tools_dir / "vaquero/agg/05-16-23-V2-aggregated.tsv",
+        "NWRB": tools_dir / "vaquero/agg/06-16-23-V2-aggregated.tsv",
         "PWRB": tools_dir / "vaquero/agg/07-12-23-V2A-aggregated.tsv",
     },
 }
@@ -255,7 +256,7 @@ def getHeatmap(df,field,title=None,labels=None,title_y=0.7):
 ### Statistics
 
 def tukey2df(batch_res, batch_details, p_min):
-    combo_res_str = str(batch_res).split("\n")[2:]
+    combo_res_str = str(batch_res).replace("0.000-", "0.000 -").split("\n")[2:]
     combo_column_names = list(batch_details.keys())
     combo_array = [[pd.NA]*len(combo_column_names) for c in combo_column_names]
     for line in combo_res_str:
@@ -279,6 +280,9 @@ def get_std_dev(df, col, value_col, batch_col="batch"):
 def get_mean_and_dev(df, row_name, value_col, batch_col="batch"):
     return f'{row_name} (mean={get_mean(df, row_name, value_col, batch_col)}, std. dev.={get_std_dev(df, row_name, value_col, batch_col)})'
     
+def get_mean_and_dev_from_values(batch, values):
+    return f'{batch} (mean={values.mean()}, std. dev.={values.std()}, n={len(values)})'
+   
 def results_as_text(tukeydf, comparison_category, p_min, replace_str=None):
     for i, row in tukeydf.iterrows():
         row_name = row.name
@@ -288,11 +292,11 @@ def results_as_text(tukeydf, comparison_category, p_min, replace_str=None):
                 col_name = col_name.replace(replace_str, "")
             if col_name > i:
                 if p_val <= p_min:
-                    return f"The {comparison_category} for {row_name} differed significantly from {col_name} with p-value {p_val}."
+                    yield f"The {comparison_category} for {row_name} differed significantly from {col_name} with p-value {p_val}."
                 else:
-                    return f"No significant difference in {comparison_category} (p-value={p_val}>{p_min}) was found between {row_name} and {col_name}."
+                    yield f"No significant difference in {comparison_category} (p-value={p_val}>{p_min}) was found between {row_name} and {col_name}."
 
-def get_stats(df, scheme:str=None, value_col:str=None, p_min=0.01, replace_str=None, batch_col="batch", return_tuple=False):
+def get_stats(df, scheme:str=None, value_col:str=None, p_min=0.01, replace_str=None, batch_col="batch", return_tuple=False, simple_tukey=False):
     """Calculate statistical tests (anova or t-test) and provide results based on the input parameters and data.
     
     Parameters:
@@ -302,6 +306,8 @@ def get_stats(df, scheme:str=None, value_col:str=None, p_min=0.01, replace_str=N
     - p_min: A float representing the minimum p-value threshold for significance, defaults to 0.01
     - replace_str: Optional, a string to be replaced in the output
     - batch_col: Name of the categorical column containing the names of batches to be compared, defaults to "batch"
+    - return_tuple: If True, returns a tuple of (p-value, test-statistic, mean-details, tukey_results)
+    - simple_tukey: If True, prints Tukey's HSD results as they come from sklearn.stats.tukey_hsd
     
     Returns:
     - Prints the results of the statistical tests
@@ -323,14 +329,30 @@ def get_stats(df, scheme:str=None, value_col:str=None, p_min=0.01, replace_str=N
         return (None, None, None, None)
     elif num_comparison_batches == 2:
         batches = list(df[batch_col].unique())
-        t = stats.ttest_ind(df[df[batch_col]==batches[0]][value_col], df[df[batch_col]==batches[1]][value_col])
+        batch_values_dict = {batches[0]:df[df[batch_col]==batches[0]][value_col], batches[1]:df[df[batch_col]==batches[1]][value_col]}
+        # batch_groupings = df[df[batch_col]==batches[0]][value_col], df[df[batch_col]==batches[1]][value_col]
+        # print(batch_groupings)
+        # test for normality
+        for batch_name, batch_values in batch_values_dict.items():
+            # print(f"Running Shapiro-Wilk test for normality of {comparison_category} for {batch_name} batch:\n", batch_values)
+            normality_check = stats.shapiro(batch_values)
+            if normality_check.pvalue >= p_min:
+                print(f"Shapiro-Wilk test for normality of {comparison_category} for {batch_name} batch")
+                print(f"p-value: {normality_check.pvalue}\tW = {normality_check.statistic}")
+                print(f"The {comparison_category} was{' not' if normality_check.pvalue >= p_min else ''} normally distributed across ", end="")
+        # run t-test
+        t = stats.ttest_ind(*batch_values_dict.values())
         if not return_tuple:
             print(f"T-test for {scheme} samples comparing {comparison_category} across two batches")
             print(f"p-value: {t.pvalue}\tt({int(t.df)}): {t.statistic}")
             print(f"The {comparison_category} was{' not' if t.pvalue >= p_min else ''} significantly different across ", end="")
+        # gather mean/std dev details for each batch
         mean_info = []
-        for batch in df[batch_col].unique():
-            mean_info.append(get_mean_and_dev(df, batch, value_col, batch_col))
+        for batch_name, batch_values in batch_values_dict.items():
+            mean_info.append(get_mean_and_dev_from_values(batch_name, batch_values))
+        # for batch in df[batch_col].unique():
+            # mean_info.append(get_mean_and_dev(df, batch, value_col, batch_col))
+
         mean_info[-1] = "and " + mean_info[-1]
         mean_info.append(f"as determined by t-test (t({int(t.df)})={t.statistic}, p={t.pvalue}<{p_min}).")
         mean_info = ", ".join(mean_info)
@@ -343,16 +365,25 @@ def get_stats(df, scheme:str=None, value_col:str=None, p_min=0.01, replace_str=N
 
     else:
         # check f/p-values
-        fvalue, pvalue = stats.f_oneway(*(df.loc[df[batch_col]==batch, value_col].dropna() for batch in df[batch_col].unique()))
+        batch_values_dict = {batch:df.loc[df[batch_col]==batch, value_col].dropna() for batch in df[batch_col].unique()}
+        # batch_groupings = [df.loc[df[batch_col]==batch, value_col].dropna() for batch in df[batch_col].unique()]
+        
+        # run anova and report results, if needed
+        fvalue, pvalue = stats.f_oneway(*batch_values_dict.values())
         if not return_tuple:
             print(f"ANOVA for {scheme} samples comparing {comparison_category} across batches")
             print(f"p-value: {pvalue}\tf-value: {fvalue}")
             print(f"The {comparison_category} was{' not' if pvalue >= p_min else ''} significantly different across ", end="")
         else:
             output = [pvalue, fvalue]
+
+        # gather mean/std dev details for each batch
         mean_info = []
-        for batch in df[batch_col].unique():
-            mean_info.append(get_mean_and_dev(df, batch, value_col, batch_col))
+        # for batch in df[batch_col].unique():
+        #     mean_info.append(get_mean_and_dev(df, batch, value_col, batch_col))
+        for batch_name, batch_values in batch_values_dict.items():
+            mean_info.append(get_mean_and_dev_from_values(batch_name, batch_values))
+
         mean_info[-1] = "and " + mean_info[-1]
         mean_info.append(f"as determined by one-way ANOVA (F={fvalue}, p={pvalue}<{p_min}).")
         mean_info = ", ".join(mean_info)
@@ -368,11 +399,13 @@ def get_stats(df, scheme:str=None, value_col:str=None, p_min=0.01, replace_str=N
             # perform Tukey's HSD
             batch_details = {batch:list(df.loc[df[batch_col]==batch, value_col].dropna()) for batch in df[batch_col].unique()}
             batch_res = tukey_hsd(*batch_details.values())
-            # print("i\tbatch\tmean\tstdev")
-            # for i,(batch,coverage_lst) in enumerate(batch_details.items()):
-            #     print(f"{i}\t{batch}\t{statistics.mean(coverage_lst)}\t{statistics.stdev(coverage_lst)}")
-            # print()
-            # print(batch_res)
+            if simple_tukey:
+                print("i\tbatch\tmean\tstdev")
+                for i,(batch,coverage_lst) in enumerate(batch_details.items()):
+                    print(f"{i}\t{batch}\t{statistics.mean(coverage_lst)}\t{statistics.stdev(coverage_lst)}")
+                print()
+                print(str(batch_res).replace("0.000-","0.000 -"))
+                return
             tukey_df = tukey2df(batch_res, batch_details, p_min)
             written_results = results_as_text(tukey_df, comparison_category, p_min, replace_str=replace_str)
             if return_tuple:
@@ -381,7 +414,8 @@ def get_stats(df, scheme:str=None, value_col:str=None, p_min=0.01, replace_str=N
                 print(output)
                 return output
             else:
-                print(written_results)
+                for res in written_results:
+                    print(res)
                 print("\nTukey's HSD results:")
                 return tukey_df
         elif return_tuple:

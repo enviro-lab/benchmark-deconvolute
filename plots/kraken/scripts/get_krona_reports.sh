@@ -11,7 +11,7 @@ set -eu
 krona_plots=plots/kraken/krona_plots
 mkdir -p $krona_plots
 
-# # get krona reports individually for each sample for each of the three artic plates
+# # THIS PART NOT USED: get krona reports individually for each sample for each of the three artic plates
 # conda activate conda/env-krona
 # for plate in 05-05-23-A41 05-16-23-A41 06-26-23-A41; do
 #     report_dir=ont/MixedControl-${plate}-fastqs/output/kraken
@@ -20,6 +20,7 @@ mkdir -p $krona_plots
 
 
 # ### get krona report for all samples combined into one fastq
+
 # # get kraken 2 combined report for each plate
 # conda activate conda/env-kraken2
 # for plate in 05-05-23-A41 05-05-23-V2 05-16-23-A41 06-16-23-V2 06-26-23-A41 07-12-23-V2A; do
@@ -54,17 +55,23 @@ mkdir -p $krona_plots
 # ktImportTaxonomy -t 5 -m 3 -o ${krona_plots}/combined-krona-report.html ont/MixedControl-*-fastqs/output/kraken/*_combined_k2_report.txt
 # conda deactivate
 
-# create kraken reports with sars-cov-2 dropped
-conda activate conda/env-plot
-for f in ont/MixedControl-*-fastqs/output/kraken/*_combined_k2_report.txt; do
-    echo $f
-    plots/kraken/scripts/drop_sars_cov_2.py $f ${f/.txt/-no-sars-cov-2.txt}
-    # break
-done
-conda deactivate
+# # create kraken reports with sars-cov-2 dropped
+# conda activate conda/env-plot
+# for f in ont/MixedControl-*-fastqs/output/kraken/*_combined_k2_report.txt; do
+#     echo $f
+#     plots/kraken/scripts/drop_sars_cov_2.py $f ${f/.txt/-no-sars-cov-2.txt}
+#     # break
+# done
+# conda deactivate
 
-# get sarscov2-free krona report
+# # get sarscov2-free krona report
+# echo "creating krona report"
+# conda activate conda/env-krona
+# ktImportTaxonomy -t 5 -m 3 -o ${krona_plots}/combined-krona-report-no-sars-cov-2.html ont/MixedControl-*-fastqs/output/kraken/*_combined_k2_report-no-sars-cov-2.txt
+# conda deactivate
+
+# get sarscov2-present krona report
 echo "creating krona report"
 conda activate conda/env-krona
-ktImportTaxonomy -t 5 -m 3 -o ${krona_plots}/combined-krona-report-no-sars-cov-2.html ont/MixedControl-*-fastqs/output/kraken/*_combined_k2_report-no-sars-cov-2.txt
+ktImportTaxonomy -t 5 -m 3 -o ${krona_plots}/combined-krona-report.html ont/MixedControl-*-fastqs/output/kraken/*_combined_k2_report.txt
 conda deactivate
